@@ -1,9 +1,12 @@
 ---
 layout: post
-title: "python搭建环境"
-date: 2018-06-06
-category: python
-tags: python
+title: python搭建环境
+category: 
+  - python
+tags: 
+  - python
+abbrlink: 165310662
+date: 2018-06-06 00:00:00
 ---
 
 [python](https://www.python.org/)

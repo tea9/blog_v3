@@ -1,9 +1,14 @@
 ---
 layout: post
-title: "android反编译工具和命令"
-date: 2018-07-07
-category: 安全
-tags: adnroid 安全 反编译
+title: android反编译工具和命令
+category: 
+  - android逆向
+tags: 
+  - adnroid安全 
+  - android反编译
+  - android逆向
+abbrlink: 4129675987
+date: 2018-07-07 00:00:00
 ---
 
 ## TOOLS
@@ -23,7 +28,6 @@ tags: adnroid 安全 反编译
 
 **jadx:**简直是神器啊  
 
-打开jadx-gui  
 直接把apk拖进去就可以了  
 
 **apktool:**获取资源文件  

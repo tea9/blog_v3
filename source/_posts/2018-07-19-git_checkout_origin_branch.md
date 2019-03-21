@@ -1,9 +1,13 @@
 ---
 layout: post
-title: "git切换远程分支命令"
-date: 2018-07-19
-category: git
-tags: git branch
+title: git切换远程分支命令
+category: 
+  - git
+tags: 
+  - git 
+  - branch
+abbrlink: 1524903793
+date: 2018-07-19 00:00:00
 ---
 
 1.克隆项目  

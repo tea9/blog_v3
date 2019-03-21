@@ -1,9 +1,13 @@
 ---
 layout: post
-title: "termux相关"
-date: 2018-10-12
-category: 安全
-tags: 安全 termux
+title: termux相关
+category: 
+  - termux
+tags: 
+  - 安全 
+  - termux
+abbrlink: 3612980045
+date: 2018-10-12 00:00:00
 ---
 
 ## 前言：
@@ -40,10 +44,6 @@ whatportis是一款离线查询端口号对应服务的工具
 	whatportis 3306
 
 
+## LINKS
 
-
-
-
-
-
-
+[电脑通过ssh连接android手机上的termux](https://www.aliyun.com/jiaocheng/120639.html)  

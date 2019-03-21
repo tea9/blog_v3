@@ -1,14 +1,18 @@
 ---
 layout: post
-title: "2.1.1-文件上传流动原理与流程-上传检测流程"
-date: 2018-07-19
-category: web安全
-tags: 文件上传漏洞
+title: 2.1.1-文件上传流动原理与流程-上传检测流程
+category: 
+  - web安全
+tags: 
+  - web安全
+  - 文件上传漏洞
+abbrlink: 2419343777
+date: 2018-07-19 00:00:00
 ---
 
 ## 文件上传检测流程
 
-![文件上传检测流程]({{site.img_link}}/15/01.png)
+![文件上传检测流程](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/15/01.png)
 
 **前端提交：**  
 javaScript检测、Flash AS检测  

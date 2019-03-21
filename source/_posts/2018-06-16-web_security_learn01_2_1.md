@@ -1,9 +1,12 @@
 ---
 layout: post
-title: "1.2.1-SQL注入-SQL注入语法类型-union联合查询注入"
-date: 2018-06-16
-category: web安全
-tags: sql注入
+title: 1.2.1-SQL注入-SQL注入语法类型-union联合查询注入
+category: 
+  - web安全
+tags: 
+  - sql注入
+abbrlink: 2839042794
+date: 2018-06-16 00:00:00
 ---
 
 ## union查询注入

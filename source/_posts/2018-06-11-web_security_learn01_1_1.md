@@ -1,9 +1,13 @@
 ---
 layout: post
-title: "1.1.1-SQL注入-SQL注入基础-Web应用框架分析"
-date: 2018-06-11
-category: web安全
-tags: sql注入 
+title: 1.1.1-SQL注入-SQL注入基础-Web应用框架分析
+category: 
+  - web安全
+tags: 
+  - sql注入
+  - web安全
+abbrlink: 2839062402
+date: 2018-06-11 00:00:00
 ---
 
 # SQL注入漏洞原理与利用

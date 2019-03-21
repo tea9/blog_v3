@@ -1,9 +1,13 @@
 ---
 layout: post
-title: "1.4.1-SQL注入防御绕过-宽字节注入"
-date: 2018-06-30
-category: web安全
-tags: sql注入
+title: 1.4.1-SQL注入防御绕过-宽字节注入
+category: 
+  - web安全
+tags: 
+  - web安全
+  - sql注入
+abbrlink: 2024290485
+date: 2018-06-30 00:00:00
 ---
 
 ## 01 宽字节注入原理
@@ -13,7 +17,7 @@ tags: sql注入
 
 站点可能为了防止SQL注入，会加\转义'，最后变成\'  
 
-![]({{site.img_link}}/09/01.jpeg)
+![](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/09/01.jpeg)
 
 MySQL在使用GBK编码的时候，会认为两个字符为一个汉字。
 使用%df'进行编码，两个字符组合，认为是一个汉字。  

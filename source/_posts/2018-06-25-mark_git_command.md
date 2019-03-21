@@ -1,9 +1,13 @@
 ---
 layout: post
-title: "github上fork了别人的项目后，再同步更新别人的提交"
-date: 2018-06-25
-category: 马克
-tags: 马克
+title: github上fork了别人的项目后，再同步更新别人的提交
+category: 
+  - git
+tags: 
+  - 马克 
+  - git
+abbrlink: 2129490429
+date: 2018-06-25 00:00:00
 ---
 
 [github上fork了别人的项目后，再同步更新别人的提交](https://blog.csdn.net/qq1332479771/article/details/56087333)

@@ -1,9 +1,13 @@
 ---
 layout: post
-title: "1.3.3-SQL注入-SQL盲注-Dnslog盲注"
-date: 2018-06-23
-category: web安全
-tags: sql注入 sql盲注
+title: 1.3.3-SQL注入-SQL盲注-Dnslog盲注
+category: 
+  - web安全
+tags: 
+  - sql注入 
+  - sql盲注
+abbrlink: 2964387005
+date: 2018-06-23 00:00:00
 ---
 
 > 需要目标机器时windows系统

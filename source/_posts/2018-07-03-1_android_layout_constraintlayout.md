@@ -1,9 +1,12 @@
 ---
 layout: post
-title: "1.android布局-ConstraintLayout-约束布局"
-date: 2018-07-03
-category: android
-tags: android
+title: 1.android布局-ConstraintLayout-约束布局
+category: 
+  - android
+tags: 
+  - android
+abbrlink: 3011557691
+date: 2018-07-03 00:00:00
 ---
 
 ## ConstraintLayout 是什么？
@@ -42,7 +45,7 @@ tags: android
             app:layout_constraintTop_toBottomOf="@id/a" />
     </android.support.constraint.ConstraintLayout>
 
-![]({{site.img_link}}/19/1.png)
+![](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/19/1.png)
 
 2.左右排列  
 
@@ -72,7 +75,7 @@ tags: android
     </android.support.constraint.ConstraintLayout>
 
 
-![]({{site.img_link}}/19/2.png)
+![](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/19/2.png)
 
 左右排列更严谨的写法   
 
@@ -106,7 +109,7 @@ tags: android
     </android.support.constraint.ConstraintLayout>
 
 
-![]({{site.img_link}}/19/2.png)
+![](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/19/2.png)
 
 3.靠最右边  
 
@@ -128,7 +131,7 @@ tags: android
     </android.support.constraint.ConstraintLayout>
 
 
-![]({{site.img_link}}/19/3.png)
+![](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/19/3.png)
 
 	constraiontEnd 是自己本身的
 	toEnd 底部停靠的
@@ -185,7 +188,7 @@ tags: android
     </android.support.constraint.ConstraintLayout>
 
 
-![]({{site.img_link}}/19/4.png)
+![](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/19/4.png)
 
 延伸两个属性
     
@@ -226,7 +229,7 @@ tags: android
     </android.support.constraint.ConstraintLayout>
 
 
-![]({{site.img_link}}/19/5.png)
+![](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/19/5.png)
 
 左右分散：  
 
@@ -259,7 +262,7 @@ tags: android
             android:text="@string/c"/>
     </android.support.constraint.ConstraintLayout>
 
-![]({{site.img_link}}/19/6.png)
+![](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/19/6.png)
 
 ---
 ### Guideline （约束线）
@@ -304,7 +307,7 @@ tags: android
     上面代码是 在视图50%位置 左右两边有两个butthon
     
 
-![]({{site.img_link}}/19/7.png)
+![](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/19/7.png)
 
 实例：  
 
@@ -343,7 +346,7 @@ tags: android
     textview以此排列
 
 
-![]({{site.img_link}}/19/8.png)
+![](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/19/8.png)
 
 
 

@@ -1,9 +1,12 @@
 ---
 layout: post
-title: "一些ctf的链接"
-date: 2018-08-10
-category: CTF
-tags: CTF
+title: 一些ctf的链接
+category: 
+  - ctf
+tags: 
+  - ctf
+abbrlink: 912287952
+date: 2018-08-10 00:00:00
 ---
 
 忘了什么时候整理了！！！  

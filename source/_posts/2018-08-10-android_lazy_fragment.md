@@ -1,9 +1,12 @@
 ---
 layout: post
-title: "fragment懒加载"
-date: 2018-08-10
-category: android
-tags: android
+title: fragment懒加载
+category: 
+  - android
+tags: 
+  - android
+abbrlink: 2289611691
+date: 2018-08-10 00:00:00
 ---
 
 ## Fragment懒加载

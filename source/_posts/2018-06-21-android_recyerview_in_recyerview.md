@@ -1,12 +1,16 @@
 ---
 layout: post
-title: "recyclerview嵌套recyclerview"
-date: 2018-06-21
-category: android
-tags: adnroid recyclerview
+title: recyclerview嵌套recyclerview
+category: 
+  - android
+tags: 
+  - adnroid 
+  - recyclerview
+abbrlink: 1015207598
+date: 2018-06-21 00:00:00
 ---
 
-![效果](http://upload-images.jianshu.io/upload_images/2590671-98e8c1814b5456e3.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+<!-- ![效果](http://upload-images.jianshu.io/upload_images/2590671-98e8c1814b5456e3.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240) -->
 
 ![红色方框标出来的是recyclerview的item](http://upload-images.jianshu.io/upload_images/2590671-b73723cc237b3c76.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 

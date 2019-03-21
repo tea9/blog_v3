@@ -1,9 +1,12 @@
 ---
 layout: post
-title: "一些天文的链接"
-date: 2018-07-14
-category: 马克
-tags: 天文
+title: 一些天文的链接
+category: 
+  - biu
+tags: 
+  - 天文
+abbrlink: 2167877018
+date: 2018-07-14 00:00:00
 ---
 [stuffin-一个在线星系模拟网站](http://stuffin.space)  
 [seti研究所](https://www.seti.org/)  

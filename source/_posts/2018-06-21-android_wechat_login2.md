@@ -1,9 +1,13 @@
 ---
 layout: post
-title: "android微信第三方登录2"
-date: 2018-06-21
-category: android
-tags: android weixin
+title: android微信第三方登录2
+category: 
+  - android
+tags: 
+  - android 
+  - weixin
+abbrlink: 273860866
+date: 2018-06-21 00:00:00
 ---
 
 

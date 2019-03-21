@@ -1,9 +1,13 @@
 ---
 layout: post
-title: "1.1.1-SQL注入-SQL注入基础-SQL注入练习环境搭建"
-date: 2018-06-11
-category: web安全
-tags: sql注入 
+title: 1.1.1-SQL注入-SQL注入基础-SQL注入练习环境搭建
+category: 
+  - web安全
+tags: 
+  - sql注入
+  - web安全
+abbrlink: 2284174451
+date: 2018-06-11 00:00:00
 ---
 
 ## SQL注入练习环境搭建

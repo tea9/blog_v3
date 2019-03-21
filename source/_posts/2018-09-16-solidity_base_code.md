@@ -1,9 +1,12 @@
 ---
 layout: post
-title: "solidity的代码"
-date: 2018-09-16
-category: 区块链
-tags: 区块链
+title: solidity的代码
+category: 
+  - 区块链
+tags: 
+  - 区块链
+abbrlink: 3799772689
+date: 2018-09-16 00:00:00
 ---
 
 [在线solidityIDE](https://remix.ethereum.org)  

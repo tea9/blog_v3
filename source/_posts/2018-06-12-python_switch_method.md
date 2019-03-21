@@ -1,9 +1,13 @@
 ---
 layout: post
-title: "使用pyenv切换python版本"
-date: 2018-06-12
-category: python
-tags: python pyenv
+title: 使用pyenv切换python版本
+category: 
+  - python
+tags: 
+  - python 
+  - pyenv
+abbrlink: 849770471
+date: 2018-06-12 00:00:00
 ---
 
 ## 关键代码

@@ -1,9 +1,12 @@
 ---
 layout: post
-title: "mac_终端用sublime打开文件"
-date: 2018-08-03
-category: mac
-tags: mac
+title: mac_终端用sublime打开文件
+category: 
+  - macos
+tags: 
+  - macos
+abbrlink: 576883658
+date: 2018-08-03 00:00:00
 ---
 
 **打开文件**

@@ -1,9 +1,12 @@
 ---
 layout: post
-title: "1.2.2-SQL注入-SQL注入语法类型-报错注入"
-date: 2018-06-16
-category: web安全
-tags: sql注入
+title: 1.2.2-SQL注入-SQL注入语法类型-报错注入
+category: 
+  - web安全
+tags: 
+  - sql注入
+abbrlink: 4239639054
+date: 2018-06-16 00:00:00
 ---
 
 ## 报错注入

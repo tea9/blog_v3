@@ -1,9 +1,12 @@
 ---
 layout: post
-title: "2.1.1-文件上传流动原理与流程-文件上传漏洞原理"
-date: 2018-07-18
-category: web安全
-tags: 文件上传漏洞
+title: 2.1.1-文件上传流动原理与流程-文件上传漏洞原理
+category: 
+  - web安全
+tags: 
+  - 文件上传漏洞
+abbrlink: 912983995
+date: 2018-07-18 00:00:00
 ---
 
 ## 上传&上传漏洞&上传检测流程
@@ -26,13 +29,13 @@ tags: 文件上传漏洞
 
 通过burp截取到上传文件的请求信息  
 
-![通过burp截取到上传文件的请求信息]({{site.img_link}}/14/01.png)
+![通过burp截取到上传文件的请求信息](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/14/01.png)
 
 前端代码对应请求到的信息  
-![前端代码对应请求到的信息]({{site.img_link}}/14/02.png)
+![前端代码对应请求到的信息](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/14/02.png)
 
 前后端代码  
-![前后端代码 ]({{site.img_link}}/14/03.png)
+![前后端代码 ](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/14/03.png)
 
 后端：
 

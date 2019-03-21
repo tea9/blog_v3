@@ -1,9 +1,12 @@
 ---
 layout: post
-title: "1.android布局-ConstraintLayout-约束布局-例子"
-date: 2018-09-14
-category: android
-tags: android
+title: 1.android布局-ConstraintLayout-约束布局-例子
+category: 
+  - android
+tags: 
+  - android
+abbrlink: 1182005409
+date: 2018-09-14 00:00:00
 ---
 
 ## 前言
@@ -14,7 +17,7 @@ tags: android
 
 ## 效果
 
-![]({{site.img_link}}/20/1.jpg)
+![](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/20/1.jpg)
 
 ## 思路
 

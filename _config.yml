@@ -3,20 +3,27 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
-keywords:
+title: tea9的博客
+subtitle: 努力活着
+description: 心中有光の孩子
+keywords: tea9,tea9的博客,开发,android,编程,安全
 author: tea9
 language: zh-CN
 timezone:
+sidebar-avatar: img/avatar.png
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://tea9.coding.me
 root: /
-permalink: :year/:month/:day/:title/
-permalink_defaults:
+#permalink: :year/:month/:day/:title/
+#permalink_defaults:
+#  lang: en
+  
+permalink: post/:abbrlink.html
+abbrlink:
+  alg: crc32  # 算法：crc16(default) and crc32
+  rep: dec    # 进制：dec(default) and hex
 
 # Directory
 source_dir: source
@@ -29,19 +36,20 @@ i18n_dir: :lang
 skip_render:
 
 # Writing
-new_post_name: :title.md # File name of new posts
+#new_post_name: :title.md # File name of new posts
+new_post_name: :title.md
 default_layout: post
 titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
   enable: true
   line_number: true
-  auto_detect: false
+  auto_detect: true
   tab_replace:
   
 # Home page setting
@@ -50,7 +58,7 @@ highlight:
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
   path: ''
-  per_page: 10
+  per_page: 100
   order_by: -date
 
 archive_generator:
@@ -82,10 +90,169 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: next
+theme: aircloud
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://git.coding.net/tea9/tea9.git
+  repo: git@github.com:tea9/tea9.github.io.git
+  branch: master
+
+
+
+#Custom Setting Start by aircloud
+
+# 网站综合内容设置：
+SEOTitle: tea9的博客 | tea9's Blog
+email: shaomiaojava@gmail.com
+keyword: "tea9"
+
+
+# SNS settings
+# 一些社交平台地址，支持以下几种：
+#weibo_username:     
+#zhihu_username:     
+github_username:    tea9
+twitter_username:   shaomiaosun
+#facebook_username:  
+#linkedin_username:  
+
+# Build settings
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+
+comment:
+  type: gitment
+  id: dd67fb84ddbc6cf9c112
+  secret: be4e88389be3e45fbafbd7592148fa47feacaacf
+  owner: tea9
+  repo: tea9.github.io
+
+# comment:
+#   type: disqus
+#   script: 'https://airclouds-blog.disqus.com/embed.js'
+
+# donate:
+#   img: img/donate.jpg
+#   content: 感谢鼓励
+
+# The following content is not recommended to modify
+# 搜索数据文件路径设置，不建议改动
+search:
+  path: search.json
+  field: post
+
+# 文章样式(是否首行缩进)：
+post_style:
+  indent: default
+
+
+# Friends
+# 友情链接
+friends: [
+    {
+        title: "tea9",
+        href: "https://tea9.github.io"
+    },{
+        title: "Miracles",
+        href: "https://miracles666.github.io"
+    },{
+        title: "童年是个风筝的博客",
+        href: "https://www.zhangqirun.cn"
+    },{
+        title: "文科中的技术宅",
+        href: "https://townwang.com"
+    },{
+        title: "耀日庄主的博客",
+        href: "https://sunbossrs.github.io"
+    # },{
+    #     title: "量子",
+    #     href: "https://www.pdcblog.tk"
+    },{
+        title: "pdcgame",
+        href: "https://www.pdcgame.com"
+    },{
+        title: "gloomyghost",
+        href: "http://gloomyghost.com/"
+    },{
+        title: "FGHRSH",
+        href: "https://www.fghrsh.net"
+    },{
+        title: "藤の青",
+        href: "https://a632079.me"
+    },{
+        title: "幸运草",
+        href: "https://www.vseu.com/"
+    },{
+        title: "诗与酒",
+        href: "https://shawnzeng.com/"
+    },{
+        title: "NekoHome 喵窝",
+        href: "https://nekohome.moenya.cat"
+    },{
+        title: "清酒踏月",
+        href: "https://www.lkxin.cn"
+    },{
+        title: "冰峰博客",
+        href: "http://www.ad-s.cn/"
+    },{
+        title: "以梦为马，奔向远方",
+        href: "https://linhai1990.com"
+    },{
+        title: "终南小筑",
+        href: "https://www.cnliuqi.com"
+    },{
+        title: "Unique",
+        href: "http://login546.xyz"
+    },{
+        title: "雨落泪尽",
+        href: "https://1000yun.cn/"
+    },{
+        title: "Laugh's Blog",
+        href: "https://laugh12321.github.io/blog"
+    },{
+        title: "ShaoZhi's Blog",
+        href: "https://shaozhi.site"
+    },{
+        title: "Xiang Xiz",
+        href: "https://www.xiz.im"
+    },{
+        title: "lan酱的小窝",
+        href: "https://www.xx8.uk"
+    },{
+        title: "Casey",
+        href: "https://www.ckbug.com"
+    },{
+        title: "星夜的蓝天",
+        href: "http://poi.ac/"
+    },{
+        title: "俍注",
+        href: "http://www.oneinf.com"
+    # },{
+    #     title: "",
+    #     href: ""
+    # },{
+    #     title: "",
+    #     href: ""
+    # },{
+    #     title: "",
+    #     href: ""
+    # },{
+    #     title: "",
+    #     href: ""
+    # },{
+    #     title: "",
+    #     href: ""
+    # },{
+    #     title: "",
+    #     href: ""
+    # },{
+    #     title: "",
+    #     href: ""
+    }
+]
+  
+# links_title: 友情链接
+# links_layout: inline
+# links: 
+#   凌霄的博客: http://lx.nextdev.cn/

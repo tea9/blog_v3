@@ -1,9 +1,12 @@
 ---
 layout: post
-title: "设计模式-策略模式（strategy）"
-date: 2018-08-10
-category: 设计模式
-tags: 设计模式
+title: 设计模式-策略模式（strategy）
+category: 
+  - 设计模式
+tags: 
+  - 设计模式
+abbrlink: 2113223531
+date: 2018-08-10 00:00:00
 ---
 
 ## 策略模式

@@ -1,9 +1,12 @@
 ---
 layout: post
-title: "我的博客说明指南"
-date: 2018-09-06
-category: blog
-tags: blog
+title: 博客说明
+category: 
+  - blog
+tags: 
+  - blog
+abbrlink: 1523215152
+date: 2018-09-06 00:00:00
 ---
 
 # 博客自定义指南
@@ -78,7 +81,8 @@ tags: blog
 
 **建议删除的目录/文件（不删除也没事）/Suggest Delete：**  
 ```
-_drafts / laji / pdf / readme_img / resource / yoone / CNAME / README.md / README1.md / TODO.md
+_drafts / laji / pdf / readme_img / resource / 
+yoone / CNAME / README.md / README1.md / TODO.md
 ```
 
 

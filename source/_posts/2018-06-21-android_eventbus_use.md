@@ -1,9 +1,13 @@
 ---
 layout: post
-title: "android EventBus 使用"
-date: 2018-06-21
-category: android
-tags: android eventbus
+title: android EventBus 使用
+category: 
+  - android
+tags: 
+  - android 
+  - eventbus
+abbrlink: 3369655730
+date: 2018-06-21 00:00:00
 ---
 
 

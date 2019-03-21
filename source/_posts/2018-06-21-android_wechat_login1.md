@@ -1,9 +1,13 @@
 ---
 layout: post
-title: "android微信第三方登录1"
-date: 2018-06-21
-category: android
-tags: android weixin login
+title: android微信第三方登录1
+category: 
+  - android
+tags: 
+  - android 
+  - weixin 
+abbrlink: 2304481464
+date: 2018-06-21 00:00:00
 ---
 
 [github测试地址](https://github.com/shaomiao/AndroidWechatTest)  

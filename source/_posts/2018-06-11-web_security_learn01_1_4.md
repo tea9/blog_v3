@@ -1,9 +1,13 @@
 ---
 layout: post
-title: "1.1.1-SQL注入-SQL注入基础-Web应用框架分析-MySql注入方法逻辑运算及常用函数"
-date: 2018-06-11
-category: web安全
-tags: sql注入 
+title: 1.1.1-SQL注入-SQL注入基础-Web应用框架分析-MySql注入方法逻辑运算及常用函数
+category: 
+  - web安全
+tags: 
+  - sql注入
+  - web安全
+abbrlink: 1786754042
+date: 2018-06-11 00:00:00
 ---
 ## MySql常用函数及逻辑运算
 ### 01 常用的函数

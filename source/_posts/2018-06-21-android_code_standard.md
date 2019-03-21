@@ -1,9 +1,13 @@
 ---
 layout: post
-title: "android 代码样式规范"
-date: 2018-06-21
-category: android
-tags: android code_standard
+title: android 代码样式规范
+category: 
+  - android
+tags: 
+  - android 
+  - code_standard
+abbrlink: 208407023
+date: 2018-06-21 00:00:00
 ---
 
 原文地址 把重点记录下  
