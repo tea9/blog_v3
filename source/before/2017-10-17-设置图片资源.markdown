@@ -1,0 +1,21 @@
+---
+layout: post
+title: 设置图片资源
+author: shaomiao
+header-img: img/post-bg-android.jpg
+tags:
+  - android
+abbrlink: 1719618299
+date: 2017-10-21 00:00:00
+---
+ContextCompat.getDrawable(getActivity(), R.drawable.name);
+
+ResourcesCompat.getDrawable(getResources(), R.drawable.name, null);
+
+ResourcesCompat.getDrawable(getResources(), R.drawable.name, anotherTheme);
+
+//textview设置drawables
+Drawable nav_up = getResources().getDrawable(R.mipmap.selected_sel);
+// 必须设置宽高 要不不显示
+                nav_up.setBounds(0, 0, nav_up.getMinimumWidth(), nav_up.getMinimumHeight());
+                holder.tvTitle.setCompoundDrawables(null, null, nav_up, null);

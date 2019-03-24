@@ -1,0 +1,13 @@
+---
+layout: post
+title: 查看隐藏文件的命令
+author: shaomiao
+header-img: img/tag-bg.jpg
+tags:
+  - mac使用手册
+abbrlink: 894729208
+date: 2017-10-21 00:00:00
+---
+defaults write com.apple.finder AppleShowAllFiles TRUE
+
+killall Finder

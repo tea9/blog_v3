@@ -14,7 +14,7 @@ sidebar-avatar: img/avatar.png
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://tea9.coding.me
+url: http://tea9.xyz
 root: /
 #permalink: :year/:month/:day/:title/
 #permalink_defaults:
@@ -34,6 +34,9 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
+  - 'v1/**'
+  - 'v2/**'
+  - '_drafts/**'
 
 # Writing
 #new_post_name: :title.md # File name of new posts
@@ -58,7 +61,7 @@ highlight:
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
   path: ''
-  per_page: 100
+  per_page: 20
   order_by: -date
 
 archive_generator:
@@ -121,8 +124,15 @@ twitter_username:   shaomiaosun
 # Build settings
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 
+# comment:
+#   type: gitment
+#   id: dd67fb84ddbc6cf9c112
+#   secret: be4e88389be3e45fbafbd7592148fa47feacaacf
+#   owner: tea9
+#   repo: tea9.github.io
+
 comment:
-  type: gitment
+  type: gitalk
   id: dd67fb84ddbc6cf9c112
   secret: be4e88389be3e45fbafbd7592148fa47feacaacf
   owner: tea9
@@ -144,7 +154,7 @@ search:
 
 # 文章样式(是否首行缩进)：
 post_style:
-  indent: default
+  indent: 0
 
 
 # Friends
@@ -198,9 +208,9 @@ friends: [
     },{
         title: "以梦为马，奔向远方",
         href: "https://linhai1990.com"
-    },{
-        title: "终南小筑",
-        href: "https://www.cnliuqi.com"
+    # },{ 访问不了了
+    #     title: "终南小筑",
+    #     href: "https://www.cnliuqi.com"
     },{
         title: "Unique",
         href: "http://login546.xyz"
@@ -209,7 +219,7 @@ friends: [
         href: "https://1000yun.cn/"
     },{
         title: "Laugh's Blog",
-        href: "https://laugh12321.github.io/blog"
+        href: "https://laugh12321.github.io"
     },{
         title: "ShaoZhi's Blog",
         href: "https://shaozhi.site"
@@ -228,31 +238,29 @@ friends: [
     },{
         title: "俍注",
         href: "http://www.oneinf.com"
-    # },{
-    #     title: "",
-    #     href: ""
-    # },{
-    #     title: "",
-    #     href: ""
-    # },{
-    #     title: "",
-    #     href: ""
-    # },{
-    #     title: "",
-    #     href: ""
-    # },{
-    #     title: "",
-    #     href: ""
-    # },{
-    #     title: "",
-    #     href: ""
-    # },{
-    #     title: "",
-    #     href: ""
+    },{
+        title: "暗羽表姐",
+        href: "https://darkwing.moe/"
+    },{
+        title: "ju5tw4nty0u",
+        href: "http://ju5tw4nty0u.top/"
+    },{
+        title: "如鱼说|仓鼠的博客",
+        href: "http://www.itfire.cn"
+    },{
+        title: "k0rz3n",
+        href: "https://www.k0rz3n.com/"
+    },{
+        title: "月宅酱",
+        href: "http://ikmoe.com/"
+    },{
+        title: "七夏浅笑",
+        href: " https://www.julydate.com"
+    },{
+        title: "咸鱼滩音乐团队",
+        href: "https://www.xytsing.com"
+    },{
+        title: "藏精阁大湿胸",
+        href: "www.yppcat.top"
     }
 ]
-  
-# links_title: 友情链接
-# links_layout: inline
-# links: 
-#   凌霄的博客: http://lx.nextdev.cn/

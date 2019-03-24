@@ -1,0 +1,11 @@
+---
+layout: post
+title: 友盟配置说明
+author: shaomiao
+header-img: img/tag-bg.jpg
+tags:
+  - 备忘录
+abbrlink: 4277360102
+date: 2017-10-21 00:00:00
+---
+http://dev.umeng.com/social/android/share-detail
