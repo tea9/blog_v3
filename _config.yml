@@ -131,6 +131,8 @@ anchorjs: true                          # if you want to customize anchor. check
 #   owner: tea9
 #   repo: tea9.github.io
 
+hitokoto: true
+
 comment:
   type: gitalk
   id: dd67fb84ddbc6cf9c112
@@ -260,7 +262,7 @@ friends: [
         title: "咸鱼滩音乐团队",
         href: "https://www.xytsing.com"
     },{
-        title: "藏精阁大湿胸",
+        title: "尝精阁大湿胸",
         href: "www.yppcat.top"
     }
 ]
