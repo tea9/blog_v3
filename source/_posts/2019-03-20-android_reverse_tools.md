@@ -194,6 +194,18 @@ ava反编译器，Java字节码编辑器，APK编辑器，Dex编辑器，APK反�
 
 [ZjDroid github](https://github.com/halfkiss/ZjDroid)  
 
+#### Androguard
+
+跨平台恶意软件分析套件p175  
+
+[Androguard](https://github.com/androiguard/androguard)
+
+#### MobSF
+
+同时支持Android、ios、Windows 平台上的软件分析，同时支持静态分析、动态分析及Web API测试  
+
+[MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)  
+
 ## 集成工具
 
 macos
