@@ -1,16 +1,14 @@
----
 layout: post
 title: android adb shell 常用命令
-category: 
+category:
   - android逆向
-tags: 
-  - android 
+tags:
+  - android
   - android逆向
 abbrlink: 2043065794
 date: 2018-11-24 00:00:00
 ---
-
-	monitor
+monitor
 
 ## 一些路径
 
@@ -513,6 +511,15 @@ mac:
 
 	INSTALL_PARSE_FAILED_INCONSISTENT_CERTIFICATES
 	签名冲突
+    
+## adb运行提示error:cannot connect to daemon
+	
+    首先查看是否是端口被占用
+    adb nodaemon server
+    adb devices
+    adb kill-server
+    
+    
 
 ## LINKS
 
@@ -542,5 +549,4 @@ mac:
 [android在adb下模拟长按事件](https://zhuanlan.zhihu.com/p/26236061)  
 [android 自动化测试检测弹窗或蒙层](https://blog.csdn.net/yeshennet/article/details/78667777)  
 [Android ADB命令大全(通过ADB命令查看wifi密码、MAC地址、设备信息、操作文件、查看文件、日志信息、卸载、启动和安装APK等)](https://zmywly8866.github.io/2015/01/24/all-adb-command.html)  
-[使用adb命令停止APP后台进程的方法](https://yq.aliyun.com/articles/62892)  
-
+[使用adb命令停止APP后台进程的方法](https://yq.aliyun.com/articles/62892)
