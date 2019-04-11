@@ -201,6 +201,8 @@ mac:
 	package:com.huawei.floatMms
 	package:com.android.defcontainer
 	package:com.tencent.mm
+    
+    pm list packages | grep xx
 
 5.**打印制定包的apk路径**  
 
