@@ -1,14 +1,18 @@
----
 layout: post
 title: android渗透测试学习笔记
-category: 
+category:
   - android逆向
-tags: 
+tags:
   - android逆向
 abbrlink: 4027879150
 date: 2019-01-17 00:00:00
 ---
 《Android渗透测试学习手册》写的学习笔记  
+## 摘要
+
+1. adb  
+
+
 
 ## 工具
 
@@ -23,6 +27,19 @@ date: 2019-01-17 00:00:00
 
 
 ## Android Debug Bridge adb
+
+删除锁屏密码
+然后重启
+
+```
+adb shell
+su
+cd /data/system 
+ls |grep key
+rm gatekeeper.password.key
+rm gatekeeper.pattern.key
+reboot -r #重启
+```
 
 	$ adb devices //连接设备
 
@@ -247,4 +264,4 @@ example:
 
 ## pdf
 [链接](https://pan.baidu.com/s/1g7cNFyClXOeakjLQqkb49A)  
-提取码: 6jp4 
+提取码: 6jp4

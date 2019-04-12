@@ -521,7 +521,18 @@ mac:
     adb devices
     adb kill-server
     
-    
+## adb pull remote Permission denied
+```
+➜  Downloads adb pull /data/system/gatekeeper.password.key
+adb: error: failed to copy '/data/system/gatekeeper.password.key' to './gatekeeper.password.key': remote Permission denied
+
+adb root
+adb remont
+adb pull /data/system/gatekeeper.password.key
+```
+
+[adb push permission denied解决办法
+](https://blog.csdn.net/tajon1226/article/details/51548168)  
 
 ## LINKS
 
