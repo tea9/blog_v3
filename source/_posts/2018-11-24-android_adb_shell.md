@@ -531,8 +531,18 @@ adb remont
 adb pull /data/system/gatekeeper.password.key
 ```
 
-[adb push permission denied解决办法
-](https://blog.csdn.net/tajon1226/article/details/51548168)  
+[解决adbd cannot run as root in production builds问题
+](https://blog.csdn.net/hlllmr1314/article/details/52217128)  
+
+## adbd cannot run as root in production builds
+下载安装adbd-insecure.apk/超级adbd  
+打开应用将Enable insecure adbd 和 enable at boot 勾选上  
+
+还没测试成功  
+一加手机7.0未测试成功  
+
+[adbd cannot run as root in production builds的解决方法
+](https://blog.csdn.net/singleton1900/article/details/18602229)  
 
 ## LINKS
 

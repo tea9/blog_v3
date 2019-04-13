@@ -1,7 +1,10 @@
 title: android drozer
 abbrlink: 1688426988
 date: 2019-04-11 13:38:47
+category:
+  - android安全
 tags:
+  - android安全
 ---
 ## 介绍
 > dorzer是一个android开源安全测试工具
