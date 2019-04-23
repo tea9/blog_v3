@@ -489,6 +489,13 @@ mac:
 
 	adb shell pm clear com.tencent.mm  清楚指定进程 不仅会停止APP进程，而且会清除这个APP进程产生的所有数据
 
+## 查看apk的MD5
+
+```
+keytool -printcert -file GUAHAO.RSA 
+```
+
+
 ## 重启 关机 休眠 唤醒 (还没试)
 
 	adb shell reboot 重启
