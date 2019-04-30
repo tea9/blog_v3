@@ -17,20 +17,6 @@ cd /data/data/
 
 一次性查看app的所有资源和元数据
 ls -alR */
-login.guahao.com.app/:
-login.guahao.com.app//app_bugly:
-login.guahao.com.app//app_crashrecord:
-login.guahao.com.app//app_textures:
-login.guahao.com.app//app_webview:
-login.guahao.com.app//app_webview/GPUCache:
-login.guahao.com.app//app_webview/GPUCache/index-dir:
-login.guahao.com.app//cache:
-login.guahao.com.app//cache/org.chromium.android_webview:
-login.guahao.com.app//cache/org.chromium.android_webview/index-dir:
-login.guahao.com.app//code_cache:
-login.guahao.com.app//databases:
-login.guahao.com.app//files:
-login.guahao.com.app//shared_prefs:
 
 ls -alR */databases/ 数据库
 
