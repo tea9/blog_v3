@@ -1,10 +1,10 @@
 title: android drozer
 abbrlink: 1688426988
-date: 2019-04-11 13:38:47
 category:
   - android安全
 tags:
   - android安全
+date: 2019-04-11 13:38:47
 ---
 ## 介绍
 > dorzer是一个android开源安全测试工具
@@ -53,8 +53,13 @@ dz>
 ## 使用
 
 ```
+dz> run app.package.list #设备中已安装的包
 dz> run app.package.list -f sieve #关键字查找包名
 com.mwr.example.sieve (Sieve)
+
+dz> run app.package.info --help 
+
+dz> run app.package.info --package [包名]
 
 dz> run app.package.info -a com.mwr.example.sieve #查看包信息
 Package: com.mwr.example.sieve
@@ -74,11 +79,55 @@ Package: com.mwr.example.sieve
   Defines Permissions:
   - com.mwr.example.sieve.READ_KEYS
   - com.mwr.example.sieve.WRITE_KEYS
+  
+Application Label 显示app的名称
+Process Name 显示运行该app的进程名称
+Version 所安装的app的版本
+Data Directory 用来存储用户数据以及明确与该app关联的应用程序目录完整路径
+APK Path 设备中app真正的package文件所在的路径
+UID 与该app关联的用户ID 
+GID 与该app的用户ID相关联的系统group id
+Shared Libraries 该app使用的共享库的完整路径
+Shared User ID 可以使用该app的共享用户的ID
+Use Permissions app的权限列表
 
+# 根据包的权限寻找包
+dz> run app.package.info -p [权限标识]
+dz> run app.package.info -p android.permission.INTERNET
+
+# 列出导出的activity
+dz> run app.activity.info
+
+# 根据名称搜索activity
+dz> run app.activity.info --filter [activity名]
+dz> run app.activity.info --filter facebook
+dz> run app.activity.info --f facebook
+
+# 搜索指定包中的activity
+dz> run app.activity.info --package [package名]
+dz> run app.activity.info -a [package名]
+dz> run app.activity.info -a com.android.phone
+
+
+# 枚举content provider
+dz> run app.provider.info
+dz> run app.provider.info -a [包名] #包名称进行搜索
+dz> run app.provider.info -p [权限标识] # 权限进行搜索
+
+# 枚举service
+dz> run app.service.info --package [包名]
+dz> run app.service.info -p [权限标识]
+# 根据service名进行搜索
+dz> run app.service.info -f [过滤字符串]
+dz> run app.service.info -filter [过滤字符串]
+# 列出未导出的service
+dz> run app.service.info -u
+dz> run app.service.info --unexported
+dz> run app.service.info --help
 ```
 
 
 ## LINKS
 
 [Drozer 安装和使用 (Mac)](https://www.jianshu.com/p/168cdd3daa1d)  
-[Drozer安装(Mac系统)和使用](https://www.jianshu.com/p/65fc2d52c7b1)  
+[Drozer安装(Mac系统)和使用](https://www.jianshu.com/p/65fc2d52c7b1)

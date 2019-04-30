@@ -8,7 +8,70 @@ tags:
 abbrlink: 2043065794
 date: 2018-11-24 00:00:00
 ---
-monitor
+
+## 一次性查看app的所有资源和访问权限
+```
+
+adb shell
+cd /data/data/
+
+一次性查看app的所有资源和元数据
+ls -alR */
+login.guahao.com.app/:
+login.guahao.com.app//app_bugly:
+login.guahao.com.app//app_crashrecord:
+login.guahao.com.app//app_textures:
+login.guahao.com.app//app_webview:
+login.guahao.com.app//app_webview/GPUCache:
+login.guahao.com.app//app_webview/GPUCache/index-dir:
+login.guahao.com.app//cache:
+login.guahao.com.app//cache/org.chromium.android_webview:
+login.guahao.com.app//cache/org.chromium.android_webview/index-dir:
+login.guahao.com.app//code_cache:
+login.guahao.com.app//databases:
+login.guahao.com.app//files:
+login.guahao.com.app//shared_prefs:
+
+ls -alR */databases/ 数据库
+
+ls -alR */files/
+
+指定类型
+ls -al */*/*.xml
+ls -al */*/*.png
+ls -al */*/*.mp3
+
+ls -alR */ |  grep com.xx.xx 
+
+用sqlite3加载.db文件
+sqlite3 [database-filename]
+sqlite3 xx.db
+> .tables
+> select * from data;
+
+
+```
+
+## 命令列表
+```
+ls{path}: 列出path目录下的所有文件或文件夹
+
+cat{file}: 打印出文件的文本内容
+
+cd{path}: 把当前的工作目录切换到path指定的目录
+
+cd ../: 切换到上级目录
+
+pwd: 输出当前工作目录
+
+id: 显示你的用户ID
+
+root@cancro:/ # id
+uid=0(root) gid=0(root) groups=0(root),1007(log),1011(adb),1015(sdcard_rw),1028(sdcard_r),3001(net_bt_admin),3002(net_bt),3003(inet),3006(net_bw_stats) context=u:r:su:s0
+
+
+```
+
 
 ## 一些路径
 
