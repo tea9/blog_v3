@@ -1,10 +1,10 @@
 title: app安全监测指南学习笔记
 abbrlink: 3981860732
-date: 2019-04-12 13:51:34
 category:
   - android安全
 tags:
   - android安全
+date: 2019-04-12 13:51:34
 ---
 ## 客户端程序安全
 
@@ -49,7 +49,7 @@ tags:
 5. 客户端更新安全性
 6. 短信重放攻击
 
-## 义务安全
+## 业务安全
 1. 越权操作
 2. 交易篡改
 3. 重放攻击
@@ -70,4 +70,4 @@ tags:
 ](https://github.com/b-mueller/android_app_security_checklist)   
 [android-security-awesome tools list](https://github.com/ashishb/android-security-awesome)  
 [Collection of Android security related resources
-](https://github.com/wtsxDev/android-security-list)  
+](https://github.com/wtsxDev/android-security-list)
