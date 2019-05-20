@@ -46,3 +46,6 @@ IP检测
 
 H5文件加固检测
 
+
+http://www.cww.net.cn/article?id=451731&from=timeline
+https://paper.seebug.org/360/
