@@ -540,8 +540,12 @@ mac:
 
 ## 查看apk的MD5
 
+解压apk  
+META-INF/CERT.RSA  
+
+
 ```
-keytool -printcert -file GUAHAO.RSA 
+keytool -printcert -file CERT.RSA
 ```
 
 
