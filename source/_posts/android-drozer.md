@@ -130,4 +130,5 @@ dz> run app.service.info --help
 ## LINKS
 
 [Drozer 安装和使用 (Mac)](https://www.jianshu.com/p/168cdd3daa1d)  
-[Drozer安装(Mac系统)和使用](https://www.jianshu.com/p/65fc2d52c7b1)
+[Drozer安装(Mac系统)和使用](https://www.jianshu.com/p/65fc2d52c7b1)  
+[利用drozer进行Android渗透测试](https://www.cnblogs.com/goodhacker/p/3906180.html)  
