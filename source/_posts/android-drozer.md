@@ -108,7 +108,6 @@ dz> run app.activity.info --package [package名]
 dz> run app.activity.info -a [package名]
 dz> run app.activity.info -a com.android.phone
 
-
 # 枚举content provider
 dz> run app.provider.info
 dz> run app.provider.info -a [包名] #包名称进行搜索
@@ -117,9 +116,11 @@ dz> run app.provider.info -p [权限标识] # 权限进行搜索
 # 枚举service
 dz> run app.service.info --package [包名]
 dz> run app.service.info -p [权限标识]
+
 # 根据service名进行搜索
 dz> run app.service.info -f [过滤字符串]
 dz> run app.service.info -filter [过滤字符串]
+
 # 列出未导出的service
 dz> run app.service.info -u
 dz> run app.service.info --unexported
