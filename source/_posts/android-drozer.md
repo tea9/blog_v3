@@ -125,6 +125,12 @@ dz> run app.service.info -filter [过滤字符串]
 dz> run app.service.info -u
 dz> run app.service.info --unexported
 dz> run app.service.info --help
+
+# 攻击点
+run app.package.attacksurface xx.xx.xx
+
+# 启动activity
+run app.activity.start --component xx.xx.xx xx.xx.Activity
 ```
 
 
@@ -133,3 +139,5 @@ dz> run app.service.info --help
 [Drozer 安装和使用 (Mac)](https://www.jianshu.com/p/168cdd3daa1d)  
 [Drozer安装(Mac系统)和使用](https://www.jianshu.com/p/65fc2d52c7b1)  
 [利用drozer进行Android渗透测试](https://www.cnblogs.com/goodhacker/p/3906180.html)  
+[Drozer模块命令大全（一）](https://blog.csdn.net/cch139745/article/details/53519900)  
+[Drozer模块命令大全（二）](https://blog.csdn.net/cch139745/article/details/53691123)  
