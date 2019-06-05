@@ -54,6 +54,10 @@ date: 2019-02-25 00:00:00
 	cd /system/xbin
 	busybox --install .
 
+## ERROR
+如果执行`mount -o remount,rw -t yaffs2 /dev/block/mtdblock3 /syste`出现```mount -o remount,rw -t yaffs2 /dev/block/mtdblock3 /system
+mount: Permission denied```这个问题就新开一个命令行窗口执行```adb remount```在执行```mount -o remount,rw -t yaffs2 /dev/block/mtdblock3 /system```就可以了
+
 ## LINKS
 
 [在Android上安装BusyBox](https://blog.csdn.net/hp910315/article/details/79510223)  
