@@ -13,8 +13,11 @@ date: 2019-02-25 00:00:00
 > 手机要root
 
 ## 查看对应arm
-	adb shell getprop ro.product.cpu.abi
-	> arm64-v8a
+
+```
+adb shell getprop ro.product.cpu.abi
+> arm64-v8a
+```
 
 ## 下载busybox
 
@@ -22,39 +25,51 @@ date: 2019-02-25 00:00:00
 [busybox download](http://www.busybox.net/downloads/binaries)  
 修改名称为busybox
 
+[busybox-armv6l](https://busybox.net/downloads/binaries/1.26.2-defconfig-multiarch/busybox-armv6l)
+
 ## push
 
 	adb push busybox /sdcard
 
 ## 修改/system 目录可读写
 
-	adb shell
-	su
-	mount -o remount,rw -t yaffs2 /dev/block/mtdblock3 /system
+```
+adb shell
+su
+mount -o remount,rw -t yaffs2 /dev/block/mtdblock3 /system
+```
 
 ![](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/28/01.png)
 
-	adb shell 
-	su
-	> su
-	mount -o rw,remount -t yaffs2 /system
-	> mount -o rw,remount -t yaffs2 /system
-	mount -o rw,remount -t yaffs2 /system
-	> mount -o rw,remount -t yaffs2 /system
-	mount -o rw,remount -t yaffs2 /system
-	> mount -0 rw,remount -t yaffs2 /system
+```
+adb shell 
+su
+> su
+mount -o rw,remount -t yaffs2 /system
+> mount -o rw,remount -t yaffs2 /system
+mount -o rw,remount -t yaffs2 /system
+> mount -o rw,remount -t yaffs2 /system
+mount -o rw,remount -t yaffs2 /system
+> mount -0 rw,remount -t yaffs2 /system
 
-	adb remount
-	>remount succeeded
+adb remount
+>remount succeeded
+```
 
 ## copy
-	cp /sdcard/busybox /system/xbin
-	chmod 755 busybox
 
-	cd /system/xbin
-	busybox --install .
+```
+adb shell
+cp /sdcard/busybox /system/xbin
+cd /system/xbin
+chmod 755 busybox
+
+cd /system/xbin
+busybox --install .
+```
 
 ## ERROR
+
 如果执行`mount -o remount,rw -t yaffs2 /dev/block/mtdblock3 /syste`出现```mount -o remount,rw -t yaffs2 /dev/block/mtdblock3 /system
 mount: Permission denied```这个问题就新开一个命令行窗口执行```adb remount```在执行```mount -o remount,rw -t yaffs2 /dev/block/mtdblock3 /system```就可以了
 
