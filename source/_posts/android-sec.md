@@ -9,7 +9,12 @@ date: 2019-04-12 13:51:34
 ## 客户端程序安全
 
 1. 安装包签名
+
 2. 反编译保护
+- 判断是否能反编译为源代码，是否存在代码保护
+- 是否能通过用反编译工具查看源代码
+- 建议客户端进行加壳处理防止攻击者反编译客户端，同时混淆客户端代码，并且一定要对核心代码进行代码混淆
+
 3. 应用完整性校验
 4. 组件安全 - 组件安全测试工具
 5. webview - web安全
@@ -71,4 +76,5 @@ date: 2019-04-12 13:51:34
 ](https://github.com/b-mueller/android_app_security_checklist)   
 [android-security-awesome tools list](https://github.com/ashishb/android-security-awesome)  
 [Collection of Android security related resources
-](https://github.com/wtsxDev/android-security-list)
+](https://github.com/wtsxDev/android-security-list)  
+[Android安全防护](https://blog.csdn.net/u013409903/article/details/76686155)  
