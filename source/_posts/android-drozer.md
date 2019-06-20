@@ -141,3 +141,5 @@ run app.activity.start --component xx.xx.xx xx.xx.Activity
 [利用drozer进行Android渗透测试](https://www.cnblogs.com/goodhacker/p/3906180.html)  
 [Drozer模块命令大全（一）](https://blog.csdn.net/cch139745/article/details/53519900)  
 [Drozer模块命令大全（二）](https://blog.csdn.net/cch139745/article/details/53691123)  
+[Android安全测试框架Drozer（使用篇）](https://www.jianshu.com/p/dfa92bab3a55)  
+[利用drozer进行Android渗透测试](http://www.blogjava.net/qileilove/archive/2015/03/18/423597.html)  
