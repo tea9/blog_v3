@@ -36,7 +36,8 @@ i18n_dir: :lang
 skip_render:
   - 'v1/**'
   - 'v2/**'
-  - '_drafts/**'
+  - 'shaomiaopage/**'
+  - 'postschange/**'
 
 # Writing
 #new_post_name: :title.md # File name of new posts

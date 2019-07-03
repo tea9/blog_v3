@@ -633,6 +633,13 @@ com.android.settings.VoiceInputOutputSettings 语音输入与输出设置
 com.android.settings.WirelessSettings 无线和网络设置
 
 ```
+## 查看权限
+
+```
+$ adb shell pm list permissions -s
+
+$ adb shell install -g MyApp.apk # 自动授予APP所有权限
+```
 
 ---
 
