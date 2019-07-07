@@ -7,6 +7,170 @@ date: 2019-06-21 17:51:46
 ---
 
 ```
+
+001 ACCESS_CHECKIN_PROPERTIES 允许读写访问”properties”表在checkin数据库中，
+改值可以修改上传
+002 ACCESS_COARSE_LOCATION 允许一个程序访问CellID或 WiFi热点来获取粗略的位置
+003 ACCESS_FINE_LOCATION 获取精确位置，GPS芯片接收卫星的定位信息
+004 ACCESS_LOCATION_EXTRA_COMMANDS 允许应用程序访问额外的位置提供命令
+005 ACCESS_NETWORK_STATE 允许程序获取网络信息状态，如当前的网络连接是否有效
+006 ACCESS_NOTIFICATION_POLICY 希望访问通知策略的应用程序的标记许可
+007 ACCESS_WIFI_STATE 允许程序获取当前WiFi接入的状态以及WLAN热点的信息
+008 ACCOUNT_MANAGER 允许程序通过账户验证方式访问账户管理
+ACCOUNT_MANAGER相关信息
+009 com.android.voicemail.permission.ADD_VOICEMAIL 允许一个应用程序添加语音邮件系统
+010 BATTERY_STATS 允许程序更新手机电池统计信息
+011 BIND_ACCESSIBILITY_SERVICE 请求accessibilityservice服务，以确保只有系统可以
+绑定到它
+012 BIND_APPWIDGET 允许程序告诉appWidget服务需要访问小插件的数据库，
+只有非常少的应用才用到此权限
+013 BIND_CARRIER_MESSAGING_SERVICE API等级高于23时使用,否则使用
+BIND_CARRIER_SERVICES
+014 BIND_CARRIER_SERVICES 允许绑定到运营商应用程序中的服务的系统进程将有这个权限
+015 BIND_CHOOSER_TARGET_SERVICE 必须由ChooserTargetService要求，确保只有系统
+可以绑定到它
+016 BIND_DEVICE_ADMIN 请求系统管理员接收者receiver，只有系统才能使用
+017 BIND_DREAM_SERVICE 必须由一个DreamService要求，确保只有系统可以绑定到它
+018 BIND_INCALL_SERVICE 必须由一个MidiDeviceService要求，确保只有系统可以绑定到它
+019 BIND_INPUT_METHOD 请求InputMethodService服务，只有系统才能使用
+020 BIND_MIDI_DEVICE_SERVICE 必须由一个MidiDeviceService要求，确保只有系统
+可以绑定到它
+021 BIND_NFC_SERVICE 由HostApduService或OffHostApduService必须确保只有系统
+可以绑定到它
+022 BIND_NOTIFICATION_LISTENER_SERVICE 必须要求由
+notificationlistenerservice，以确保只有系统可以绑定到它
+023 BIND_PRINT_SERVICE 必须要求由printservice，以确保只有系统可以绑定到它
+024 BIND_REMOTEVIEWS 必须通过RemoteViewsService服务来请求，只有系统才能用
+025 BIND_TELECOM_CONNECTION_SERVICE 必须由ConnectionService要求，确保只有系统
+可以绑定到它
+026 BIND_TEXT_SERVICE 必须要求textservice(例如吗 spellcheckerservice)，
+以确保只有系统可以绑定到它
+027 BIND_TV_INPUT 必须由TvInputService需要确保只有系统可以绑定到它
+028 BIND_VOICE_INTERACTION 必须由VoiceInteractionService要求，
+确保只有系统可以绑定到它
+029 BIND_VPN_SERVICE 绑定VPN服务必须通过VpnService服务来请求,只有系统才能用
+030 BIND_WALLPAPER 必须通过WallpaperService服务来请求，只有系统才能用
+031 BLUETOOTH 允许程序连接配对过的蓝牙设备
+032 BLUETOOTH_ADMIN 允许程序进行发现和配对新的蓝牙设备
+033 BLUETOOTH_PRIVILEGED 允许应用程序配对蓝牙设备，而无需用户交互。
+这不是第三方应用程序可用
+034 BODY_SENSORS 允许应用程序访问用户使用的传感器来测量他/她的
+身体内发生了什么，如心率仪
+035 BROADCAST_PACKAGE_REMOVED 允许程序广播一个提示消息在一个应用程序包已经移除后
+036 BROADCAST_SMS 允许程序当收到短信时触发一个广播
+037 BROADCAST_STICKY 允许程序收到广播后快速收到下一个广播
+038 BROADCAST_WAP_PUSH WAP PUSH服务收到后触发一个广播
+039 CALL_PHONE 允许程序从非系统拨号器里拨打电话
+040 CALL_PRIVILEGED 允许程序拨打电话，替换系统的拨号器界面
+041 CAMERA 允许程序访问摄像头进行拍照
+042 CAPTURE_AUDIO_OUTPUT 允许一个应用程序捕获音频输出。不被第三方应用使用
+043 CAPTURE_SECURE_VIDEO_OUTPUT 允许一个应用程序捕获视频输出。不被第三方应用使用
+044 CAPTURE_VIDEO_OUTPUT 允许一个应用程序捕获视频输出，不被第三方应用使用
+045 CHANGE_COMPONENT_ENABLED_STATE 改变组件是否启用状态
+046 CHANGE_CONFIGURATION 允许当前应用改变配置，如定位
+047 CHANGE_NETWORK_STATE 允许程序改变网络状态,如是否联网
+048 CHANGE_WIFI_MULTICAST_STATE 允许程序改变WiFi多播状态
+049 CHANGE_WIFI_STATE 允许程序改变WiFi状态
+050 CLEAR_APP_CACHE 允许程序清除应用缓存
+051 CONTROL_LOCATION_UPDATES 允许程序获得移动网络定位信息改变
+052 DELETE_CACHE_FILES 允许程序删除缓存文件
+053 DELETE_PACKAGES 允许程序删除应用
+054 DIAGNOSTIC 允许程序到RW到诊断资源
+055 DISABLE_KEYGUARD 允许程序禁用键盘锁
+056 DUMP 允许程序返回状态抓取信息从系统服务
+057 EXPAND_STATUS_BAR 允许程序扩展或收缩状态栏
+058 FACTORY_TEST 允许程序运行工厂测试模式
+059 FLASHLIGHT 允许访问闪光灯
+060 GET_ACCOUNTS 允许程序访问账户Gmail列表
+061 GET_ACCOUNTS_PRIVILEGED 允许访问帐户服务中的帐户列表
+062 GET_PACKAGE_SIZE 允许一个程序获取任何package占用空间容量
+063 GET_TASKS 允许一个程序获取信息有关当前或最近运行的任务，一个
+缩略的任务状态，是否活动等等
+064 GLOBAL_SEARCH 允许程序允许全局搜索
+065 INSTALL_LOCATION_PROVIDER 允许程序安装定位提供
+066 INSTALL_PACKAGES 允许程序安装应用
+067 INSTALL_SHORTCUT 创建快捷方式
+068 INTERNET 允许程序访问网络连接，可能产生GPRS流量
+069 KILL_BACKGROUND_PROCESSES 允许程序调用killBackgroundProcesses(String).方法结束后台进程
+070 LOCATION_HARDWARE 允许一个应用程序中使用定位功能的硬件，不使用第三方应用
+071 MANAGE_DOCUMENTS 允许一个应用程序来管理文档的访问，通常是一个文档选择器部分
+072 MASTER_CLEAR 允许程序执行软格式化，删除系统配置信息
+073 MEDIA_CONTENT_CONTROL 允许一个应用程序知道什么是播放和控制其内容。
+不被第三方应用使用
+074 MODIFY_AUDIO_SETTINGS 允许程序修改声音设置信息
+075 MODIFY_PHONE_STATE 允许程序修改电话状态，如飞行模式，但不包含替换系统拨号器界面
+076 MOUNT_FORMAT_FILESYSTEMS 允许程序格式化可移动文件系统，比如格式化清空SD卡
+077 MOUNT_UNMOUNT_FILESYSTEMS 允许程序挂载、反挂载外部文件系统
+078 NFC 允许程序执行NFC近距离通讯操作，用于移动支持
+079 PACKAGE_USAGE_STATS 允许一个程序设置他的activities显示
+080 PERSISTENT_ACTIVITY 允许程序创建一个永久的Activity，该功能标记为将来将被移除
+081 PROCESS_OUTGOING_CALLS 允许程序监视，修改或放弃播出电话
+082 READ_CALENDAR 允许程序读取用户的日程信息
+083 READ_CALL_LOG 读取通话记录
+084 READ_CONTACTS 允许程序访问联系人通讯录信息
+085 READ_EXTERNAL_STORAGE 程序可以读取设备外部存储空间(内置SDcard和外置SDCard)
+的文件，如果您的App已经添加了”WRITE_EXTERNAL_STORAGE”
+权限，则就没必要添加读的权限了，写权限已经
+包含了读权限了
+086 READ_FRAME_BUFFER 允许程序读取帧缓存用于屏幕截图
+087 READ_INPUT_STATE 允许程序读取当前键的输入状态，仅用于系统
+088 READ_LOGS 允许程序读取系统底层日志
+089 READ_PHONE_STATE 允许程序访问电话状态 读取电话状态
+090 READ_SMS 允许程序读取短信内容
+091 READ_SYNC_SETTINGS 允许程序读取同步设置，读取Google在线同步设置
+092 READ_SYNC_STATS 允许程序读取同步状态，获得Google在线同步状态
+093 READ_VOICEMAIL 允许应用程序在系统读取语音邮件
+094 REBOOT 允许程序重新启动设备
+095 RECEIVE_BOOT_COMPLETED 允许程序开机自动运行
+096 RECEIVE_MMS 允许程序接收彩信
+097 RECEIVE_SMS 允许程序接收短信
+098 RECEIVE_WAP_PUSH 允许程序接收WAP PUSH信息
+099 RECORD_AUDIO 允许程序录制声音通过手机或耳机的麦克
+100 REORDER_TASKS 允许程序重新排序系统Z轴运行中的任务
+101 REQUEST_IGNORE_BATTERY_OPTIMIZATIONS 权限的应用程序必须要使用
+ACTION_REQUEST_IGNORE_BATTERY_OPTIMIZATIONS
+这是一个正常的权限：一个应用程序请求
+它将永远被授予权限，而不需要用户批准或看到它。
+102 REQUEST_INSTALL_PACKAGES 允许应用程序请求安装包。针对API大于22必须持有
+该许可使用ACTION_INSTALL_PACKAGE应用。
+103 RESTART_PACKAGES 允许程序结束任务通过restartPackage(String)方法，
+该方式将在外来放弃
+104 SEND_RESPOND_VIA_MESSAGE 允许用户在来电的时候用你的应用进行即时的短信息回复
+105 SEND_SMS 允许程序发送短信
+106 SET_ALARM 允许程序设置闹铃提醒
+107 SET_ALWAYS_FINISH 允许程序设置程序在后台是否总是退出
+108 SET_ANIMATION_SCALE 允许程序设置全局动画缩放
+109 SET_DEBUG_APP 允许程序设置调试程序，一般用于开发
+110 SET_PREFERRED_APPLICATIONS 允许程序设置应用的参数，已不再工作具体查看
+addPackageToPreferred(String) 介绍
+111 SET_PROCESS_LIMIT 允许程序设置最大的进程数量的限制
+112 SET_TIME 允许程序设置系统时间
+113 SET_TIME_ZONE 允许程序设置系统时区
+114 SET_WALLPAPER 允许程序设置桌面壁纸
+115 SET_WALLPAPER_HINTS 允许程序设置壁纸建议
+116 SIGNAL_PERSISTENT_PROCESSES 允许程序发送一个永久的进程信号
+117 STATUS_BAR 允许程序打开、关闭、禁用状态栏
+118 SYSTEM_ALERT_WINDOW 允许程序显示系统窗口
+119 TRANSMIT_IR 允许使用设备的红外发射器，如果可用
+120 UNINSTALL_SHORTCUT 删除快捷方式
+121 UPDATE_DEVICE_STATS 允许程序更新设备状态
+122 USE_FINGERPRINT 允许应用程序使用指纹硬件
+123 USE_SIP 允许程序使用SIP视频服务
+124 VIBRATE 允许程序振动
+125 WAKE_LOCK 允许程序在手机屏幕关闭后后台进程仍然运行
+126 WRITE_APN_SETTINGS 允许程序写入网络GPRS接入点设置
+127 WRITE_CALENDAR 允许程序写入日程，但不可读取
+128 WRITE_CALL_LOG 允许程序写入（但是不能读）用户的联系人数据
+129 WRITE_CONTACTS 写入联系人,但不可读取
+130 WRITE_EXTERNAL_STORAGE 允许程序写入外部存储,如SD卡上写文件
+131 WRITE_GSERVICES 允许程序修改Google服务地图
+132 WRITE_SECURE_SETTINGS 允许应用程序读取或写入安全系统设置
+133 WRITE_SETTINGS 允许程序读取或写入系统设置
+134 WRITE_SYNC_SETTINGS 允许程序写入同步设置
+135 WRITE_VOICEMAIL 允许应用程序修改和删除系统中的现有的语音邮件，
+只有系统才能使用
+
+
 1.android.permission.WRITE_USER_DICTIONARY允许应用程序向用户词典中写入新词
 
 2.android.permission.WRITE_SYNC_SETTINGS写入Google在线同步设置
@@ -295,10 +459,25 @@ date: 2019-06-21 17:51:46
 
 142.android.permission.ACCESS_CHECKIN_PROPERTIES允许程序读取或写入登记check-in数据库属性表的权限
 
+android.permission.FORCE_BACK 允许程序强行一个后退操作是否在顶层activities
+android.permission.FOTA_UPDATE 暂时不了解这是做什么使用的，android开发网分析可能是一个预留权限.
+android.permission.HARDWARE_TEST 允许访问硬件
+android.permission.INJECT_EVENTS 允许一个程序截获用户事件如按键、触摸、轨迹球等等到一个时间流，android 开发网提醒算是hook技术吧
+android.permission.INTERNAL_SYSTEM_WINDOW 允许打开窗口使用系统用户界面
 android.permission.WRITE_OWNER_DATA 允许一个程序写入但不读取所有者数据
+android.permission.WRITE_SMS 允许程序写短信
+android.permission.ACCESS_MOCK_LOCATION 允许程序创建模拟位置提供用于测试
+android.permission.ACCESS_SURFACE_FLINGER 允许程序使用SurfaceFlinger底层特性
 android.permission.ADD_SYSTEM_SERVICE 允许程序发布系统级服务
+android.permission.DEVICE_POWER 允许访问底层电源管理
+android.permission.CLEAR_APP_USER_DATA 允许一个程序清除用户设置
+android.permission.MANAGE_APP_TOKENS 允许程序管理(创建、催后、 z- order默认向z轴推移)程序引用在窗口管理器中
 android.permission.READ_OWNER_DATA 允许程序读取所有者数据
+android.permission.SET_ACTIVITY_WATCHER 允许程序监控或控制activities已经启动全局系统中
+android.permission.SET_ORIENTATION 允许底层访问设置屏幕方向和实际旋转
 android.permission.SET_PROCESS_FOREGROUND 允许程序当前运行程序强行到前台
+android.permission.SUBSCRIBED_FEEDS_READ 允许一个程序访问订阅RSS Feed内容提供
+android.permission.SUBSCRIBED_FEEDS_WRITE 系统暂时保留改设置,android开发网认为未来版本会加入该功能。
 
 
 访问登记属性	android.permission.ACCESS_CHECKIN_PROPERTIES ，读取或写入登记check-in数据库属性表的权限
@@ -421,6 +600,7 @@ WAP PUSH广播	android.permission.BROADCAST_WAP_PUSH，WAP PUSH服务收到后�
 读写系统设置	android.permission.WRITE_SETTINGS，允许读写系统设置项
 编写短信	android.permission.WRITE_SMS，允许编写短信
 写入在线同步设置	android.permission.WRITE_SYNC_SETTINGS，写入Google在线同步设置
+com.android.voicemail.permission.ADD_VOICEMAIL 允许应用程序添加系统中的语音邮件。
 
 
 com.android.browser.permission.READ_HISTORY_BOOKMARKS 
@@ -436,3 +616,5 @@ android.permission.PACKAGE_USAGE_STATS
 ## LINKS
 [android权限（permission）大全](https://www.cnblogs.com/luoruiyuan/p/6475547.html)  
 [Android中的各种访问权限Permission含义](https://www.cnblogs.com/shiwei-bai/p/4916794.html)  
+[Android 权限汇总](https://blog.csdn.net/xiaxiangnanxp1989/article/details/8504373)  
+[Manifest.permission](https://developer.android.com/reference/android/Manifest.permission.html)  

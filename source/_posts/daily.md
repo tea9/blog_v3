@@ -5,26 +5,24 @@ date: 2222-06-08 14:42:12
 tags:
 ---
 
-因受到友人刺激，决定逃离舒适圈，故做以下表格，以此记录，期望达成。
-
-[2019打卡](https://shimo.im/sheet/JBZ8slD2aC84NDjs/)  
-
-[2019,06计划](https://shimo.im/sheet/PqRvuBFwabAGyzkL/)  
+[从现在开始记录~](https://shimo.im/sheet/3AkKWV75BDQaIKuZ/)
 
 ---
 
 ## daily
 
-### 2019-06-23
-1.hackerone 注册账号 找厂商
-2.带猫去宠物医院
-3.收拾屋子
-4.去吃海底捞
-5.v+520活动礼包
+### 2019-07-07
 
+-[x] 网络扫描工具：nmap成就 get √
+-[x] 渗透测试-信息收集成就 get √
+-[x] 子域名枚举工具：sublist3r 成就 get √ python sublist3r.py -d xx.com
+-[x] google hack √
+---
+进行中ing...  
 
-### 2019-06-24
-1.工作
-2.去v+
+* 探测目标是否存在WAF：WhatWaf https://github.com/Ekultek/WhatWaf 
+* 网站指纹识别工具:WhatWeb https://github.com/urbanadventurer/WhatWeb 
+* 收集子域名：wydomain https://github.com/ring04h/wydomain 
+* 安全评估工具：xray https://github.com/chaitin/xray
 
-### 2019-06-25
+---
