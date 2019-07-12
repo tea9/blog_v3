@@ -13,11 +13,13 @@ tags:
 
 ### 2019-07-07
 
--[x] 网络扫描工具：nmap成就 get √
--[x] 渗透测试-信息收集成就 get √
--[x] 子域名枚举工具：sublist3r 成就 get √ python sublist3r.py -d xx.com
--[x] google hack √
+- [x] 网络扫描工具：nmap成就 get √
+- [x] 渗透测试-信息收集成就 get √
+- [x] 子域名枚举工具：sublist3r 成就 get √ python sublist3r.py -d xx.com
+- [x] google hack √
+
 ---
+
 进行中ing...  
 
 * 探测目标是否存在WAF：WhatWaf https://github.com/Ekultek/WhatWaf 
@@ -26,3 +28,10 @@ tags:
 * 安全评估工具：xray https://github.com/chaitin/xray
 
 ---
+
+### 2019-07-11
+
+- [x] 三方twrp √
+- [x] xposed √
+- [x] 虚拟定位 √
+- [x] android v1+v2签名命令 √
