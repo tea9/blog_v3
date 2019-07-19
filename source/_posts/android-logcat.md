@@ -1,8 +1,9 @@
 ---
 title: android adb logcat
-date: 2019-07-17 14:50:07
 tags:
-	- android安全
+  - android安全
+abbrlink: 560848017
+date: 2019-07-17 14:50:07
 ---
 
 ```

@@ -18,14 +18,32 @@ date: 2019-04-11 13:38:47
 测试包[sieve.apk](https://github.com/mwrlabs/drozer/releases/download/2.3.4/sieve.apk)  
 [官方使用文档](https://labs.mwrinfosecurity.com/assets/BlogFiles/mwri-drozer-user-guide-2015-03-23.pdf)  
 
+**基础信息获取**
+```
+run app.package.list -f sieve
+
+run app.package.info -a com.xx.xx
+```
+
+**确定攻击面**
+
+```
+run app.package.attacksurface com.xx.xx
+```
+
+**Activity**
+```
+run app.activity.info -a com.xx.xx
+```
+
 **手机获得root权限**  
 
 ```
 adb install drozer-agent-2.3.4.apk
 adb install sieve.apk
 
-1.Agent.apk 打开Embedded Server Enabled
-2.adb forward tcp:31415 tcp:31415
+1.adb forward tcp:31415 tcp:31415
+2.Agent.apk 打开Embedded Server Enabled
 3.drozer console connect
 
 ➜  Downloads drozer console connect         
