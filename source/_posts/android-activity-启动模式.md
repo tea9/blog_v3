@@ -14,8 +14,11 @@ singleTask：栈内复用模式，如果栈中存在这个Activity的实例就�
 
 singleInstance：单实例模式，该模式具备singleTask模式的所有特性外，与它的区别就是，这种模式下的Activity会单独占用一个Task栈，具有全局唯一性。以singleInstance模式启动的Activity在整个系统中是单例的，如果在启动这样的Activiyt时，已经存在了一个实例，那么会把它所在的任务调度到前台，重用这个实例。  
 
-taskAffinity：
+taskAffinity：  
 
+[组件导出导致钓鱼欺诈：防护](https://tea9.xyz/post/2470166639.html#%E7%BB%84%E4%BB%B6%E5%AF%BC%E5%87%BA%E5%AF%BC%E8%87%B4%E9%92%93%E9%B1%BC%E6%AC%BA%E8%AF%88%EF%BC%9A%E9%98%B2%E6%8A%A4)  
+
+TODO  
 
 ## LINKS
 [探索Activity之启动Intent Flag和taskAffinity](https://www.jianshu.com/p/c97688eb5056)  

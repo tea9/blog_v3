@@ -1,5 +1,5 @@
 ---
-title: android aapt
+title: android aapt查看应用包名
 tags:
   - android安全
 abbrlink: 994062500
