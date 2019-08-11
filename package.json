@@ -17,6 +17,7 @@
     "hexo-generator-index": "^0.2.1",
     "hexo-generator-search": "^2.4.0",
     "hexo-generator-tag": "^0.2.0",
+    "hexo-helper-live2d": "^3.1.1",
     "hexo-migrator-rss": "^0.1.4",
     "hexo-pagination": "^0.1.0",
     "hexo-renderer-ejs": "^0.3.1",
@@ -26,6 +27,8 @@
     "hexo-server": "^0.3.1",
     "hexo-tag-config": "^1.0.0",
     "less": "^3.9.0",
+    "live2d-widget-model-hijiki": "^1.0.5",
+    "live2d-widget-model-shizuku": "^1.0.5",
     "nprogress": "^0.2.0"
   }
 }

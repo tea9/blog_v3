@@ -2,7 +2,9 @@
 layout: post
 title: create_hexo_codingpage_blog
 category: blog
-tags: hexo blog
+tags: 
+  - hexo 
+  - blog
 abbrlink: 456017422
 date: 2018-10-13 00:00:00
 ---

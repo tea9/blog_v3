@@ -4,8 +4,8 @@ abbrlink: 2961313865
 date: 2222-06-08 14:42:12
 tags:
 ---
-
-[从现在开始记录~](https://shimo.im/sheet/3AkKWV75BDQaIKuZ/)
+  
+[健身打卡](https://shimo.im/sheet/vDyW9WjdJRQtR6qT/fkAsO)
 
 ---
 
@@ -35,3 +35,13 @@ tags:
 - [x] xposed √
 - [x] 虚拟定位 √
 - [x] android v1+v2签名命令 √
+
+### 2019-07-28
+
+- [x] drozer √
+- [x] 漏洞扫描 √
+- [x] 挖src √
+
+### 2019-08-03
+
+* OneForAll 子域名收集工具 https://github.com/shmilylty/OneForAll

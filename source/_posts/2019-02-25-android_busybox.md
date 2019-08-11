@@ -68,6 +68,18 @@ cd /system/xbin
 busybox --install .
 ```
 
+## Tips
+
+### 如果没有cp命令
+```
+1|root@android:/ # cp /sdcard/busybox /system/xbin
+sh: cp: not found
+
+mv /sdcard/busybox /system/bin  
+
+cat /sdcard/busybox > /system/bin/busybox 
+```
+
 ## ERROR
 
 如果执行`mount -o remount,rw -t yaffs2 /dev/block/mtdblock3 /syste`出现```mount -o remount,rw -t yaffs2 /dev/block/mtdblock3 /system

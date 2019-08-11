@@ -2,7 +2,10 @@
 layout: post
 title: android反编译工具和命令
 category: 安全
-tags: adnroid 安全 反编译
+tags: 
+  - adnroid 
+  - 安全 
+  - 反编译
 abbrlink: 4129675987
 date: 2018-07-07 00:00:00
 ---

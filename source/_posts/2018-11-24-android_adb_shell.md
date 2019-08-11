@@ -590,6 +590,16 @@ adb shell am start com.android.settings/com.android.settings.SecuritySettings
 adb shell am start com.android.settings/com.android.settings.RadioInfo
 
 ```
+
+## 打开浏览器页面
+
+```
+adb shell am start -n com.android.browser/com.android.browser.BrowserActivity
+
+打开网站
+adb shell am start -a android.intent.action.VIEW -d http://www.baidu.com
+```
+
 ## 更多页面 
 
 ``` 
@@ -641,6 +651,110 @@ $ adb shell pm list permissions -s
 $ adb shell install -g MyApp.apk # 自动授予APP所有权限
 ```
 
+## 安装证书
+
+```
+adb shell am start -n com.android.certinstaller/.CertInstallerMain -a android.intent.action.VIEW -t application/x-x509-ca-cert file:///sdcard/c.cer
+
+adb shell am start -n com.android.certinstaller/.CertInstallerMain
+```
+
+## 设置代理
+
+Android4.2的源码android-17\com\android\commands目录下较之前的版本多了一个settings命令,所有是4.2以上版本才可以用  
+
+```
+// 设置代理
+adb shell settings put global http_proxy ip_address:port
+
+
+// 移除代理
+adb shell settings delete global http_proxy
+adb shell settings delete global global_http_proxy_host
+adb shell settings delete global global_http_proxy_port
+移除代理需要重启手机方可生效，设置可直接多次覆盖，不需要移除
+
+#获取系统默认输入法
+
+#默认搜狗输入法
+
+C:\Users\Administrator>adb shell settings get secure default_input_method
+
+com.sohu.inputmethod.sogouoem/.SogouIME
+
+ 
+
+#默认为Appium使用中文输入时安装的输入法
+
+C:\Users\Administrator>adb shell settings get secure default_input_method
+
+io.appium.android.ime/.UnicodeIME
+
+ 
+
+#put命令更改默认输入法（将io.appium.android.ime/.UnicodeIME改为com.sohu.inputmethod.sogouoem/.SogouIME）
+
+C:\Users\Administrator>adb shell settings put secure default_input_method com.sohu.inputmethod.sogouoem/.SogouIME
+
+#获取亮度是否为自动获取
+
+C:\Users\Administrator>adb shell settings get system screen_brightness_mode
+
+1
+
+#获取当前亮度值
+
+C:\Users\Administrator>adb shell settings get system screen_brightness
+
+30
+
+#更改亮度值（亮度值在0—255之间）
+
+C:\Users\Administrator>adb shell settings put system screen_brightness 150
+
+#获取屏幕休眠时间
+
+C:\Users\Administrator>adb shell settings get system screen_off_timeout
+
+15000
+
+#更改休眠时间，10分钟
+
+C:\Users\Administrator>adb shell settings put system screen_off_timeout 600000
+
+#获取日期时间选项中通过网络获取时间的状态，1为允许、0为不允许
+
+C:\Users\Administrator>adb shell settings get global auto_time
+
+1
+
+#更改该状态，从1改为0
+
+C:\Users\Administrator>adb shell settings put global auto_time 0
+
+以及获取、修改wifi状态（wifi_on）、飞行模式（airlpane_mode_on）等，这里也是appium中getNetworkConnection获得设备网络状态的方法
+
+```
+[adb shell settings ....](https://www.cnblogs.com/rosepotato/p/4280838.html)  
+
+## adb恢复出厂设置
+```
+进入recovery模式 在进行双清可以达到恢复出厂
+adb reboot recovery
+```
+或者下面的  
+You can try the following commands:
+
+To enter the fastboot mode:
+`adb reboot bootloader`
+
+Check whether the mobile phone is also in fastboot mode: `fastboot devices`
+
+To delete the data: `fastboot erase userdata`
+
+To delete cache: `fastboot erase cache`
+---
+
 ---
 
 ## tips
@@ -653,6 +767,7 @@ $ adb shell install -g MyApp.apk # 自动授予APP所有权限
 	adb shell input keyevent 92 #向上翻页键
 	
     adb shell input keyevent 93 #向下翻页键
+
 
 ---
 ## 问题  
@@ -690,6 +805,20 @@ adb pull /data/system/gatekeeper.password.key
 
 [adbd cannot run as root in production builds的解决方法
 ](https://blog.csdn.net/singleton1900/article/details/18602229)  
+
+## failed on '/sdcard/busybox' - Cross-device link
+安卓的adb shell中，没有cp命令，使用mv文件的时候出现cross-device link错误：  
+出现错误的原因是mv命令不允许将存储卡中的文件复制到/system/或/data/分区中，因为两者被认为是在不同的设备上。  
+那怎么才能将/sdcard/路径下的文件复制到/system/或/data/分区呢？  
+解决办法就是通过cat命令和重定向功能。  
+
+```
+root@android:/sdcard # mv /sdcard/busybox /system/bin                          
+failed on '/sdcard/busybox' - Cross-device link
+
+```
+[安卓adb shell中mv引起cross-device link错误解决办法](https://blog.csdn.net/readnap/article/details/67631721)  
+
 
 ## LINKS
 
