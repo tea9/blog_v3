@@ -115,12 +115,112 @@ android:mimeType。指定可以处理的数据类型，允许使用通配符的�
 </activity>
 ```
 
-在启动会提示Permission Denial  
+通过其他应用在启动会提示Permission Denial  
 ![](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/32/1.png)  
 
 ### 设置权限
-TODO
 
+tips: startapp需要打包且不用相同签名测试。  
+
+启动方代码不变，来改变被启动方的代码测试权限。  
+
+#### 初始代码：  
+
+启动方：   
+
+```
+startActivity(new Intent("com.demo.homeapp.test"));
+
+```
+
+被启动方：  
+
+```
+ <activity android:name=".TestActivity" >
+    <intent-filter>
+        <action android:name="com.demo.homeapp.test"/>
+        <category android:name="android.intent.category.DEFAULT"/>
+    </intent-filter>
+</activity>
+```
+
+#### 没添加android:protectionLevel=的权限声明  
+
+启动方代码  
+
+```
+<uses-permission android:name="com.demo.homeapp.StartPermission"/>
+
+startActivity(new Intent("com.demo.homeapp.test"));
+```
+
+被启动方代码  
+
+```
+<permission android:name="com.demo.homeapp.StartPermission" android:label="startpermission" />
+
+<activity android:name=".TestActivity" android:permission="com.demo.homeapp.StartPermission">
+    <intent-filter>
+        <action android:name="com.demo.homeapp.test"/>
+        <category android:name="android.intent.category.DEFAULT"/>
+    </intent-filter>
+</activity>
+```
+
+可以正常启动  
+
+
+#### 添加android:protectionLevel="normal"权限声明  
+
+启动方代码  
+
+```
+<uses-permission android:name="com.demo.homeapp.StartPermission"/>
+
+startActivity(new Intent("com.demo.homeapp.test"));
+```
+
+被启动方代码  
+```
+ <permission android:name="com.demo.homeapp.StartPermission" android:label="startpermission" android:protectionLevel="normal"/>
+
+<activity android:name=".TestActivity" android:permission="com.demo.homeapp.StartPermission">
+    <intent-filter>
+        <action android:name="com.demo.homeapp.test"/>
+        <category android:name="android.intent.category.DEFAULT"/>
+    </intent-filter>
+</activity>
+```
+可以正常启动 
+打正式包也可以启动
+
+#### 添加android:protectionLevel="signature"权限声明  
+
+被启动方代码  
+```
+<permission android:name="com.demo.homeapp.StartPermission" android:label="startpermission" android:protectionLevel="signature" />
+```
+
+打正式包 同一个签名文件 可以正常启动  
+打正式包 不同签名文件 不可以启动 报错`java.lang.SecurityException: Permission Denial: starting Intent { act=com.demo.homeapp.test cmp=com.demo.homeapp/.TestActivity } from ProcessRecord`  
+
+#### 添加android:protectionLevel="signatureOrSystem"权限声明  
+
+被启动方代码  
+```
+<permission android:name="com.demo.homeapp.StartPermission" android:label="startpermission" android:protectionLevel="signatureOrSystem" />
+```
+打正式包 同一个签名文件 可以正常启动  
+打正式包 不同签名文件 不可以启动 报错`java.lang.SecurityException: Permission Denial: starting Intent { act=com.demo.homeapp.test cmp=com.demo.homeapp/.TestActivity } from ProcessRecord`  
+
+---
+
+权限解释：  
+
+normal：这是最低风险的权限，如果应用声明了此权限，也不会提示安装应用的用户授权（例如，如果声明了定位权限，则应用到定位功能时，会明确提示用户，是否授予定位权限，但是protectionLevel为normal的不会明确提示，直接默认授予），系统直接默认该应用有此权限；  
+dangerous：这种级别的权限风险更高，拥有此权限可能会访问用户私人数据或者控制设备，给用户带来负面影响，这种类型的权限一般不会默认授权（但是我测了好多次，有时候还是会默认授权）；  
+signature：这种权限级别，只有当发请求的应用和接收此请求的应用使用同一签名文件，并且声明了该权限才会授权，并且是默认授权，不会提示用户授权  
+signatureOrSystem：这种权限应该尽量避免使用，偏向系统级，同一签名或系统级  
 
 
 ## activity导出-拒绝服务
@@ -135,7 +235,14 @@ TODO
 webview file控制不当加上activity组件导出就可以导致敏感数据泄露。  
 [webview file域控制不严格读取内部私有文件](https://tea9.xyz/post/3957115657.html)  
 
+## CODE
+
+[start_activity](https://github.com/tea9/start_activity)   
+
 ## LINKS
+
 [Android Intent的隐示启动（启动其他APP界面并传递数据）](https://www.jianshu.com/p/821b76a713fe) 
 [Android中通过其他APP启动Activity的四种方式](https://blog.csdn.net/weixin_36570478/article/details/81324698)  
 [Android:跨应用启动Activity](https://blog.csdn.net/qq_40740256/article/details/83625403)  
+[给activity设置自定义权限](https://blog.csdn.net/JQ_AK47/article/details/52488365)  
+[为ACTIVITY设置特定权限才能启动](https://www.cnblogs.com/prescheng/p/6113141.html)  

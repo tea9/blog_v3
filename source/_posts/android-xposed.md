@@ -56,8 +56,8 @@ adb reboot recovery
 
 官方TWRP下载地址：https://twrp.me/xiaomi/xiaomimi6.html  （找不到下载地方的人请寻找Download Links，下面的链接随便找一个就行了）  
 
-修改版TWRP下载地址（支持8.0+，目前9.0无可以揭秘内部存储的方法）：https://www.androidfilehost.com/?fid=818070582850499029（需fan强），搬运地址：   
-
+修改版TWRP下载地址（支持8.0+，目前9.0无可以揭秘内部存储的方法）：https://www.androidfilehost.com/?fid=818070582850499029  
+（需fan强），搬运地址：   
 链接: https://pan.baidu.com/s/1AAw2kBJ-138JybaTrJkMRg 密码: bqfj  
 
 

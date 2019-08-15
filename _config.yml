@@ -145,10 +145,13 @@ comment:
 #   type: disqus
 #   script: 'https://airclouds-blog.disqus.com/embed.js'
 
-# donate:
-#   img: img/donate.jpg
-#   content: 感谢鼓励
+donate:
+  img: img/donate.png
+  content: 感谢鼓励
 
+avatar_style:
+  radius: true
+  
 # The following content is not recommended to modify
 # 搜索数据文件路径设置，不建议改动
 search:
@@ -171,8 +174,8 @@ live2d:
     use: live2d-widget-model-hijiki
   display:
     position: right
-    width: 250
-    height: 400
+    width: 200
+    height: 350
   mobile:
     show: true
 
