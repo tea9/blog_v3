@@ -17,6 +17,8 @@ recovery音量+
 
 下载nexus刷机包  
 [rom](https://developers.google.com/android/images?hl=zh-CN)  
+[romcn](https://developers.google.cn/android/images#sailfish)  
+
 我选择的是4.4.4(KTU84P)  
 
 [刷机](https://blog.csdn.net/u012417380/article/details/72843185)  
@@ -126,4 +128,4 @@ reboot system
 [MIUI9 Android6.0.1适用的xposed](https://www.52pojie.cn/thread-657193-1-1.html)  
 [[教程] 无需卡刷！Xposed框架MIUI9官方包刷入教程](http://www.miui.com/thread-12259633-1-1.html)  
 [[教程] MIUI10 Xposed框架安装教程,依旧无需卡刷!](http://www.miui.com/thread-16911319-1-1.html)  
-
+[xposed框架-Hook修改imei imsi](https://blog.csdn.net/d3soft/article/details/53209352)  

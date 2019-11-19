@@ -156,3 +156,4 @@ app/assets/xposed_init
 [Xposed 模块免重启开发(借助VirtualXposed)](https://www.jianshu.com/p/938e8c4c00df)  
 [Android Hook框架Xposed详解：从源代码分析到开发指南](https://blog.csdn.net/zhangmiaoping23/article/details/53365780)  
 [VirtualXposed](https://blog.csdn.net/zhangmiaoping23/article/details/80432276)  
+[xposed框架-Hook修改imei imsi](https://blog.csdn.net/d3soft/article/details/53209352)  

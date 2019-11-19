@@ -753,6 +753,12 @@ Check whether the mobile phone is also in fastboot mode: `fastboot devices`
 To delete the data: `fastboot erase userdata`
 
 To delete cache: `fastboot erase cache`
+
+## 查看ip
+
+```
+adb shell netcfg
+```
 ---
 
 ---
@@ -850,3 +856,4 @@ failed on '/sdcard/busybox' - Cross-device link
 [Android ADB命令大全(通过ADB命令查看wifi密码、MAC地址、设备信息、操作文件、查看文件、日志信息、卸载、启动和安装APK等)](https://zmywly8866.github.io/2015/01/24/all-adb-command.html)  
 [使用adb命令停止APP后台进程的方法](https://yq.aliyun.com/articles/62892)  
 [adb命令打开手机设置页面](https://blog.csdn.net/flaming999/article/details/78709396/)  
+[通过ADB WiFi Connect插件无线真机调试](https://blog.csdn.net/ican87/article/details/82378850)  

@@ -10,6 +10,24 @@ abbrlink: 229799766
 date: 2019-01-21 00:00:00
 ---
 
+## 条件跳转分支
+```
+条件跳转分支：
+
+"if-eq vA, vB, :cond_**"   如果vA等于vB则跳转到:cond_**
+"if-ne vA, vB, :cond_**"   如果vA不等于vB则跳转到:cond_**
+"if-lt vA, vB, :cond_**"    如果vA小于vB则跳转到:cond_**
+"if-ge vA, vB, :cond_**"   如果vA大于等于vB则跳转到:cond_**
+"if-gt vA, vB, :cond_**"   如果vA大于vB则跳转到:cond_**
+"if-le vA, vB, :cond_**"    如果vA小于等于vB则跳转到:cond_**
+"if-eqz vA, :cond_**"   如果vA等于0则跳转到:cond_**
+"if-nez vA, :cond_**"   如果vA不等于0则跳转到:cond_**
+"if-ltz vA, :cond_**"    如果vA小于0则跳转到:cond_**
+"if-gez vA, :cond_**"   如果vA大于等于0则跳转到:cond_**
+"if-gtz vA, :cond_**"   如果vA大于0则跳转到:cond_**
+"if-lez vA, :cond_**"    如果vA小于等于0则跳转到:cond_**
+```
+
 ## 常用逻辑
 
 ```
@@ -272,3 +290,4 @@ HelloWorld.smali
 	
 ## LINKS
 [用 Smali 手写一个可运行的 HelloWorld！！！](https://www.cnblogs.com/plokmju/p/7742759.html)  
+[Smali基本语法](https://www.cnblogs.com/lee0oo0/p/3728271.html)  

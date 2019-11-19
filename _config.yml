@@ -6,7 +6,8 @@
 title: tea9的博客
 subtitle: 加油
 description: 心中有光の孩子
-keywords: tea9,tea9的博客,开发,android,编程,安全
+# description: 只要接受自己菜的事实，就感觉没那么难受了
+keywords: tea9,tea9的博客,开发,android,安全
 author: tea9
 language: zh-CN
 timezone:
@@ -30,7 +31,7 @@ source_dir: source
 public_dir: public
 tag_dir: tags
 archive_dir: archives
-category_dir: categories
+category_dir: category
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
@@ -51,10 +52,10 @@ post_asset_folder: true
 relative_link: false
 future: true
 highlight:
-  enable: true
-  line_number: true
-  auto_detect: true
-  tab_replace:
+  enable: false
+  line_number: false
+  auto_detect: false
+  tab_replace: 2
   
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
@@ -62,17 +63,19 @@ highlight:
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
   path: ''
-  per_page: 20
+  per_page: 50
   order_by: -date
 
 archive_generator:
-  per_page: 10
+  per_page: 50
   yearly: true
   monthly: true
 
 tag_generator:
   per_page: 10
 
+category_generator:
+  per_page: 10
   
 # Category & Tag
 default_category: uncategorized
@@ -94,7 +97,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: aircloud
+theme: ice
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -121,6 +124,7 @@ github_username:    tea9
 #twitter_username:   shaomiaosun
 #facebook_username:  
 #linkedin_username:  
+#jianshu_username: tea9
 
 # Build settings
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
@@ -155,9 +159,12 @@ avatar_style:
 # The following content is not recommended to modify
 # 搜索数据文件路径设置，不建议改动
 search:
-  path: search.json
+  enable: true
+  path: search.xml
   field: post
-
+  format: html
+  limit: 10000
+  
 # 文章样式(是否首行缩进)：
 post_style:
   indent: 0
@@ -181,112 +188,139 @@ live2d:
 
 # Friends
 # 友情链接
-friends: [
-    {
-        title: "tea9",
-        href: "https://tea9.github.io"
-    },{
-        title: "Miracles",
-        href: "https://miracles666.github.io"
-    },{
-        title: "童年是个风筝的博客",
-        href: "https://www.zhangqirun.cn"
-    },{
-        title: "文科中的技术宅",
-        href: "https://townwang.com"
-    },{
-        title: "耀日庄主的博客",
-        href: "https://sunbossrs.github.io"
-    # },{
-    #     title: "量子",
-    #     href: "https://www.pdcblog.tk"
-    },{
-        title: "pdcgame",
-        href: "https://www.pdcgame.com"
-    },{
-        title: "gloomyghost",
-        href: "http://gloomyghost.com/"
-    },{
-        title: "FGHRSH",
-        href: "https://www.fghrsh.net"
-    },{
-        title: "藤の青",
-        href: "https://a632079.me"
-    },{
-        title: "幸运草",
-        href: "https://www.vseu.com/"
-    },{
-        title: "诗与酒",
-        href: "https://shawnzeng.com/"
-    },{
-        title: "NekoHome 喵窝",
-        href: "https://nekohome.moenya.cat"
-    },{
-        title: "清酒踏月",
-        href: "https://www.lkxin.cn"
-    },{
-        title: "冰峰博客",
-        href: "http://www.ad-s.cn/"
-    },{
-        title: "以梦为马，奔向远方",
-        href: "https://linhai1990.com"
-    # },{ 访问不了了
-    #     title: "终南小筑",
-    #     href: "https://www.cnliuqi.com"
-    },{
-        title: "Unique",
-        href: "http://login546.xyz"
-    },{
-        title: "雨落泪尽",
-        href: "https://1000yun.cn/"
-    },{
-        title: "Laugh's Blog",
-        href: "https://laugh12321.github.io"
-    },{
-        title: "ShaoZhi's Blog",
-        href: "https://shaozhi.site"
-    },{
-        title: "Xiang Xiz",
-        href: "https://www.xiz.im"
-    },{
-        title: "lan酱的小窝",
-        href: "https://www.xx8.uk"
-    },{
-        title: "Casey",
-        href: "https://www.ckbug.com"
-    },{
-        title: "星夜的蓝天",
-        href: "http://poi.ac/"
-    },{
-        title: "俍注",
-        href: "http://www.oneinf.com"
-    },{
-        title: "暗羽表姐",
-        href: "https://darkwing.moe/"
-    },{
-        title: "ju5tw4nty0u",
-        href: "http://ju5tw4nty0u.top/"
-    },{
-        title: "如鱼说|仓鼠的博客",
-        href: "http://www.itfire.cn"
-    },{
-        title: "k0rz3n",
-        href: "https://www.k0rz3n.com/"
-    },{
-        title: "月宅酱",
-        href: "http://ikmoe.com/"
-    },{
-        title: "七夏浅笑",
-        href: " https://www.julydate.com"
-    },{
-        title: "咸鱼滩音乐团队",
-        href: "https://www.xytsing.com"
-    # },{
-    #     title: "尝精阁大湿胸",
-    #     href: "www.yppcat.top"
-    },{
-      title: "sakura",
-      href: "http://eternalsakura13.com/"
-    }
+# links: [
+#     {
+#         title: "tea9",
+#         href: "https://tea9.github.io"
+#     },{
+#         title: "Miracles",
+#         href: "https://miracles666.github.io"
+#     },{
+#         title: "童年是个风筝的博客",
+#         href: "https://www.zhangqirun.cn"
+#     },{
+#         title: "文科中的技术宅",
+#         href: "https://townwang.com"
+#     },{
+#         title: "耀日庄主的博客",
+#         href: "https://sunbossrs.github.io"
+#     # },{
+#     #     title: "量子",
+#     #     href: "https://www.pdcblog.tk"
+#     },{
+#         title: "pdcgame",
+#         href: "https://www.pdcgame.com"
+#     },{
+#         title: "gloomyghost",
+#         href: "http://gloomyghost.com/"
+#     },{
+#         title: "FGHRSH",
+#         href: "https://www.fghrsh.net"
+#     },{
+#         title: "藤の青",
+#         href: "https://a632079.me"
+#     },{
+#         title: "幸运草",
+#         href: "https://www.vseu.com/"
+#     },{
+#         title: "诗与酒",
+#         href: "https://shawnzeng.com/"
+#     },{
+#         title: "NekoHome 喵窝",
+#         href: "https://nekohome.moenya.cat"
+#     },{
+#         title: "清酒踏月",
+#         href: "https://www.lkxin.cn"
+#     },{
+#         title: "冰峰博客",
+#         href: "http://www.ad-s.cn/"
+#     # },{
+#     #     title: "以梦为马，奔向远方",
+#     #     href: "https://linhai1990.com"
+#     # },{ 访问不了了
+#     #     title: "终南小筑",
+#     #     href: "https://www.cnliuqi.com"
+#     },{
+#         title: "Unique",
+#         href: "http://login546.xyz"
+#     },{
+#         title: "雨落泪尽",
+#         href: "https://1000yun.cn/"
+#     },{
+#         title: "Laugh's Blog",
+#         href: "https://laugh12321.github.io"
+#     },{
+#         title: "ShaoZhi's Blog",
+#         href: "https://shaozhi.site"
+#     },{
+#         title: "Xiang Xiz",
+#         href: "https://www.xiz.im"
+#     },{
+#         title: "lan酱的小窝",
+#         href: "https://www.xx8.uk"
+#     },{
+#         title: "Casey",
+#         href: "https://www.ckbug.com"
+#     },{
+#         title: "星夜的蓝天",
+#         href: "http://poi.ac/"
+#     },{
+#         title: "俍注",
+#         href: "http://www.oneinf.com"
+#     },{
+#         title: "暗羽表姐",
+#         href: "https://darkwing.moe/"
+#     },{
+#         title: "ju5tw4nty0u",
+#         href: "http://ju5tw4nty0u.top/"
+#     },{
+#         title: "如鱼说|仓鼠的博客",
+#         href: "http://www.itfire.cn"
+#     },{
+#         title: "k0rz3n",
+#         href: "https://www.k0rz3n.com/"
+#     },{
+#         title: "月宅酱",
+#         href: "http://ikmoe.com/"
+#     },{
+#         title: "七夏浅笑",
+#         href: " https://www.julydate.com"
+#     },{
+#         title: "咸鱼滩音乐团队",
+#         href: "https://www.xytsing.com"
+#     # },{
+#     #     title: "尝精阁大湿胸",
+#     #     href: "www.yppcat.top"
+#     },{
+#       title: "sakura",
+#       href: "http://eternalsakura13.com/"
+#     },{
+#       title: "y00",
+#       href: "https://snowflowersnowflake.github.io/"
+#     },{
+#       title: "楼兰",
+#       href: "http://www.teagle.top/"
+#     },{
+#       title: "林晨",
+#       href: "https://0chencc.github.io"
+#     },{
+#       title: "Xenc",
+#       href: "http://console-log.cn/"
+#     },{
+#       title: "华强",
+#       href: "https://cybersecur1ty.github.io/"
+#     },{
+#       title: "secES",
+#       href: "https://blog.csdn.net/zcj_1996"
+#     },{
+#       title: "奶茶姐姐",
+#       href: "https://milktea.info"
+#     },{
+#       title: "blad",
+#       href: "https://evil-of-blad.github.io/"
+#     },{
+#       title: "夏风",
+#       href: "https://blog.xiafeng2333.top/"
+#     }
 
-]
+# ]

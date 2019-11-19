@@ -25,11 +25,13 @@ webview内置导出的searchBoxJavaBridge_对象
 API < 17
 webview内置导出的accessibility和accessibilityTraversal Object对象
 Android3.0到4.4
+
 ## 0x03 密码明文存储漏洞
 API for all
 webview.setSavePassword(true)
 开启后，在用户输入密码时，会弹出提示框 询问用户是否保存密码
 选择是密码会明文保存到/data/data/com.package.name/databases/webview.db
+
 ## 0x04 域控制不严格漏洞
 API for all(其实 android4.1 之后下面的值默认为 false)
 file 协议 -- WebView域控制不严格漏洞
@@ -42,27 +44,24 @@ webview.setAllowFileAccess(false);
 
 1.https认证
 
-
-
 自签名证书
 WebViewClient onReceivedSslError 默认handler.cancel()(白屏) 直接使用handler.proceed() 忽略了证书存在安全隐患
 读取asserts中根证书 通过了 继续执行handler.proceed() 否则执行handler.cancel()
 
-ca认证
-无需要特殊处理
 
+## 其他
+
+webview 基础设置
+```
+settings.setPluginState(WebSettings.PluginState.OFF);// 支持插件
+如务必要设置off
+``
+
+## LINKS
 
 https://www.cnblogs.com/liyiran/p/7011317.html
 https://blog.csdn.net/lsyz0021/article/details/54669914
 https://www.cnblogs.com/sslwork/p/6193258.html
-
-## LINKS
-其他
-webview 基础设置
-
-settings.setPluginState(WebSettings.PluginState.OFF);// 支持插件
-如务必要设置off
-
 https://blog.csdn.net/harvic880925/article/details/51523983
 https://blog.csdn.net/carson_ho/article/details/64904635
 https://blog.csdn.net/qq_30993595/article/details/80678795

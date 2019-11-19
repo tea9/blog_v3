@@ -9,7 +9,16 @@ date: 2019-08-13 19:07:09
 ---
 
 ## 本地拒绝服务
+TODO  
+还没写完  
 
+主要思路就是  
+启动组件然后传参  
+
+```
+adb shell am start -n com.qihoo.checkextracrash/.MainActivity -e package_name packagename -e class_name componentname
+
+```
 
 ## CODES
 
@@ -22,4 +31,5 @@ date: 2019-08-13 19:07:09
 [本地拒绝服务](https://www.jianshu.com/p/fa27cdbca90d)  
 [Android常见漏洞之本地拒绝服务漏洞](https://bbs.ichunqiu.com/thread-38078-1-1.html)  
 [利用Drozer进行app本地拒绝服务漏洞测试](http://rui0.cn/archives/30)  
-[Android APP通用型拒绝服务漏洞分析报告](https://www.secpulse.com/archives/3859.html#goComment)  
+[Android APP通用型拒绝服务漏洞分析报告](
+)  

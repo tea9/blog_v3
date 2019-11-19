@@ -18,6 +18,19 @@ date: 2019-04-11 13:38:47
 测试包[sieve.apk](https://github.com/mwrlabs/drozer/releases/download/2.3.4/sieve.apk)  
 [官方使用文档](https://labs.mwrinfosecurity.com/assets/BlogFiles/mwri-drozer-user-guide-2015-03-23.pdf)  
 
+
+```
+sudo pip install dist/drozer-2.x.x-py2-none-any.whl
+
+adb install drozer-agent-2.x.x.apk
+
+drozer-agent Enabled
+
+adb forward tcp:31415 tcp:31415
+drozer console connect
+```
+---
+
 **基础信息获取**
 ```
 run app.package.list -f sieve

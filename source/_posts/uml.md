@@ -28,7 +28,8 @@ date: 2019-07-19 17:38:59
 
 
 
-
+## Process On创建时序图
+新建-UML
 
 
 ## LINKS
@@ -38,4 +39,7 @@ date: 2019-07-19 17:38:59
 [时序图、流程图、状态图、协作图之间的区别](https://blog.csdn.net/rosekin/article/details/14519277)  
 [markdown进阶语法--时序图](https://www.kancloud.cn/yanshandou/kam2/598851)  
 [时序图-登录](https://www.processon.com/view/5ac98d94e4b0cfe274871107)  
+[【UML 建模】在线UML建模工具 ProcessOn 使用详解](https://blog.csdn.net/shulianghan/article/details/47684729)  
+[UML类图（Class Diagram）中类与类之间的关系及表示方式](https://blog.csdn.net/a19881029/article/details/8957441)  
+[用在线工具processOn画UML的用例图和时序图](https://www.cnblogs.com/zjh55/p/6834806.html)  
 

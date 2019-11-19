@@ -10,6 +10,7 @@ tags:
 [jythondownload](http://www.jython.org/downloads.html)  
 下载standalone版本的  
 
+## 在burp中设置
 burp-Extender-Options-Python Environment JAR file
 
 ## LINKS

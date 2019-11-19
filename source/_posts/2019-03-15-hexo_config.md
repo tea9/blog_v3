@@ -11,6 +11,19 @@ date: 2019-03-15 00:00:00
 
 为什么要用hexo，首先是因为gitalk 出现了一个Error: Validation Failed.问题，具体原因是gitalk 的id 有50个字符的限制，因为是用的pathname，然后pathname长度超了，然后去网上搜索问题，发现有的解决方法是要改成site.title,但是我有部分文章的title也是超长的，然后这个问题一直搁置了，后来我看到了一个hexo的持久化链接的文章，可以随机生成一个字符串作为持久化链接，是通过一个hexo-abbrlink的一个插件，我搜索了一下发现jekyll并没有这个插件，然后还发现了一些hexo的一些其他插件很好用，如hexo-admin，恩，就打算迁移到hexo。  
 
+## hexo基础命令
+
+```
+hexo new [layout] <title> 新建文章
+hexo generate 生成静态文件
+hexo publish [layout] <filename> 发表草稿
+hexo server 启动服务器
+hexo deploy 部署网站
+hexo clean 清除缓存文件 (db.json) 和已生成的静态文件 (public)。
+hexo --draft 显示草稿
+
+```
+
 ## hexo 初始化
 
 在使用hexo之前你需要安装nodejs  
@@ -163,3 +176,6 @@ http://localhost:4000/admin
 
 [live2d 小姐姐](https://www.live2d.com/ja/)  
 这个配置就麻烦点了，但是小姐姐挺可爱的  
+
+## LINKS
+[hexo文档](https://hexo.io/zh-cn/docs/)  
