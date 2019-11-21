@@ -10,6 +10,31 @@ tags:
 # daily
 
 ---
+## 2019-11-20
+
+#### 1.资源共享吧
+【链接】资源共享吧，专注于各大收费培训、VIP视频  
+http://www.zygx8.com 
+
+ 
+
+---
+## 2019-11-19
+#### 1.汽车安全测试
+[汽车安全测试Checklist](https://mp.weixin.qq.com/s/Pbru2pe-KeptQ909w4pk9w)  
+
+#### 2.antsword
+[从0到1打造一款堪称完美antSword(蚁剑)](https://xz.aliyun.com/t/6701). 
+
+#### 3.[工业和信息化部关于开展APP侵害用户权益专项整治工作的通知](http://www.miit.gov.cn/newweb/n1146285/n1146352/n3054355/n3057709/n4704651/c7506181/content.html)  
+
+#### 4.[对 ArabicRSS APK 应用木马样本的分析](https://www.4hou.com/malware/21520.html)  
+
+#### 5.[黑客攻击画像分析系统](https://github.com/gh0stkey/ahrid)  
+
+#### 6.[github actions](5 分钟玩转史上最强大的自动发布工具 GitHub Actions)  
+
+---
 ## 2019-11-18
 
 #### 1.[MagiskFrida]
@@ -24,7 +49,8 @@ Android 7.0以上使用EdXposed：
 [EdXposed](https://github.com/ElderDrivers/EdXposed)  
 [EdXposedManager](https://github.com/ElderDrivers/EdXposedManager)
 
-#### 3.SDK热修复
+#### 3.SDK热修复  
+[SDKHotFix](https://github.com/feelschaotic/SDKHotFix)  
 
 #### 4.android本地sql注入导致ddos
 [【技术分享】Android本地SQL注入的dos攻击方式](https://mp.weixin.qq.com/s?__biz=MzU4NzU1MjE4OQ==&mid=2247484014&idx=1&sn=8f4967e70960ee4be311414dced89812&chksm=fdeb06bcca9c8faa8aa192c80792d15b2f36b3c1a2744a88ad50b39feee4a2e1864441179710&mpshare=1&scene=23&srcid=&sharer_sharetime=1573792060913&sharer_shareid=e510e2a3a3c3888e73db582328234314)  
