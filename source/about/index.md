@@ -14,7 +14,7 @@ comments: false
 
   
 
-> 世界很大，互联网让世界变小，真的黑客们应该去思考并创造，无论当下是在破坏还是在创造，记住，未来，那条主线是创造的就对了。 ——by 余弦
+> 『不敢正视你的眼睛，是怕我每一个眼神都在告白。』-「九ちのセカィ」
   
   
   
@@ -39,10 +39,7 @@ comments: false
   
   
   
----
 
 
-邮箱:tea90@qq.com  
-github:https://www.github.com/tea9  
-qq:MTE1Mjg3MDMyOQ==  
+
 

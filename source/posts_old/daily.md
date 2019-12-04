@@ -9,49 +9,6 @@ tags:
 
 # daily
 
-### 2019-12-04
-[输入一张图，就能让二次元老婆动起来，宛如3D：“这全是为了科学啊”](https://zhuanlan.zhihu.com/p/94599371?utm_source=qq&utm_medium=social&utm_oi=742481877876604928)  
-[【Java 代码审计入门-02】SQL 漏洞原理与实际案例介绍](https://www.cnpanda.net/codeaudit/600.html)  
-
-https://www.ichunqiu.com/newRelease/android
-
-### 2019-12-02
-[安卓开发开发规范手册V1.0](https://juejin.im/post/5d6e68f8e51d45620064bba4)  
-[安全漏洞checklist](https://wiki.open.qq.com/wiki/%E5%AE%89%E5%85%A8%E6%BC%8F%E6%B4%9Echecklist)  
----
-## 2019-11-28
-[每日漏洞 | CRLF注入](https://www.jianshu.com/p/2f2e311e797b)  
-[从内网到域控（offensive实战）](https://www.anquanke.com/post/id/193431)  
-[Flash安全思考](https://mstwiki.acmesec.cn/article/127)  
-[内啥官网](https://www.neisha.cc)  
-[接码平台](http://47.92.208.5:9000)  
-
-### ssl证书校验
-
-[android中使用https是否对服务证书合法性校验的新的体会](https://www.cnblogs.com/kebibuluan/p/7569888.html)  
-[Android 根证书管理与证书验证](http://www.wolfcstech.com/2018/03/20/android_cert_mgr_and_verify/?utm_medium=hao.caibaojian.com&utm_source=hao.caibaojian.com)  
-[Android HTTPS证书验证的简单方式](https://www.jianshu.com/p/d7e247749071)  
-[Android证书有效性验证方案](https://www.cnblogs.com/fishou/p/4255060.html)  
-app根证书锁定+域名验证  
-[SSL Pinning Practice](https://sec.xiaomi.com/article/48)  
-[Android安全开发之安全使用HTTPS](https://www.cnblogs.com/alisecurity/p/5939336.html)  
-
-## 2019-11-25
-[渗透测试 APP流量通用抓包方法](https://mp.weixin.qq.com/s/CF6xBvmyKiQZGMrltCp2hg)  
-seebug  
-
----
-
-## 2019-11-23
-[浅析常见Debug调试器的安全隐患](https://security.tencent.com/index.php/blog/msg/137)  
-[Gmail XSS漏洞分析](https://xz.aliyun.com/t/6798)  
-
----
-## 2019-11-21
-[使用Xposed框架进行hook](https://la0s.github.io/2018/06/20/xposed/)  
-[某淘宝系产品抓包解决方案](https://blog.csdn.net/junges/article/details/103036012?utm_source=app)  
-[国家互联网信息办公室关于《网络安全威胁信息发布管理办法（征求意见稿）》公开征求意见的通知](https://mp.weixin.qq.com/s?__biz=MzAwMjU0MjIyNw==&mid=2651313078&idx=1&sn=6ac2fc49fac660b463d535ed9c21881c&chksm=813bac4ab64c255c4f1b31faa975c689f8b41c44c26464ea3fd95aaa1ac32e5d40d42f972936&mpshare=1&scene=23&srcid=&sharer_sharetime=1574225421638&sharer_shareid=973e3237d29dd0d4e6e30dfaa190f6e3)  
-
 ---
 ## 2019-11-20
 
