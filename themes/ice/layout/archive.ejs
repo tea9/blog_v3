@@ -1,0 +1,29 @@
+<div class="container">
+  <div class="archive">
+    <div class="notice">
+      <div style="text-align: center;">
+        文章归档
+      </div>
+    </div>
+    <% var date_cursor = 'xxx' %> <% page.posts.each(function (post) { %>
+    <div class="post-archive times">
+      <% if(date(post.date, "YYYY") != date_cursor) { %> <% date_cursor =
+      date(post.date, "YYYY") %>
+      <h3><%= date_cursor %></h3>
+      <% } %>
+      <ul>
+        <li class="post-item">
+          <b></b>
+          <span>
+            <%- date(post.date, "MM月DD日") %>:&nbsp;&nbsp;
+            <a class="post-title" href="<%- url_for(post.path) %>"
+              ><%= post.title %></a
+            >
+          </span>
+        </li>
+      </ul>
+    </div>
+    <% }) %>
+  </div>
+  <%- partial('_partial/paginator') %>
+</div>

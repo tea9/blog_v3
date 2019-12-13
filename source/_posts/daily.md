@@ -9,7 +9,20 @@ tags:
 
 # daily
 
+
+
+
+
+
+
+---
+
+
+
 ### 2019-12-04
+
+[移动取证：解密和提取电报(Telegram)消息](https://mp.weixin.qq.com/s/0l8N2IbAaG73qx9ooUoKyQ)  
+
 [输入一张图，就能让二次元老婆动起来，宛如3D：“这全是为了科学啊”](https://zhuanlan.zhihu.com/p/94599371?utm_source=qq&utm_medium=social&utm_oi=742481877876604928)  
 [【Java 代码审计入门-02】SQL 漏洞原理与实际案例介绍](https://www.cnpanda.net/codeaudit/600.html)  
 
@@ -139,7 +152,6 @@ https://wiki.x10sec.org/android/basic_reverse/static/so-example/
 #### 6.安卓常见漏洞
 
 [android常见漏洞](https://www.zhihu.com/question/22933619?sort=created)  
-
 
 ---
 
@@ -309,7 +321,6 @@ https://www.52pojie.cn/home.php?mod=space&uid=619334&do=thread&type=reply&view=m
 #### 7.[dingzhenkai](https://github.com/dingzhenkai)  
 
 #### 8.[WebLogic EJBTaglibDescriptor XXE漏洞(CVE-2019-2888)分析](https://blog.knownsec.com/2019/10/weblogic-ejbtaglibdescriptor-xxe漏洞cve-2019-2888分析/)  
-
 
 ---
 
