@@ -8,6 +8,7 @@ tags:
   - weixin 
 abbrlink: 2304481464
 date: 2018-06-21 00:00:00
+description: more
 ---
 
 [github测试地址](https://github.com/shaomiao/AndroidWechatTest)  

@@ -5,6 +5,7 @@ date: 2019-05-05 19:41:27
 tags:
 - android安全
 - webview
+description: more
 ---
 ## 0x01 跨站脚本攻击
 webview.getSettings().setJavaScriptEnabled(true) 设置WebView是否允许执行JavaScript脚本，默认false，不允许

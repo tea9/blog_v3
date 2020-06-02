@@ -8,6 +8,7 @@ tags:
   - web安全
 abbrlink: 1129050045
 date: 2018-06-11 00:00:00
+description: more
 ---
 ## MySQL手工注入
 ### 01 MySQL数据库结构

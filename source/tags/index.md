@@ -1,5 +1,5 @@
 ---
-layout: "tags"
-title: "Tags"
-date: 2019-03-15 14:28:50
+title: tags
+date: 2020-06-02 10:35:52
+type: tags
 ---

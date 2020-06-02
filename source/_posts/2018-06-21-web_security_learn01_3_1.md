@@ -8,6 +8,7 @@ tags:
   - sql盲注
 abbrlink: 2904355367
 date: 2018-06-21 00:00:00
+description: more
 ---
 ## SQL盲注-布尔盲注
 

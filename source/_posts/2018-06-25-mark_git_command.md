@@ -8,6 +8,7 @@ tags:
   - git
 abbrlink: 2129490429
 date: 2018-06-25 00:00:00
+description: more
 ---
 
 [github上fork了别人的项目后，再同步更新别人的提交](https://blog.csdn.net/qq1332479771/article/details/56087333)

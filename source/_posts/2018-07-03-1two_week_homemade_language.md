@@ -7,6 +7,7 @@ tags:
   - 脚本语言
 abbrlink: 395714690
 date: 2018-07-03 00:00:00
+description: more
 ---
 这是一个读两周自制脚本语言的笔记，然后立flag，这个月打算看完  
 

@@ -7,6 +7,7 @@ tags:
   - 树莓派
 abbrlink: 2224320310
 date: 2018-10-23 00:00:00
+description: more
 ---
 
 ## 更新系统&关机&重启

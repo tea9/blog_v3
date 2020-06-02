@@ -4,6 +4,7 @@ tags:
   - android安全
 abbrlink: 3731712053
 date: 2019-07-10 17:06:46
+description: more
 ---
 ## 配置环境变量
 [apktool.sh](https://raw.githubusercontent.com/iBotPeaches/Apktool/master/scripts/osx/apktool)  

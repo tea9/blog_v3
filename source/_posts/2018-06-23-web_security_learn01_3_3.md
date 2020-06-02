@@ -8,6 +8,7 @@ tags:
   - sql盲注
 abbrlink: 2964387005
 date: 2018-06-23 00:00:00
+description: more
 ---
 
 > 需要目标机器时windows系统

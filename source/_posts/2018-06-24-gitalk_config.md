@@ -9,6 +9,7 @@ tags:
   - jekyll
 abbrlink: 2319578569
 date: 2018-06-24 00:00:00
+description: more
 ---
 
 [jekyll-theme-H2O](https://github.com/tea9/jekyll-theme-H2O)的gitalk配置

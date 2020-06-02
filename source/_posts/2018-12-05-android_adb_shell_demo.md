@@ -5,6 +5,7 @@ category: android
 tags: android
 abbrlink: 2276706714
 date: 2018-12-05 00:00:00
+description: more
 ---
 
 之前有写过常用的adb shell 的命令。  

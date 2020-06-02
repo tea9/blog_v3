@@ -8,6 +8,7 @@ tags:
   - termux
 abbrlink: 3612980045
 date: 2018-10-12 00:00:00
+description: more
 ---
 
 ## 前言：

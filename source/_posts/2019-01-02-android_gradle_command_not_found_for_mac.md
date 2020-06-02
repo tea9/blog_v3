@@ -7,6 +7,7 @@ tags:
   - android
 abbrlink: 919398938
 date: 2019-01-02 00:00:00
+description: more
 ---
 
 [[Mac] gradle command not found 解决方法](https://blog.csdn.net/blue_zy/article/details/79862373)  

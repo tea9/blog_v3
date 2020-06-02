@@ -5,6 +5,7 @@ date: 2019-08-01 10:08:55
 tags:
 	- android安全
 	- APP漏洞
+description: more
 ---
 ## 搜狗输入法的com.sogou.udp.push.PushServiceReceiver导出，并且数据可控，通过构造恶意数据，可以触发通知及振动响铃。
 

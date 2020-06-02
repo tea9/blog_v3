@@ -7,6 +7,7 @@ tags:
   - android
 abbrlink: 2987589929
 date: 2018-11-29 00:00:00
+description: more
 ---
 
 [搞定加密卡！小米门禁卡模拟那些事](http://bbs.xiaomi.cn/t-30553502-1-o1)  

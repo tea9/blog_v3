@@ -7,6 +7,7 @@ tags:
   - 设计模式
 abbrlink: 2113223531
 date: 2018-08-10 00:00:00
+description: more
 ---
 
 ## 策略模式

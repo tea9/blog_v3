@@ -8,6 +8,7 @@ tags:
   - web安全
 abbrlink: 1786754042
 date: 2018-06-11 00:00:00
+description: more
 ---
 ## MySql常用函数及逻辑运算
 ### 01 常用的函数

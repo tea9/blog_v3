@@ -7,6 +7,7 @@ tags:
   - sql注入
 abbrlink: 41038608
 date: 2018-07-06 00:00:00
+description: more
 ---
 
 ## 01 二次编码注入原理

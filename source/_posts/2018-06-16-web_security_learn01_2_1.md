@@ -7,6 +7,7 @@ tags:
   - sql注入
 abbrlink: 2839042794
 date: 2018-06-16 00:00:00
+description: more
 ---
 
 ## union查询注入
