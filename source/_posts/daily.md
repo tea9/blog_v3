@@ -1,9 +1,13 @@
 ---
 title: daily
 abbrlink: 2961313865
-date: 2222-06-08 14:42:12
+date: 2019-06-08 14:42:12
 tags:
 description: more
+categories:
+- [Diary, PlayStation]
+- [Diary, Games]
+- [Life]
 top: true
 ---
 

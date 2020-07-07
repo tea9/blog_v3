@@ -160,6 +160,13 @@ avatar_style:
   
 # The following content is not recommended to modify
 # 搜索数据文件路径设置，不建议改动
+# search:
+#   enable: true
+#   path: search.xml
+#   field: post
+#   format: html
+#   limit: 10000
+
 search:
   enable: true
   path: search.xml
