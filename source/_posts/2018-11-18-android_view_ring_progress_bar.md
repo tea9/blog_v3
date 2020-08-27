@@ -10,7 +10,7 @@ date: 2018-11-18 00:00:00
 description: more
 ---
 
-![效果图](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/24/03.jpg)
+![效果图](https://raw.githubusercontent.com/tea9/image/master/blog_img/24/03.jpg)
 
 ## 代码
 

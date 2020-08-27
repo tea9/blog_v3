@@ -14,14 +14,14 @@ description: more
 ## 时间盲注
 
 ### 时间盲注原理
-![](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/06/01.png)
-![](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/06/02.png)
+![](https://raw.githubusercontent.com/tea9/image/master/blog_img/06/01.png)
+![](https://raw.githubusercontent.com/tea9/image/master/blog_img/06/02.png)
 
 
 
 ### 时间盲注方法
 
-![](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/06/03.png)
+![](https://raw.githubusercontent.com/tea9/image/master/blog_img/06/03.png)
 	
 	http://localhost:90/Less-10/?id=1" and if(left(user(),1)='a',0,sleep(3))--+
 
@@ -29,8 +29,8 @@ description: more
 
 时间注入脚本  
 
-![](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/06/04.png)
-![](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/06/05.png)
+![](https://raw.githubusercontent.com/tea9/image/master/blog_img/06/04.png)
+![](https://raw.githubusercontent.com/tea9/image/master/blog_img/06/05.png)
 
 --- 
 ## links

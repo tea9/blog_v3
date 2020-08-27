@@ -11,7 +11,7 @@ description: more
 ---
 
 示例图  
-![原型图](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/18/01.png)
+![原型图](https://raw.githubusercontent.com/tea9/image/master/blog_img/18/01.png)
 
 分析：  
 通过分析原型图，分为4个模块  
@@ -29,7 +29,7 @@ description: more
 指示器切换使用[MagicIndicator](https://github.com/hackware1993/MagicIndicator)库  
 内容列表使用ViewPager+Fragment（RecyclerView）  
 
-![实现图](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/18/03.png)
+![实现图](https://raw.githubusercontent.com/tea9/image/master/blog_img/18/03.png)
 
 其他依赖：  
 
@@ -100,7 +100,7 @@ activity_home_viewpager.xml
 
 分析：  
 使用CoordinatorLayout+AppBarLayout+Toolbar实现tab头部依附效果  
-![列表图](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/18/02.png)
+![列表图](https://raw.githubusercontent.com/tea9/image/master/blog_img/18/02.png)
 MagicIndicator指示器控件  
 ViewPager指示器滑动切换  
 
@@ -162,7 +162,7 @@ item_banner.xml
 
 
 item_banner.xml实现了轮播图+公告  
-![轮播图+广告](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/18/04.png)
+![轮播图+广告](https://raw.githubusercontent.com/tea9/image/master/blog_img/18/04.png)
 BGABanner轮播图  
 ViewFlipper公告
 

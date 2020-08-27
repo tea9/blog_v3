@@ -12,7 +12,7 @@ description: more
 
 **效果如下**  
 
-![](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/23/1.gif)
+![](https://raw.githubusercontent.com/tea9/image/master/blog_img/23/1.gif)
 
 ## 思路
 

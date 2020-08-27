@@ -117,7 +117,7 @@ android:mimeType。指定可以处理的数据类型，允许使用通配符的�
 ```
 
 通过其他应用在启动会提示Permission Denial  
-![](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/32/1.png)  
+![](https://raw.githubusercontent.com/tea9/image/master/blog_img/32/1.png)  
 
 ### 设置权限
 

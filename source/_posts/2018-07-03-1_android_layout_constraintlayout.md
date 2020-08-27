@@ -46,7 +46,7 @@ description: more
             app:layout_constraintTop_toBottomOf="@id/a" />
     </android.support.constraint.ConstraintLayout>
 
-![](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/19/1.png)
+![](https://raw.githubusercontent.com/tea9/image/master/blog_img/19/1.png)
 
 2.左右排列  
 
@@ -76,7 +76,7 @@ description: more
     </android.support.constraint.ConstraintLayout>
 
 
-![](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/19/2.png)
+![](https://raw.githubusercontent.com/tea9/image/master/blog_img/19/2.png)
 
 左右排列更严谨的写法   
 
@@ -110,7 +110,7 @@ description: more
     </android.support.constraint.ConstraintLayout>
 
 
-![](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/19/2.png)
+![](https://raw.githubusercontent.com/tea9/image/master/blog_img/19/2.png)
 
 3.靠最右边  
 
@@ -132,7 +132,7 @@ description: more
     </android.support.constraint.ConstraintLayout>
 
 
-![](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/19/3.png)
+![](https://raw.githubusercontent.com/tea9/image/master/blog_img/19/3.png)
 
 	constraiontEnd 是自己本身的
 	toEnd 底部停靠的
@@ -189,7 +189,7 @@ description: more
     </android.support.constraint.ConstraintLayout>
 
 
-![](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/19/4.png)
+![](https://raw.githubusercontent.com/tea9/image/master/blog_img/19/4.png)
 
 延伸两个属性
     
@@ -230,7 +230,7 @@ description: more
     </android.support.constraint.ConstraintLayout>
 
 
-![](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/19/5.png)
+![](https://raw.githubusercontent.com/tea9/image/master/blog_img/19/5.png)
 
 左右分散：  
 
@@ -263,7 +263,7 @@ description: more
             android:text="@string/c"/>
     </android.support.constraint.ConstraintLayout>
 
-![](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/19/6.png)
+![](https://raw.githubusercontent.com/tea9/image/master/blog_img/19/6.png)
 
 ---
 ### Guideline （约束线）
@@ -308,7 +308,7 @@ description: more
     上面代码是 在视图50%位置 左右两边有两个butthon
     
 
-![](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/19/7.png)
+![](https://raw.githubusercontent.com/tea9/image/master/blog_img/19/7.png)
 
 实例：  
 
@@ -347,7 +347,7 @@ description: more
     textview以此排列
 
 
-![](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/19/8.png)
+![](https://raw.githubusercontent.com/tea9/image/master/blog_img/19/8.png)
 
 
 

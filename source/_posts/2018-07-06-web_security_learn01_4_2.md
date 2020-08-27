@@ -31,17 +31,17 @@ php会自动解码
 二次编码注入：  
 urldecode()与PHP本身处理编码时，两者配合失误，可构造数据消灭\  
 
-![](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/10/01.png)
-![](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/10/02.png)
+![](https://raw.githubusercontent.com/tea9/image/master/blog_img/10/01.png)
+![](https://raw.githubusercontent.com/tea9/image/master/blog_img/10/02.png)
 
 
 
 
 ## 02 二次编码注入方法
 
-![](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/10/03.png)
+![](https://raw.githubusercontent.com/tea9/image/master/blog_img/10/03.png)
 
-![](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/10/04.png)
+![](https://raw.githubusercontent.com/tea9/image/master/blog_img/10/04.png)
 
 
 	http://127.0.0.1/Less-1/double.php?id=1%2527 // 测试注入点
@@ -55,5 +55,5 @@ urldecode()与PHP本身处理编码时，两者配合失误，可构造数据消
 
 	sqlmap -u "http://127.0.0.1/Less-1/double.php?id=1%2527" --current--+
 
-![](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/10/05.png)
+![](https://raw.githubusercontent.com/tea9/image/master/blog_img/10/05.png)
 

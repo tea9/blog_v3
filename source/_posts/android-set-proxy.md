@@ -48,9 +48,9 @@ private void refresh() {
 [android_test_proxy](https://github.com/tea9/android_test_proxy)  
 
 ## APK
-![](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/31/1.jpg)  
+![](https://raw.githubusercontent.com/tea9/image/master/blog_img/31/1.jpg)  
 
-[testproxy.apk](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/31/testproxy.apk)  
+[testproxy.apk](https://raw.githubusercontent.com/tea9/image/master/blog_img/31/testproxy.apk)  
 
 ## LINKS
 

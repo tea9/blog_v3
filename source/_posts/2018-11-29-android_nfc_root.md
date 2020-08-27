@@ -48,7 +48,7 @@ usb连接电脑
 然后弹出确认解锁  
 等待解锁  
 
-![](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/25/01.png)
+![](https://raw.githubusercontent.com/tea9/image/master/blog_img/25/01.png)
 
 
 
@@ -80,7 +80,7 @@ usb连接电脑
 刷机  
 等待成功  
 
-![](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/25/02.png)
+![](https://raw.githubusercontent.com/tea9/image/master/blog_img/25/02.png)
 
 ## 0x01 nfc软件
 在酷安找到了一些app  

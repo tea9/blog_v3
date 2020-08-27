@@ -13,7 +13,7 @@ description: more
 
 ## 文件上传检测流程
 
-![文件上传检测流程](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/15/01.png)
+![文件上传检测流程](https://raw.githubusercontent.com/tea9/image/master/blog_img/15/01.png)
 
 **前端提交：**  
 javaScript检测、Flash AS检测  

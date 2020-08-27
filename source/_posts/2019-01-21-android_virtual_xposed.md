@@ -141,7 +141,7 @@ app/assets/xposed_init
     com.demo.android_hook.HookToast
 
 
-![最后效果](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/27/01.jpg)  
+![最后效果](https://raw.githubusercontent.com/tea9/image/master/blog_img/27/01.jpg)  
 
 ## LINKS
 

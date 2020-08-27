@@ -22,15 +22,15 @@ description: more
 
 ## 部署项目
 文件-部署-Android/IOS
-![打包项目](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/16/01.png)
-![www文件目录](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/16/03.png)
+![打包项目](https://raw.githubusercontent.com/tea9/image/master/blog_img/16/01.png)
+![www文件目录](https://raw.githubusercontent.com/tea9/image/master/blog_img/16/03.png)
 
 ## 使用HTML一键打包工具进行打包
 
 1.下载HTML一键打包工具  
 2.安装HTML一键打包工具  
 路径选择为www下index.html  
-![打包配置](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/16/02.png)
+![打包配置](https://raw.githubusercontent.com/tea9/image/master/blog_img/16/02.png)
 
 ## 注意事项
 

@@ -13,14 +13,14 @@ description: more
 ## MySQL手工注入
 ### 01 MySQL数据库结构
 
-![](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/03/01.png)
-![](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/03/02.png)
-![](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/03/03.jpg)
-![](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/03/04.png)
+![](https://raw.githubusercontent.com/tea9/image/master/blog_img/03/01.png)
+![](https://raw.githubusercontent.com/tea9/image/master/blog_img/03/02.png)
+![](https://raw.githubusercontent.com/tea9/image/master/blog_img/03/03.jpg)
+![](https://raw.githubusercontent.com/tea9/image/master/blog_img/03/04.png)
 
 核心原理：  
 MySql内置的infromation_schema库，它功能强大，是我们进行MySql注入的基石！  
-![](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/03/05.png)
+![](https://raw.githubusercontent.com/tea9/image/master/blog_img/03/05.png)
 
 	select schema_name from information_schema.schemata // 查库
 	select table_name from information_schema.tables where table_schema=库名 // 查表
@@ -31,7 +31,7 @@ MySql内置的infromation_schema库，它功能强大，是我们进行MySql注�
 	select column_name from information_schema.columns where table_name=0x7573657273;
 	
 	
-	![](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/03/06.png)
+	![](https://raw.githubusercontent.com/tea9/image/master/blog_img/03/06.png)
 	
 	select group_concat(schema_name) from information_schema.schemata;
 	select username,password from security.users limit 0,1;
@@ -40,7 +40,7 @@ MySql内置的infromation_schema库，它功能强大，是我们进行MySql注�
 
 ### 02 MySQL手工注入方法
 
-![](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/03/07.jpg)
+![](https://raw.githubusercontent.com/tea9/image/master/blog_img/03/07.jpg)
 
 	http://127.0.0.1/Less-1/?id=2
 	http://127.0.0.1/Less-1/?id=2' 注入点

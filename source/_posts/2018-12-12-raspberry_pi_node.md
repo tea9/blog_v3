@@ -62,8 +62,8 @@ description: more
 	
 	sudo raspi-config
 
-![vnc](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/22/01.png) 
-![vnc](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/22/02.png) 
+![vnc](https://raw.githubusercontent.com/tea9/image/master/blog_img/22/01.png) 
+![vnc](https://raw.githubusercontent.com/tea9/image/master/blog_img/22/02.png) 
 
 
 win：
@@ -89,8 +89,8 @@ WIN+R - mstsc
 
 配置  
 
-![vnc](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/22/03.png) 
-![vnc](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/22/04.png) 
+![vnc](https://raw.githubusercontent.com/tea9/image/master/blog_img/22/03.png) 
+![vnc](https://raw.githubusercontent.com/tea9/image/master/blog_img/22/04.png) 
 
 拍摄照片  
 

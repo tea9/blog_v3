@@ -14,8 +14,8 @@ description: more
 ## 前言：
 1. 部署项目
 文件-部署-Android/IOS  
-![打包项目](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/16/01.png)
-![www文件目录](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/16/03.png)  
+![打包项目](https://raw.githubusercontent.com/tea9/image/master/blog_img/16/01.png)
+![www文件目录](https://raw.githubusercontent.com/tea9/image/master/blog_img/16/03.png)  
 
 ## 方式一：Website2APK
 1.下载工具  
@@ -24,7 +24,7 @@ description: more
 
 2.基本配置  
 选择Local HTML Website - 然后选择Directory of Local Website-GENERATE APK    
-![打包配置](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/21/01.png)  
+![打包配置](https://raw.githubusercontent.com/tea9/image/master/blog_img/21/01.png)  
 
 ## 方式二：HTML一键打包工具
 
@@ -33,7 +33,7 @@ description: more
 
 2.安装HTML一键打包工具  
 路径选择为www下index.html  
-![打包配置](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/16/02.png)  
+![打包配置](https://raw.githubusercontent.com/tea9/image/master/blog_img/16/02.png)  
 
 tips:  
 免费版不能修改icon和包名  

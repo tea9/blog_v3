@@ -189,7 +189,7 @@ http://www.w3school.com.cn/xpath/
 	
 ---
 
-![](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/02/01.jpeg)
+![](https://raw.githubusercontent.com/tea9/image/master/blog_img/02/01.jpeg)
 
 	登录处的SQL语句：
 	select * from users where username='admin' and pwd='pass';
@@ -197,7 +197,7 @@ http://www.w3school.com.cn/xpath/
 	select * from users where username=''or '1'='1' and pwd=''or '1' = '1';
 	
 
-![](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/02/02.jpeg)
+![](https://raw.githubusercontent.com/tea9/image/master/blog_img/02/02.jpeg)
 
 	and 1=2 union select 1,2,3-- // 1=2 false 执行union后面的语句
 	select user() regexp '^ro' // ro开头的用户

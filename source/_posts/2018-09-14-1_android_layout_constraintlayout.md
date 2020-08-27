@@ -18,7 +18,7 @@ description: more
 
 ## 效果
 
-![](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/20/1.jpg)
+![](https://raw.githubusercontent.com/tea9/image/master/blog_img/20/1.jpg)
 
 ## 思路
 

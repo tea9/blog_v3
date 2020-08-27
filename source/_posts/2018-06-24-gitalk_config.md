@@ -29,9 +29,9 @@ Authorization callback URL:回掉地址
 	</code>
 </pre>
 
-![注册GitHub Application](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/07/01.png)
+![注册GitHub Application](https://raw.githubusercontent.com/tea9/image/master/blog_img/07/01.png)
 
-![Client ID](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/07/02.png)
+![Client ID](https://raw.githubusercontent.com/tea9/image/master/blog_img/07/02.png)
 
 注册成功后会获得Client ID和Client Secret  
 
@@ -49,7 +49,7 @@ distractionFreeMode: true
 	</code>
 </pre>
 
-![config](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/07/03.png)
+![config](https://raw.githubusercontent.com/tea9/image/master/blog_img/07/03.png)
 
 ## 03.修改post.html
 

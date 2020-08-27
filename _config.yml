@@ -7,7 +7,7 @@ title: tea9的博客
 subtitle: 加油
 description: 心中有光の孩子
 # description: 只要接受自己菜的事实，就感觉没那么难受了
-keywords: tea9,tea9的博客,开发,android,安全
+keywords: tea9,tea9的博客,开发,android,安全,android安全,android逆向
 author: tea9
 language: zh-CN
 timezone:
@@ -29,7 +29,7 @@ abbrlink:
 # Directory
 source_dir: source
 public_dir: public
-tag_dir: tags
+tag_dir: tag
 archive_dir: archives
 category_dir: category
 code_dir: downloads/code
@@ -121,7 +121,7 @@ keyword: "tea9"
 # SNS settings
 # 一些社交平台地址，支持以下几种：
 weibo_username:    tea9999 
-#zhihu_username:     
+zhihu_username:    https://www.zhihu.com/people/tea999
 github_username:    tea9
 #twitter_username:   shaomiaosun
 #facebook_username:  

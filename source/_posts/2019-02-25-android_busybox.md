@@ -40,7 +40,7 @@ su
 mount -o remount,rw -t yaffs2 /dev/block/mtdblock3 /system
 ```
 
-![](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/28/01.png)
+![](https://raw.githubusercontent.com/tea9/image/master/blog_img/28/01.png)
 
 ```
 adb shell 

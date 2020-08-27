@@ -81,11 +81,11 @@ Burp-> Extender->BApp Store -> SQLiPy Sqlmap
 
 #### 02 SQL注入流程
 
-![](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/02/01.png)
+![](https://raw.githubusercontent.com/tea9/image/master/blog_img/02/01.png)
 
-![](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/02/02.png)
+![](https://raw.githubusercontent.com/tea9/image/master/blog_img/02/02.png)
 
-![](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/02/03.png)
+![](https://raw.githubusercontent.com/tea9/image/master/blog_img/02/03.png)
 
 数据获取
 	
@@ -98,7 +98,7 @@ Burp-> Extender->BApp Store -> SQLiPy Sqlmap
 	select [name] from system
 
 
-![](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/02/04.png)
+![](https://raw.githubusercontent.com/tea9/image/master/blog_img/02/04.png)
 
 提权
 	

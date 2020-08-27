@@ -10,7 +10,7 @@ date: 2018-11-18 00:00:00
 description: more
 ---
 
-![效果图](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/24/01.jpg)
+![效果图](https://raw.githubusercontent.com/tea9/image/master/blog_img/24/01.jpg)
 
 ## 思路
 
@@ -172,7 +172,7 @@ attrs.xml
 
 ---
 
-![效果图](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/24/02.jpg)
+![效果图](https://raw.githubusercontent.com/tea9/image/master/blog_img/24/02.jpg)
 
 ## 思路 
 这个是跟上面图方向不一样的线，然后采用的先画方头的2px宽的，然后用圆头补全。  

@@ -30,13 +30,13 @@ description: more
 
 通过burp截取到上传文件的请求信息  
 
-![通过burp截取到上传文件的请求信息](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/14/01.png)
+![通过burp截取到上传文件的请求信息](https://raw.githubusercontent.com/tea9/image/master/blog_img/14/01.png)
 
 前端代码对应请求到的信息  
-![前端代码对应请求到的信息](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/14/02.png)
+![前端代码对应请求到的信息](https://raw.githubusercontent.com/tea9/image/master/blog_img/14/02.png)
 
 前后端代码  
-![前后端代码 ](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/14/03.png)
+![前后端代码 ](https://raw.githubusercontent.com/tea9/image/master/blog_img/14/03.png)
 
 后端：
 

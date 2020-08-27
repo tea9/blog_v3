@@ -179,7 +179,7 @@ valine参考[Valine -- 一款极简的评论系统](https://ioliu.cn/2017/add-va
 
 这是我的图床的链接 你要就修改成自己的  
 
-	img_link: 'https://coding.net/u/tea9/p/image/git/raw/master/blog_img'
+	img_link: 'https://raw.githubusercontent.com/tea9/image/master/blog_img'
 
 live-2d小姐姐开关true/false  
 hitokoto [一言](https://hitokoto.cn/)true/false  
@@ -192,7 +192,7 @@ hitokoto [一言](https://hitokoto.cn/)true/false
 推荐一个颜色网站，和风的，颜色有点美[NIPPON COLORS](http://nipponcolors.com/)
 
 	sty:
-	  back-img: 'https://coding.net/u/tea9/p/image/git/raw/master/blog_img/appreciate/runa.png' 首页背景图
+	  back-img: 'https://raw.githubusercontent.com/tea9/image/master/blog_img/appreciate/runa.png' 首页背景图
 	  back-color: 'rgb(58,60,65)' 背景颜色（建议使用背景图同色系的）
 	  b2t-back: '#3A3226' 返回顶部背景颜色
 	  b2t-color: '#fff' 返回顶部字体颜色

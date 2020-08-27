@@ -14,7 +14,7 @@ description: more
 [附件下载](https://pan.baidu.com/s/1_7jfZzU3bRcSFYuoELShzA)
 然后打开看是一个面码的图片。我想啊这应该是到题目。就向图片隐写的方向尝试。
 
-![](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/33/1.png)
+![](https://raw.githubusercontent.com/tea9/image/master/blog_img/33/1.png)
 
 ## 步骤
 
@@ -24,7 +24,7 @@ description: more
 1. Stegsolve.jar 看看有没有隐藏的  
 2. `binwalk -e 附件1.jpg`  
 
-![](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/33/2.png)
+![](https://raw.githubusercontent.com/tea9/image/master/blog_img/33/2.png)
 
 
 ```
@@ -58,7 +58,7 @@ _附件1.jpg.extracted ls
 前面可能不知道，后面一看就是jsfuck  
 [jsfuck](http://www.jsfuck.com)  
 
-![](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/33/3.png)
+![](https://raw.githubusercontent.com/tea9/image/master/blog_img/33/3.png)
 
 新建一个html把js粘贴上  
 
@@ -76,7 +76,7 @@ _附件1.jpg.extracted ls
 ```
 
 会提示一个key  
-![](https://coding.net/u/tea9/p/image/git/raw/master/blog_img/33/4.png)
+![](https://raw.githubusercontent.com/tea9/image/master/blog_img/33/4.png)
 可能是aes  
 然后在看上面的加密串，经大佬手，试了base64，两次  
 [base64解密](https://base64.supfree.net/)  
