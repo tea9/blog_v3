@@ -96,6 +96,8 @@ chmod 777 fs1280arm64
 frida-ps -H 192.168.99.217:8888
 ```
 
+test
+
 
 
 

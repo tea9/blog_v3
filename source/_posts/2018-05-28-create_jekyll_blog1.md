@@ -11,8 +11,8 @@ description: more
 ---
 
 # 一、GitHub Pages的配置
-## 1.申请github账号
-首先要注册github账户  
+## 1.申请github账号 
+首先要注册github账户    
 访问下面的网址  
 https://github.com/  
 点击Sign up for GitHub 按钮注册  
@@ -20,7 +20,7 @@ https://github.com/
 ![注册github](https://raw.githubusercontent.com/tea9/image/master/blog_img/01/image-1.png)
 
 注册成功后点击Sign in 按钮 登录  
-登录成功后验证下邮箱
+登录成功后验证下邮箱 
 
 ## 2.创建项目
 选择Start a project 按钮 开始一个项目  
