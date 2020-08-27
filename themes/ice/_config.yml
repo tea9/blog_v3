@@ -1,0 +1,270 @@
+menu:
+  Home: /
+  Archives: /archives
+  Links: /links
+ 
+## favicon 
+favicon: /favicon.ico
+
+## Feed 
+rss: /atom.xml
+ 
+## 网站公告设置
+notification: |-
+            <p>
+            </p>
+            <p><script type="text/javascript" src="https://api.uixsj.cn/hitokoto/w.php?code=js"></script><div id="xsjhitokoto"><script>xsjhitokoto()</script></div></p>
+
+
+## 社交设置
+social:
+ - name: Github
+   icon: '&#xeee2;'
+   href: //github.com/tea9
+ # - name: 邮箱
+ #   icon: '&#xe69f;'
+ #   href: mailto:i@praming.cn
+ # - name: 微信
+ #   icon: '&#xe7e5;'
+ #   href: 34721974
+ # - name: 微博
+ #   icon: '&#xe629;'
+ #   href: //weibo.com/praming
+ - name: RSS
+   icon: '&#xe6ee;'
+   href: /atom.xml
+
+highlight: # 代码高亮
+  enable: true
+  line_number: true # 显示代码行号
+  theme: atelier-savanna-light # available: atelier-cave-light | atelier-savanna-light | tomorrow | tomorrow-night-eighties，更多主题可从 https://jmblog.github.io/color-themes-for-google-code-prettify/ 获取，保存为 `*.min.css` 到 `source/css/highlight/`
+
+# add post views
+leancloud_visitors:
+  enable: true
+  app_id: hESKc51xYeFsVNctLcYmpOS1-gzGzoHsz
+  app_key: IPK32hWXJh8WMPOW4xEqsA9V
+
+## 主题评论
+
+### gitment
+gitment:
+  enable: false
+  owner: 
+  repo: 
+  client_id: 
+  client_secret: 
+  perPage: 10
+
+### 来必力
+livere: 
+  enable: false
+  livere_uid: 
+
+### 友言评论(服务不稳定)
+uyan:
+  enable: false
+  uyan_id: 
+
+### Disqus评论
+disqus:
+  enable: false
+  shortname: 
+  count: false
+
+### 畅言评论(需要ICP备案)
+changyan:
+  enable: false
+  appid: cytsbYV5p
+  conf: prod_5db6bea920c9a0d149cedeab44860234
+  
+# Valine评论
+# 需要 https://leancloud.cn 的appid和appkey 
+# 更多请登录 https://valine.js.org
+valine:
+  enable: false
+  appid:  hESKc51xYeFsVNctLcYmpOS1-gzGzoHsz  # 你的appid
+  appkey: IPK32hWXJh8WMPOW4xEqsA9V  # 你的appkey
+  notify: false # 开启评论邮件回复 , https://github.com/xCss/Valine/wiki
+  verify: false # 开启验证码
+  placeholder: ヾﾉ≧∀≦)o来啊，快活啊! # 评论框显示内容
+  avatar: monsterid # gravatar 头像类型
+  guest_info: nick,mail,link # 评论者需要填写的属性
+  pageSize: 10 # 每页评论数
+
+
+## 网站访问统计
+
+### 网盟CNZZ统计
+cnzz_analytics:
+
+### 百度统计
+baidu_analytics: 
+
+### 谷歌统计
+google_analytics: 
+
+### 腾讯分析
+tencent_analytics: 
+
+### 百度文章推送
+baidu_push:
+
+## ICP备案号:
+icp: <a href="/v1">v1</a> . <a href="/v2">v2</a>
+
+## 开启Hosted by Coding Pages标识
+coding_pages: false
+
+## 友链设置
+links: [
+    {
+        title: "tea9",
+        href: "https://tea9.github.io"
+    },{
+        title: "七夏浅笑",
+        href: " https://www.julydate.com"
+    },{
+        title: "童年是个风筝的博客",
+        href: "https://www.zhangqirun.cn"
+    },{
+        title: "文科中的技术宅",
+        href: "https://townwang.com"
+    },{
+        title: "耀日庄主的博客",
+        href: "https://sunbossrs.github.io"
+    # },{
+    #     title: "量子",
+    #     href: "https://www.pdcblog.tk"
+    },{
+        title: "pdcgame",
+        href: "https://www.pdcgame.com"
+    },{
+        title: "gloomyghost",
+        href: "http://gloomyghost.com/"
+    },{
+        title: "FGHRSH",
+        href: "https://www.fghrsh.net"
+    },{
+        title: "藤の青",
+        href: "https://a632079.me"
+    },{
+        title: "幸运草",
+        href: "https://www.vseu.com/"
+    },{
+        title: "诗与酒",
+        href: "https://shawnzeng.com/"
+    },{
+        title: "NekoHome 喵窝",
+        href: "https://nekohome.moenya.cat"
+    },{
+        title: "清酒踏月",
+        href: "https://www.lkxin.cn"
+    },{
+        title: "冰峰博客",
+        href: "http://www.ad-s.cn/"
+    # },{
+    #     title: "以梦为马，奔向远方",
+    #     href: "https://linhai1990.com"
+    # },{ 访问不了了
+    #     title: "终南小筑",
+    #     href: "https://www.cnliuqi.com"
+    },{
+        title: "Unique",
+        href: "http://login546.xyz"
+    },{
+        title: "雨落泪尽",
+        href: "https://1000yun.cn/"
+    },{
+        title: "Laugh's Blog",
+        href: "https://laugh12321.github.io"
+    },{
+        title: "ShaoZhi's Blog",
+        href: "https://shaozhi.site"
+    },{
+        title: "Xiang Xiz",
+        href: "https://www.xiz.im"
+    },{
+        title: "lan酱的小窝",
+        href: "https://www.xx8.uk"
+    },{
+        title: "Casey",
+        href: "https://www.ckbug.com"
+    },{
+        title: "星夜的蓝天",
+        href: "http://poi.ac/"
+    },{
+        title: "俍注",
+        href: "http://www.oneinf.com"
+    },{
+        title: "暗羽表姐",
+        href: "https://darkwing.moe/"
+    },{
+        title: "ju5tw4nty0u",
+        href: "http://ju5tw4nty0u.top/"
+    },{
+        title: "如鱼说|仓鼠的博客",
+        href: "http://www.itfire.cn"
+    },{
+        title: "k0rz3n",
+        href: "https://www.k0rz3n.com/"
+    },{
+        title: "月宅酱",
+        href: "http://ikmoe.com/"
+    },{
+        title: "Miracles",
+        href: "https://miracles666.github.io"
+    },{
+        title: "咸鱼滩音乐团队",
+        href: "https://www.xytsing.com"
+    # },{
+    #     title: "尝精阁大湿胸",
+    #     href: "www.yppcat.top"
+    },{
+      title: "sakura",
+      href: "http://eternalsakura13.com/"
+    },{
+      title: "y00",
+      href: "https://snowflowersnowflake.github.io/"
+    },{
+      title: "楼兰",
+      href: "http://www.teagle.top/"
+    },{
+      title: "林晨",
+      href: "https://0chencc.github.io"
+    },{
+      title: "Xenc",
+      href: "http://console-log.cn/"
+    },{
+      title: "华强",
+      href: "https://cybersecur1ty.github.io/"
+    },{
+      title: "secES",
+      href: "https://blog.csdn.net/zcj_1996"
+    },{
+      title: "奶茶姐姐",
+      href: "https://milktea.info"
+    },{
+      title: "blad",
+      href: "https://evil-of-blad.github.io/"
+    },{
+      title: "夏风",
+      href: "https://blog.xiafeng2333.top/"
+    },{
+      title: "Catsay",
+      href: "https://www.hackpwn.xyz/"
+    },{
+      title: "osword",
+      href: "https://zhzhdoai.github.io/"
+    },{
+      title: "wing",
+      href: "https://evilwing.me/"
+    },{
+      title: "筱一",
+      href: "https://www.xynh.ink/"
+    },{
+      title: "赵总博客",
+      href: "https://www.zhaoj.in/"
+    }
+
+]

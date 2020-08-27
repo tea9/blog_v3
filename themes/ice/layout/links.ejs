@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="box-links">
+    <ul>
+      <% for(var i in theme.links) { %>
+      <li>
+        <a href="<%- theme.links[i].href %>" target="_blank">
+          <%- theme.links[i].title %>
+          <hr class="three">
+          <%- theme.links[i].about? theme.links[i].about : theme.links[i].href %>
+        </a>
+      </li>
+      <% } %>
+    </ul>
+  </div>
+</div>

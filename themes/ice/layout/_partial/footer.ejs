@@ -1,0 +1,26 @@
+<hr />
+<div class="footer">
+  <% if(theme.social){%> 
+    <% theme.social.forEach(function (item) {%>
+      <a href="<%- item.href%>" rel="external nofollow" title="<%- item.name%>" target="_blank">
+        <i class="iconfont"><%- item.icon%></i> 
+      </a>
+      &nbsp;&nbsp; 
+    <%})%> 
+  <%}%>
+</div>
+<%- js('js/jquery.min.js') %>
+<% if(theme.highlight.enable){ %> <%-
+js('js/prettify.js') %>
+<script type="text/javascript">
+  $(document).ready(function() {
+    $("pre").addClass(
+      "prettyprint <% if(config.highlight.line_number | theme.highlight.line_number){ %>linenums<% } %>"
+    );
+    prettyPrint();
+  });
+</script>
+<% } %>
+<% if (page.layout === 'search' & config.search.enable) { %> <%-
+  js('js/search.js') %>
+<% } %>
