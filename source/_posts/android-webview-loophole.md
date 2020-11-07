@@ -3,9 +3,13 @@ title: android webview 漏洞
 abbrlink: 4272460574
 date: 2019-05-05 19:41:27
 tags:
-- android安全
-- webview
-description: more
+  - android安全
+categories:
+  - - 安全
+    - 移动安全
+    - android安全
+    - android漏洞
+description: android webview 漏洞
 ---
 ## 0x01 跨站脚本攻击
 webview.getSettings().setJavaScriptEnabled(true) 设置WebView是否允许执行JavaScript脚本，默认false，不允许

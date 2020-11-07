@@ -2,9 +2,13 @@
 title: android androidmanifest需要检测的安全问题
 tags:
   - android安全
+categories:
+  - - 安全
+    - 移动安全
+    - android安全
 abbrlink: 1654160465
 date: 2019-07-22 18:25:57
-description: more
+description: android androidmanifest需要检测的安全问题
 ---
 
 ## AndroidManifest系统权限使用检测

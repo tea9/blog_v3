@@ -2,11 +2,18 @@
 title: app本地拒绝服务验证程序
 tags:
   - android安全
-  - 组件导出
-  - 本地拒绝服务
+  - app漏洞
+  - android拒绝服务
+  - app本地拒绝服务验证
+categories:
+  - - 安全
+    - 移动安全
+    - android安全
+    - android漏洞
+    - 漏洞验证   
 abbrlink: 1546350071
 date: 2019-08-13 19:07:09
-description: more
+description: app本地拒绝服务验证程序
 ---
 
 ## 本地拒绝服务

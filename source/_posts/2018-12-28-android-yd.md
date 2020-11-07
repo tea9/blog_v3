@@ -1,13 +1,15 @@
 ---
 layout: post
 title: android yd
-category: 
-  - android
+categories:
+  - - 开发
+    - 移动开发
+    - android开发
 tags: 
-  - android
+  - android开发
 abbrlink: 871619508
 date: 2018-12-28 00:00:00
-description: more
+description: youdao付费视频导出
 ---
 	
 

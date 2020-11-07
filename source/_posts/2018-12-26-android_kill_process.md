@@ -1,13 +1,15 @@
 ---
 layout: post
 title: android杀死进程
-category: 
-  - android
+categories:
+  - - 开发
+    - 移动开发
+    - android开发
 tags: 
-  - android
+  - android开发
 abbrlink: 2168217961
 date: 2018-12-26 00:00:00
-description: more
+description: android杀死进程
 ---
 
 测试手机：  

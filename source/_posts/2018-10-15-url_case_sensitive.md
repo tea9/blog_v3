@@ -1,13 +1,19 @@
 ---
 layout: post
 title: URL中的大小写敏感
-category: 
-  - web安全
+categories:
+  - - 安全
+    - web安全
 tags: 
   - tips
 abbrlink: 1353455041
 date: 2018-10-15 00:00:00
-description: more
+description: url中的大小写敏感
+password: teanb
+abstract: 这里有东西被加密了，需要输入密码查看哦。
+message: 您好，这里需要密码。
+wrong_pass_message: 抱歉，这个密码看着不太对，请再试试。
+wrong_hash_message: 抱歉，这个文章不能被纠正，不过您还是能看看解密后的内容。
 ---
 
 ## URL中的大小写敏感

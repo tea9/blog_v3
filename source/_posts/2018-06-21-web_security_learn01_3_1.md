@@ -1,14 +1,17 @@
 ---
 layout: post
 title: 1.3.1-SQL注入-SQL盲注-布尔盲注
-category: 
-  - web安全
+categories:
+  - - 安全
+    - web安全
+    - sql注入
 tags: 
-  - sql注入 
+  - sql注入
+  - web安全
   - sql盲注
 abbrlink: 2904355367
 date: 2018-06-21 00:00:00
-description: more
+description: sql盲注-布尔盲注
 ---
 ## SQL盲注-布尔盲注
 

@@ -1,14 +1,15 @@
 ---
 layout: post
 title: 使用pyenv切换python版本
-category: 
-  - python
+categories:
+  - - 开发
+    - python
 tags: 
   - python 
   - pyenv
 abbrlink: 849770471
 date: 2018-06-12 00:00:00
-description: more
+description: 使用pyenv切换python版本
 ---
 
 ## 关键代码

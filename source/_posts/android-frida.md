@@ -1,11 +1,17 @@
 ---
-title: android frida
+title: android_frida
 tags:
-  - android
   - android安全
+  - frida
+  - hook
+categories:
+  - - 安全
+    - 移动安全
+    - android安全
+    - frida
 abbrlink: 739255443
 date: 2019-06-10 18:00:12
-description: more
+description: android_frida
 ---
 
 > 在我们开始之前，请确保你的Android设备已经完成root操作。我们大部分的实验操作都是在Android4.4版本上进行的，但是Frida本身是支持从4.2到6.0的版本的，但是目前来说对Art的支持还是有限的，所以我们建议最后还是用使用Dalvik虚拟机的系统设备或者模拟器来进行尝试。

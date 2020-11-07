@@ -1,13 +1,15 @@
 ---
 layout: post
 title: fragment懒加载
-category: 
-  - android
+categories:
+  - - 开发
+    - 移动开发
+    - android开发
 tags: 
   - android
 abbrlink: 2289611691
 date: 2018-08-10 00:00:00
-description: more
+description: fragment懒加载
 ---
 
 ## Fragment懒加载

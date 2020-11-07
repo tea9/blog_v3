@@ -1,13 +1,15 @@
 layout: post
 title: android逆向工具/命令
-category:
-  - android安全
 tags:
   - android安全
   - android逆向
+categories:
+  - - 安全
+    - 移动安全
+    - android安全
 abbrlink: 1200045731
 date: 2019-03-20 00:00:00
-description: more
+description: android逆向工具/命令
 ---
 ## 工具
 #### sdkmanager

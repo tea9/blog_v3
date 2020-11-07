@@ -1,13 +1,16 @@
 ---
 layout: post
 title: android启动一个app的命令
-category: 
-  - android
-tags: 
-  - android
+tags:
+  - android安全
+  - adbshell
+categories:
+  - - 安全
+    - 移动安全
+    - android安全
 abbrlink: 2019466879
 date: 2019-01-04 00:00:00
-description: more
+description: android启动一个app的命令
 ---
 
 

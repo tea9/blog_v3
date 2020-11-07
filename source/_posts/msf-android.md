@@ -2,9 +2,15 @@
 title: Metasploit渗透Android
 tags:
   - android安全
+  - metasploit
 abbrlink: 2059191303
 date: 2019-08-01 14:44:14
-description: more
+description: Metasploit渗透Android
+categories:
+  - - 安全
+    - 移动安全
+    - android安全
+    - metasploit
 ---
 
 ## 内网穿透

@@ -5,7 +5,10 @@ date: 2019-10-28 16:58:59
 tags:
 	- android
 	- jdk
-description: more
+description: mac的jdk版本切换
+categories:
+  - - 开发
+    - jdk
 ---
 
 1.下载jdk并安装  

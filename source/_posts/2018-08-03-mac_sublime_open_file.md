@@ -1,13 +1,13 @@
 ---
 layout: post
-title: mac_终端用sublime打开文件
-category: 
-  - macos
+title: mac终端用sublime打开文件
+categories:
+  - - mac系统
 tags: 
   - macos
 abbrlink: 576883658
 date: 2018-08-03 00:00:00
-description: more
+description: mac使用小技巧、设置用sublime打开文件
 ---
 
 **打开文件**

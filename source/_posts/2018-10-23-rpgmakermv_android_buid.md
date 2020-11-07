@@ -1,14 +1,15 @@
 ---
 layout: post
 title: RPGMakerMV安卓版本打包
-category: 
-  - rpgmakermv
+categories:
+  - - 开发
+    - rpgmakermv
 tags: 
   - rpgmakermv
   - rpg
 abbrlink: 683201593
 date: 2018-10-23 00:00:00
-description: more
+description: RPG游戏打包
 ---
 
 ## 前言：

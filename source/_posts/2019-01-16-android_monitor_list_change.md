@@ -1,13 +1,15 @@
 ---
 layout: post
 title: android监听list变化
-category: 
-  - android
+categories:
+  - - 开发
+    - 移动开发
+    - android开发
 tags: 
-  - android
+  - android开发
 abbrlink: 431642663
 date: 2019-01-16 00:00:00
-description: more
+description: android监听list变化，主要的思路就是，新建个接口定义一个onChange()方法，然后在操作list的类中，添加这个监听。
 ---
 
 ## 思路

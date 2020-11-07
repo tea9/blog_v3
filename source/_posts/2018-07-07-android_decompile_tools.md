@@ -1,15 +1,17 @@
 ---
 layout: post
 title: android反编译工具和命令
-category: 
-  - android逆向
+categories:
+  - - 安全
+    - 移动安全
+    - android安全
 tags: 
-  - adnroid安全 
+  - android安全 
   - android反编译
   - android逆向
 abbrlink: 4129675987
 date: 2018-07-07 00:00:00
-description: more
+description: android反编译工具和命令，jadx，apktool，jd-tool
 ---
 
 ## TOOLS

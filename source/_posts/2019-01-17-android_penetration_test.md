@@ -1,12 +1,15 @@
 layout: post
 title: android渗透测试学习笔记
-category:
-  - android逆向
 tags:
-  - android逆向
+  - android安全
+  - android渗透
+categories:
+  - - 安全
+    - 移动安全
+    - android安全
 abbrlink: 4027879150
 date: 2019-01-17 00:00:00
-description: more
+description: android渗透测试学习笔记
 ---
 《Android渗透测试学习手册》写的学习笔记  
 ## 摘要

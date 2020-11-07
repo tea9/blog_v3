@@ -1,13 +1,14 @@
 ---
 layout: post
 title: 1.4.2-SQL注入防御绕过-二次编码注入
-category: 
-  - web安全
+categories:
+  - - 安全
+    - web安全
 tags: 
   - sql注入
 abbrlink: 41038608
 date: 2018-07-06 00:00:00
-description: more
+description: sql注入、二次编码注入
 ---
 
 ## 01 二次编码注入原理

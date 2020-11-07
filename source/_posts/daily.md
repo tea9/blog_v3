@@ -1,14 +1,18 @@
 ---
-title: daily
+title: daily-2019
 abbrlink: 2961313865
 date: 2019-06-08 14:42:12
 tags:
 - daily
-description: more
+description: 2019年的日记
 categories:
-- [Diary, PlayStation]
-- [Diary, Games]
-- [Life]
+  - - 人生初见
+    - daily
+password: teanb
+abstract: 这里有东西被加密了，需要输入密码查看哦。
+message: 您好，这里需要密码。
+wrong_pass_message: 抱歉，这个密码看着不太对，请再试试。
+wrong_hash_message: 抱歉，这个文章不能被纠正，不过您还是能看看解密后的内容。
 <!-- top: true -->
 ---
 

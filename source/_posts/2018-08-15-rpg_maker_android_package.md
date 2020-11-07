@@ -1,13 +1,14 @@
 ---
 layout: post
 title: RPG_Maker_MV-安卓HTML一键打包
-category: 
-  - rpgmakermv
+categories:
+  - - 开发
+    - rpgmakermv
 tags: 
   - rpgmakermv
 abbrlink: 3697117284
 date: 2018-08-15 00:00:00
-description: more
+description: rpgmakermv打包android
 ---
 
 ## tips

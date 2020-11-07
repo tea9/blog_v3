@@ -1,14 +1,16 @@
 ---
 layout: post
 title: 1.1.1-SQL注入-SQL注入基础-SQL注入流程
-category: 
-  - web安全
+categories:
+  - - 安全
+    - web安全
+    - sql注入
 tags: 
   - sql注入
   - web安全
 abbrlink: 820776471
 date: 2018-06-11 00:00:00
-description: more
+description: SQL注入-SQL注入基础-SQL注入流程
 ---
 
 ### SQL注入流程

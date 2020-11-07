@@ -1,10 +1,14 @@
 ---
 title: android 权限列表
-tags:
-  - android安全
+categories:
+  - - 开发
+    - 移动开发
+    - android开发
+tags: 
+  - android开发
 abbrlink: 2645010290
 date: 2019-06-21 17:51:46
-description: more
+description: android 权限列表
 ---
 
 ```

@@ -1,13 +1,14 @@
 ---
 layout: post
 title: arduino小车笔记
-category: 
-  - arduino
+categories:
+  - - 开发
+    - arduino
 tags: 
   - arduino
 abbrlink: 4126435275
 date: 2018-12-03 00:00:00
-description: more
+description: arduino小车笔记
 ---
 
 	模块 L298n arduino 

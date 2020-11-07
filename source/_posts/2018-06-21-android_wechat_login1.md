@@ -1,14 +1,16 @@
 ---
 layout: post
 title: android微信第三方登录1
-category: 
-  - android
+categories:
+  - - 开发
+    - 移动开发
+    - android开发
 tags: 
-  - android 
-  - weixin 
+  - android开发
+  - 微信
 abbrlink: 2304481464
 date: 2018-06-21 00:00:00
-description: more
+description: android微信第三方登录1
 ---
 
 [github测试地址](https://github.com/shaomiao/AndroidWechatTest)  

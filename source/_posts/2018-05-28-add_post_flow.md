@@ -1,8 +1,9 @@
 ---
 layout: post
 title: jekyll添加文章流程
-category: 
-  - jekyll
+categories:
+  - - 博客
+    - jekyll
 tags: 
 	- blog
   - jekyll

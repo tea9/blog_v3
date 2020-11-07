@@ -1,13 +1,16 @@
 ---
 layout: post
 title: android多线程笔记
-category: 
-  - android
+categories:
+  - - 开发
+    - 移动开发
+    - android开发
 tags: 
-  - android
+  - android开发
+  - android多线程
 abbrlink: 186583718
 date: 2018-12-25 00:00:00
-description: more
+description: android多线程笔记
 ---
 
 《Android进阶之光》第四章多线程编程 学习笔记

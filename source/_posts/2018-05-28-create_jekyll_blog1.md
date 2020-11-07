@@ -1,8 +1,9 @@
 ---
 layout: post
 title: 1.使用jekyll搭建个人博客
-category: 
-  - jekyll
+categories:
+  - - 博客
+    - jekyll
 tags: 
   - blog
 abbrlink: 54451516

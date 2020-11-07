@@ -1,10 +1,15 @@
 ---
-title: scrcpy记录
+title: scrcpy投屏
 tags:
   - android
+  - scrcpy投屏
 abbrlink: 4119910921
 date: 2019-08-28 13:46:38
-description: more
+description: scrcpy记录
+categories:
+  - - 安全
+    - 移动安全
+    - android安全
 ---
 
 

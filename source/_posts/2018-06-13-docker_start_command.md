@@ -1,15 +1,16 @@
 ---
 layout: post
 title: 启动docker_sqli-labs_命令
-category: 
-  - web安全
+categories:
+  - - 安全
+    - web安全
 tags: 
   - docker 
   - sqli-labs
   - web安全
 abbrlink: 2422499851
 date: 2018-06-13 00:00:00
-description: more
+description: 启动docker_sqli-labs_命令
 ---
 	
 	docker images

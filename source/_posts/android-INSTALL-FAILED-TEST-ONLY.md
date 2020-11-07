@@ -1,10 +1,14 @@
 ---
 title: android_INSTALL_FAILED_TEST_ONLY
-tags:
-  - android
+categories:
+  - - 开发
+    - 移动开发
+    - android开发
+tags: 
+  - android开发
 abbrlink: 3979642138
 date: 2019-11-12 14:41:49
-description: more
+description: errro：android_INSTALL_FAILED_TEST_ONLY
 ---
 
 ## INSTALL_FAILED_TEST_ONLY的原因

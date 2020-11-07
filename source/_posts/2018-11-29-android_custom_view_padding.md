@@ -1,13 +1,15 @@
 ---
 layout: post
 title: android自定义View处理padding和wrap_content和自定义属性
-category: 
-  - android
+categories:
+  - - 开发
+    - 移动开发
+    - android开发
 tags: 
-  - android
+  - android开发
 abbrlink: 1728291640
 date: 2018-11-29 00:00:00
-description: more
+description: android自定义View处理padding和wrap_content和自定义属性
 ---
 
 ## android View 处理padding

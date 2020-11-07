@@ -2,9 +2,13 @@
 title: android签名/打包
 tags:
   - android安全
+categories:
+  - - 安全
+    - 移动安全
+    - android安全
 abbrlink: 1412609823
 date: 2019-07-10 16:43:18
-description: more
+description: android签名/打包
 ---
 
 ## 生成签名

@@ -3,9 +3,15 @@ title: android 代码执行
 abbrlink: 693736904
 date: 2019-08-01 10:07:25
 tags:
-	- android安全
-	- APP漏洞
-description: more
+  - android安全
+  - app漏洞
+  - android代码执行
+categories:
+  - - 安全
+    - 移动安全
+    - android安全
+    - android漏洞
+description: android代码执行
 ---
 
 ## android代码执行

@@ -2,9 +2,15 @@
 title: android安装xposed
 tags:
   - android安全
+  - xposed
+categories:
+  - - 安全
+    - 移动安全
+    - android安全
+    - xposed
 abbrlink: 1442253982
 date: 2019-07-11 11:10:43
-description: more
+description: android安装xposed
 ---
 
 ## 解锁&&刷机

@@ -13,7 +13,7 @@ description: more
 ## 命令
 
 ```
-javac Hello.java
+javac Hello.java   
 dx --dex -- output=Hello.dex Hello.class
 javap -c -classpath . Hello
 
@@ -23,5 +23,5 @@ dexdump.exe -d Hello.dex
 ```
 
 
-如果使用JDK1.7编译Hello.java   生成的Hello.class默认的版本会比较低 使用dx生成dex文件会提示class文件无效  
+如果使用JDK1.7编译Hello.java     生成的Hello.class默认的版本会比较低 使用dx生成dex文件会提示class文件无效  
 `javac -source 1.6 -target 1.6 Hello.java`  

@@ -1,13 +1,15 @@
 ---
 layout: post
 title: android里的文本样式
-category: 
-  - android
+categories:
+  - - 开发
+    - 移动开发
+    - android开发
 tags: 
-  - android
+  - android开发
 abbrlink: 3707607800
 date: 2018-11-21 00:00:00
-description: more
+description: android里的文本样式
 ---
 
 ## 修改text的大小和颜色

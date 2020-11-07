@@ -1,10 +1,15 @@
 ---
 title: android_activity_启动模式
-tags:
-  - android
+categories:
+  - - 开发
+    - 移动开发
+    - android开发
+tags: 
+  - android开发
+  - activity启动模式
 abbrlink: 2166465850
 date: 2019-07-25 18:10:02
-description: more
+description: android_activity_启动模式，
 ---
 
 standard：标准模式，也是默认模式。每当我们启动一个Activity，系统就会相应的创建一个实例，不管这个实例是否已经存在。

@@ -1,13 +1,19 @@
 ---
 layout: post
 title: SSL和HTTPS
-category: 
-  - web安全
+categories:
+  - - 安全
+    - web安全
 tags: 
-  - tips
+  - web安全
 abbrlink: 902500137
 date: 2018-10-15 00:00:00
-description: more
+description: ssl和https
+password: teanb
+abstract: 这里有东西被加密了，需要输入密码查看哦。
+message: 您好，这里需要密码。
+wrong_pass_message: 抱歉，这个密码看着不太对，请再试试。
+wrong_hash_message: 抱歉，这个文章不能被纠正，不过您还是能看看解密后的内容。
 ---
 
 ## SSL和HTTPS

@@ -1,13 +1,15 @@
 ---
 layout: post
 title: android里layout.xml的include
-category: 
-  - android
+categories:
+  - - 开发
+    - 移动开发
+    - android开发
 tags: 
-  - android
+  - android开发
 abbrlink: 2155240333
 date: 2018-11-21 00:00:00
-description: more
+description: android里layout.xml的include
 ---
 
 	include 两个一样的layout

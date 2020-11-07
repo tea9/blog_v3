@@ -1,13 +1,16 @@
 ---
 layout: post
 title: android复杂布局
-category: 
-  - android
+categories:
+  - - 开发
+    - 移动开发
+    - android开发
 tags: 
   - android
+  - android复杂布局
 abbrlink: 2080958988
 date: 2018-09-04 00:00:00
-description: more
+description: android复杂布局
 ---
 
 示例图  

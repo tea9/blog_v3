@@ -1,14 +1,16 @@
 ---
 layout: post
 title: smali hello
-category: 
-  - android逆向
-tags: 
-  - android逆向 
+tags:
+  - android安全
   - smali
+categories:
+  - - 安全
+    - 移动安全
+    - android安全
 abbrlink: 229799766
 date: 2019-01-21 00:00:00
-description: more
+description: smali hello、条件跳转分、常用逻辑、smali语法
 ---
 
 ## 条件跳转分支

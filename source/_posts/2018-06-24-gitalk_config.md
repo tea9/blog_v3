@@ -1,15 +1,16 @@
 ---
 layout: post
 title: jekyll-theme-H2O的gitalk相关配置
-category: 
-  - jekyll
+categories:
+  - - 博客
+    - jekyll
 tags: 
   - blog 
   - gitalk
   - jekyll
 abbrlink: 2319578569
 date: 2018-06-24 00:00:00
-description: more
+description: jekyll主题配置，gitalk评论配置
 ---
 
 [jekyll-theme-H2O](https://github.com/tea9/jekyll-theme-H2O)的gitalk配置

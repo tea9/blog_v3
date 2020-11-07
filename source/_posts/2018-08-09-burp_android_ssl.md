@@ -1,13 +1,15 @@
 layout: post
 title: Burp抓Android的包
-category:
-  - android逆向
+categories:
+  - - 安全
+    - 移动安全
+    - android安全
 tags:
   - android安全
   - android逆向
 abbrlink: 1340440380
 date: 2018-08-09 00:00:00
-description: more
+description: burp抓android的包
 ---
 # Burp抓Android的包
 

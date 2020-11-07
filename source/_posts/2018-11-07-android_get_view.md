@@ -1,13 +1,16 @@
 ---
 layout: post
-title: android获取控件的几种方法
-category: 
-  - android
+title: android获取控件的几种方式
+categories:
+  - - 开发
+    - 移动开发
+    - android开发
 tags: 
   - android
+  - android获取控件
 abbrlink: 2048223897
 date: 2018-11-07 00:00:00
-description: more
+description: android获取控件的几种方式
 ---
 
 layout  

@@ -2,9 +2,16 @@
 title: nexus5 root 刷机
 tags:
   - android安全
+  - root
+  - 刷机
 abbrlink: 3980107174
 date: 2019-11-07 18:40:51
-description: more
+description: nexu5 root 刷机
+categories:
+  - - 安全
+    - 移动安全
+    - android安全
+    - 刷机
 ---
 
 

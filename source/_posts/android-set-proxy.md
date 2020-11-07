@@ -1,10 +1,14 @@
 ---
 title: android设置代理app（要root的）
 tags:
-  - android
+  - android安全
+categories:
+  - - 安全
+    - 移动安全
+    - android安全
 abbrlink: 449313118
 date: 2019-08-09 18:56:54
-description: more
+description: android设置代理app（要root的）
 ---
 
 ## 前言

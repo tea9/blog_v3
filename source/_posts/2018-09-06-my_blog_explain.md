@@ -2,12 +2,12 @@
 layout: post
 title: 博客说明
 category: 
-  - blog
+  - 博客
 tags: 
   - blog
 abbrlink: 1523215152
 date: 2018-09-06 00:00:00
-description: more
+description: 博客说明
 ---
 
 # 博客自定义指南

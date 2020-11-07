@@ -1,13 +1,15 @@
 ---
 layout: post
 title: android自定义view圆形进度条
-category: 
-  - android
+categories:
+  - - 开发
+    - 移动开发
+    - android开发
 tags: 
-  - android
+  - android开发
 abbrlink: 2381054113
 date: 2018-11-18 00:00:00
-description: more
+description: android自定义view圆形进度条
 ---
 
 ![效果图](https://raw.githubusercontent.com/tea9/image/master/blog_img/24/03.jpg)

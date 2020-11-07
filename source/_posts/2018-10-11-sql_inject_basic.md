@@ -1,14 +1,15 @@
 ---
 layout: post
 title: 1.sql注入基础
-category: 
-  - web安全
+categories:
+  - - 安全
+    - web安全
 tags: 
   - web安全 
   - sql注入
 abbrlink: 2159052339
 date: 2018-10-11 00:00:00
-description: more
+description: sql注入基础
 ---
 
 ## 目录

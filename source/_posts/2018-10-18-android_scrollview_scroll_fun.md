@@ -1,13 +1,15 @@
 ---
 layout: post
 title: android滑动监听事件折叠菜单
-category: 
-  - android
+categories:
+  - - 开发
+    - 移动开发
+    - android开发
 tags: 
-  - android
+  - android开发
 abbrlink: 2984908294
 date: 2018-10-18 00:00:00
-description: more
+description: android滑动监听事件折叠菜单
 ---
 
 **效果如下**  

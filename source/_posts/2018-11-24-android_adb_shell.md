@@ -1,13 +1,16 @@
 layout: post
 title: android adb shell 常用命令
-category:
-  - android逆向
 tags:
-  - android
+  - android安全
   - android逆向
+  - adbshell
+categories:
+  - - 安全
+    - 移动安全
+    - android安全
 abbrlink: 2043065794
 date: 2018-11-24 00:00:00
-description: more
+description: android adb shell 常用命令
 ---
 
 ## 一次性查看app的所有资源和访问权限

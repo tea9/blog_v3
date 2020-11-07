@@ -1,14 +1,14 @@
 ---
 layout: post
 title: 2.Markdown使用说明
-category: 
-  - jekyll
+categories:
+  - - 博客
 tags: 
   - blog
   - jekyll
 abbrlink: 4082916186
 date: 2018-07-06 00:00:00
-description: more
+description: markdown使用说明
 ---
 
 ## 一、Markdown是什么？

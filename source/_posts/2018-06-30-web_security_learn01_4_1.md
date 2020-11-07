@@ -1,14 +1,15 @@
 ---
 layout: post
 title: 1.4.1-SQL注入防御绕过-宽字节注入
-category: 
-  - web安全
+categories:
+  - - 安全
+    - web安全
 tags: 
   - web安全
   - sql注入
 abbrlink: 2024290485
 date: 2018-06-30 00:00:00
-description: more
+description: 宽字节注入原理
 ---
 
 ## 01 宽字节注入原理

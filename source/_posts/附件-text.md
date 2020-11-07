@@ -3,8 +3,13 @@ title: 附件_text
 abbrlink: 2014265030
 date: 2019-08-14 18:40:40
 tags:
-	- ???
-description: more
+	- ctf
+	- burp
+	- jsfuck
+	- binwalk
+	- winhex
+	- stegsolve.jar
+description: 起因是我想要学习下burp的相关知识，然后下bp的插件，然后偶然间看到了下面的文章Burp Suite渗透实战操作指南-上篇然后又看到有个附件下载，就下了附件下载然后打开看是一个面码的图片。我想啊这应该是到题目。就向图片隐写的方向尝试。
 ---
 
 ## 前言  

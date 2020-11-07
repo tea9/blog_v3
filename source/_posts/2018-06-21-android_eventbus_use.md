@@ -1,14 +1,16 @@
 ---
 layout: post
 title: android EventBus 使用
-category: 
-  - android
+categories:
+  - - 开发
+    - 移动开发
+    - android开发
 tags: 
-  - android 
+  - android开发
   - eventbus
 abbrlink: 3369655730
 date: 2018-06-21 00:00:00
-description: more
+description: android EventBus 使用
 ---
 
 

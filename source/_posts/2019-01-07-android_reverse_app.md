@@ -1,13 +1,16 @@
 ---
 layout: post
 title: android反编译一个app/签名
-category: 
+tags:
+  - android安全
   - android逆向
-tags: 
-  - android逆向
+categories:
+  - - 安全
+    - 移动安全
+    - android安全
 abbrlink: 550908605
 date: 2019-01-07 00:00:00
-description: more
+description: android反编译一个app/签名
 ---
 
 

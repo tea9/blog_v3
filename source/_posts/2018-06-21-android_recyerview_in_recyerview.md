@@ -1,14 +1,16 @@
 ---
 layout: post
 title: recyclerview嵌套recyclerview
-category: 
-  - android
+categories:
+  - - 开发
+    - 移动开发
+    - android开发
 tags: 
-  - adnroid 
+  - android开发
   - recyclerview
 abbrlink: 1015207598
 date: 2018-06-21 00:00:00
-description: more
+description: recyclerview嵌套recyclerview
 ---
 
 <!-- ![效果](http://upload-images.jianshu.io/upload_images/2590671-98e8c1814b5456e3.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240) -->

@@ -1,10 +1,15 @@
 ---
-title: android janus 漏洞
-tags:
-  - android安全
+title: android janus漏洞验证
 abbrlink: 308444229
 date: 2019-06-20 21:37:03
-description: more
+description: android janus漏洞验证
+tags:
+  - android安全
+  - janus漏洞
+categories:
+  - - 安全
+    - 移动安全
+    - android安全
 ---
 
 ```

@@ -2,9 +2,14 @@
 title: android_app_渗透测试方法大全笔记
 tags:
   - android安全
+  - app渗透
+categories:
+  - - 安全
+    - 移动安全
+    - android安全
 abbrlink: 3031031354
 date: 2019-08-30 14:43:01
-description: more
+description: android_app_渗透测试方法大全笔记，客户端程序安全测试
 ---
 
 ## 客户端程序安全测试

@@ -3,13 +3,15 @@ layout: post
 title: >-
   android_No toolchains found in the NDK toolchains folder for ABI with prefix:
   mips64el-linux-android
-category: 
-  - android
+categories:
+  - - 开发
+    - 移动开发
+    - android开发
 tags: 
-  - android
+  - android开发
 abbrlink: 3707592036
 date: 2018-11-21 00:00:00
-description: more
+description: errorandroid_No toolchains found in the NDK toolchains folder for ABI with prefix:mips64el-linux-android
 ---
 
 主要是缺少这个文件 mips64el-linux-android  

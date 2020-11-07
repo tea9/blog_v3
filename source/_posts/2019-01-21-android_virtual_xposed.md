@@ -1,14 +1,19 @@
 ---
 layout: post
 title: android VitualXposed 模块编写
-category: 
-  - android逆向
-tags: 
-  - android逆向 
+tags:
+  - android安全
   - xposed
+  - VitualXposed
+  - VitualXposed模块编写
+categories:
+  - - 安全
+    - 移动安全
+    - android安全
+    - xposed
 abbrlink: 4010998048
 date: 2019-01-21 00:00:00
-description: more
+description: android VitualXposed 模块编写
 ---
 
 ## virtual Xposed

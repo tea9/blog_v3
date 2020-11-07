@@ -1,11 +1,14 @@
-title: app安全监测指南学习笔记
+title: app安全检测指南学习笔记
 abbrlink: 3981860732
-category:
-  - android安全
 tags:
   - android安全
+  - app安全检测
+categories:
+  - - 安全
+    - 移动安全
+    - android安全
 date: 2019-04-12 13:51:34
-description: more
+description: app安全检测指南学习笔记
 ---
 ## 客户端程序安全
 

@@ -1,13 +1,17 @@
 ---
 layout: post
 title: android加固
-category: 
+tags:
   - android安全
-tags: 
-  - android安全
+  - android加固
+categories:
+  - - 安全
+    - 移动安全
+    - android安全
+    - android加固
 abbrlink: 3671652172
 date: 2019-03-06 00:00:00
-description: more
+description: android加固、app加固威胁、app加固的目的、加固技术的发展历史、常见加固厂商、常见加固方式、常用加固厂商特征
 ---
 
 ## app加固威胁

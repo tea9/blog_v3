@@ -2,10 +2,15 @@
 title: android aapt查看应用包名
 tags:
   - android安全
+categories:
+  - - 安全
+    - 移动安全
+    - android安全
 abbrlink: 994062500
 date: 2019-07-17 17:04:21
-description: more
+description: android aapt查看应用包名
 ---
+
 ## 查看应用包名
 ```
 aapt dump badging xx.apk 

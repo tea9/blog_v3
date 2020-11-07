@@ -1,12 +1,13 @@
 layout: post
 title: hexo_config
-category:
-  - hexo
+categories:
+  - - 博客
+    - hexo
 tags:
   - hexo
 abbrlink: 1144770046
 date: 2019-03-15 00:00:00
-description: more
+description: hexo_config
 ---
 ## 前言：
 

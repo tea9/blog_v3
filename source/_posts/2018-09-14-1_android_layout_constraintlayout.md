@@ -1,13 +1,16 @@
 ---
 layout: post
 title: 1.android布局-ConstraintLayout-约束布局-例子
-category: 
-  - android
+categories:
+  - - 开发
+    - 移动开发
+    - android开发
 tags: 
   - android
+  - android约束布局
 abbrlink: 1182005409
 date: 2018-09-14 00:00:00
-description: more
+description: android布局-ConstraintLayout-约束布局-例子
 ---
 
 ## 前言

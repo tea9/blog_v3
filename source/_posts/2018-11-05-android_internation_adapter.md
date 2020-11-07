@@ -1,13 +1,16 @@
 ---
 layout: post
 title: Android7.0国际化适配代码
-category: 
-  - android
+categories:
+  - - 开发
+    - 移动开发
+    - android开发
 tags: 
   - android
+  - android7.0国际化适配
 abbrlink: 1613027305
 date: 2018-11-05 00:00:00
-description: more
+description: android7.0国际化适配代码
 ---
 
 Application.java  

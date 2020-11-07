@@ -1,13 +1,15 @@
 ---
 layout: post
 title: android gradle command not found在Mac中
-category: 
-  - android
+categories:
+  - - 开发
+    - 移动开发
+    - android开发
 tags: 
-  - android
+  - android开发
 abbrlink: 919398938
 date: 2019-01-02 00:00:00
-description: more
+description: android gradle command not found在Mac中
 ---
 
 [[Mac] gradle command not found 解决方法](https://blog.csdn.net/blue_zy/article/details/79862373)  

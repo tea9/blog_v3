@@ -1,10 +1,16 @@
 ---
 title: mobsf记录
 tags:
-  - android 安全
+  - android安全
+  - mobsf
 abbrlink: 1045569623
 date: 2019-08-28 15:59:44
-description: more
+description: mobsf记录
+categories:
+  - - 安全
+    - 移动安全
+    - android安全
+    - mobsf
 ---
 
 ## 环境

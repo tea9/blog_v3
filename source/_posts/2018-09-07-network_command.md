@@ -1,13 +1,14 @@
 ---
 layout: post
 title: 内网提权命令
-category: 
-  - web安全
+categories:
+  - - 安全
+    - web安全
 tags: 
   - web安全
 abbrlink: 3415919552
 date: 2018-09-07 00:00:00
-description: more
+description: 内网提权命令
 ---
 
 ## Windows基础命令

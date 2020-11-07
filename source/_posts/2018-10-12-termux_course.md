@@ -1,14 +1,16 @@
 ---
 layout: post
 title: termux相关
-category: 
-  - termux
+categories:
+  - - 安全
+    - 移动安全
+    - android安全
 tags: 
   - 安全 
   - termux
 abbrlink: 3612980045
 date: 2018-10-12 00:00:00
-description: more
+description: termux使用
 ---
 
 ## 前言：

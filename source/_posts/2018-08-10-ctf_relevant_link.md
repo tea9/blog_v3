@@ -1,16 +1,17 @@
 ---
 layout: post
 title: 一些ctf的链接
-category: 
-  - ctf
+categories:
+  - - 安全
+    - CTF
 tags: 
   - ctf
 abbrlink: 912287952
 date: 2018-08-10 00:00:00
-description: more
+description: ctf的链接
 ---
 
-忘了什么时候整理了！！！  
+
 
 [ctfwiki](https://ctf-wiki.github.io/ctf-wiki/)  
 

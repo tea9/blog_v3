@@ -1,11 +1,16 @@
 ---
 layout: post
 title: android使用adbshell实现模拟点击
-category: android
-tags: android
+tags:
+  - android安全
+  - adbshell
+categories:
+  - - 安全
+    - 移动安全
+    - android安全
 abbrlink: 2276706714
 date: 2018-12-05 00:00:00
-description: more
+description: android使用adbshell实现模拟点击
 ---
 
 之前有写过常用的adb shell 的命令。  

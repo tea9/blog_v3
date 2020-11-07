@@ -3,9 +3,16 @@ title: android XSS攻击
 abbrlink: 1228473938
 date: 2019-08-01 10:22:31
 tags:
-	- android安全
-	- APP漏洞
-description: more
+  - android安全
+  - app漏洞
+  - androidxss攻击
+  - webview
+categories:
+  - - 安全
+    - 移动安全
+    - android安全
+    - android漏洞
+description: android xss攻击
 ---
 
 ## XSS攻击

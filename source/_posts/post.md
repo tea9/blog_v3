@@ -1,15 +1,17 @@
 ---
 title: 题目1-安卓手机文件分析取证(Wi-Fi名称)
+abbrlink: 1519021197
+date: 2020-09-27 10:09:33
+description: 安卓手机文件分析取证、wpa_supplicant.conf分析
 tags:
   - 题目
   - 墨者学院
-category:
-  - 题目
-abbrlink: 2060635638
-date: 2020-08-12 11:23:31
-description: 安卓手机文件分析取证、wpa_supplicant.conf分析
+  - android
+  - 安卓取证
+categories:
+  - - 安全
+    - 安全题目
 ---
-
 墨者学院一道题目-安卓手机文件分析取证(Wi-Fi名称)  
 [题目链接](https://www.mozhe.cn/bug/detail/K1doaXNFemlxODh1QUQ1WVJyOTZRQT09bW96aGUmozhe)  
 

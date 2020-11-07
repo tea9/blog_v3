@@ -1,13 +1,17 @@
 ---
 layout: post
 title: android busybox
-category: 
-  - android逆向
-tags: 
-  - android逆向
+tags:
+  - android安全
+  - busybox
+categories:
+  - - 安全
+    - 移动安全
+    - android安全
+    - 安全工具
 abbrlink: 1663513283
 date: 2019-02-25 00:00:00
-description: more
+description: android busybox
 ---
 
 # 安装busybox

@@ -1,11 +1,15 @@
 ---
 title: activity组件导出实验
 tags:
-  - android
   - android安全
+  - activity组件
+categories:
+  - - 安全
+    - 移动安全
+    - android安全
 abbrlink: 2970212528
 date: 2019-08-09 18:20:11
-description: more
+description: activity组件导出实验
 ---
 
 ## 前言 

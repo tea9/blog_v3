@@ -1,13 +1,19 @@
 ---
 layout: post
 title: 陶然四季
-category: 
-  - biu
+categories:
+  - - 人生初见
+    - 诗词
 tags: 
-  - biu
+  - 诗词
 abbrlink: 882445833
 date: 2018-10-19 00:00:00
-description: more
+description: 陶然四季
+password: teanb
+abstract: 这里有东西被加密了，需要输入密码查看哦。
+message: 您好，这里需要密码。
+wrong_pass_message: 抱歉，这个密码看着不太对，请再试试。
+wrong_hash_message: 抱歉，这个文章不能被纠正，不过您还是能看看解密后的内容。
 ---
 
 <!-- <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=29771932&auto=1&height=66"></iframe> -->

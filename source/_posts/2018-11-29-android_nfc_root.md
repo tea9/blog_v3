@@ -1,13 +1,16 @@
 ---
 layout: post
 title: android nfc模拟卡
-category: 
-  - android
-tags: 
-  - android
+tags:
+  - android安全
+  - nfc
+categories:
+  - - 安全
+    - 移动安全
+    - android安全
 abbrlink: 2987589929
 date: 2018-11-29 00:00:00
-description: more
+description: android nfc模拟卡
 ---
 
 [搞定加密卡！小米门禁卡模拟那些事](http://bbs.xiaomi.cn/t-30553502-1-o1)  
