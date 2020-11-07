@@ -1,0 +1,17 @@
+---
+layout: post
+description: more
+title: 引入第三方包吧build改成这样
+author: shaomiao
+header-img: img/post-bg-android.jpg
+tags:
+  - android开发
+  - android笔记
+categories:
+  - - 开发
+    - 移动开发
+    - android开发
+abbrlink: 197426518
+date: 2017-10-21 00:00:00
+---
+apply plugin: 'com.android.library'

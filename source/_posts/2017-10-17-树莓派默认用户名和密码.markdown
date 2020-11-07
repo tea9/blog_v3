@@ -1,0 +1,15 @@
+---
+layout: post
+description: more
+title: 树莓派默认用户名和密码
+author: shaomiao
+header-img: img/post-bg-alitrip.jpg
+tags:
+  - 树莓派
+categories:
+  - - 树莓派
+abbrlink: 2851364485
+date: 2017-10-21 00:00:00
+---
+pi
+raspberry

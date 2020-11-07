@@ -1,0 +1,25 @@
+---
+layout: post
+description: more
+title: 没错 一切在我自己
+author: shaomiao
+header-img: img/post-bg-digital-native.jpg
+categories:
+  - - 人生初见
+    - 日记
+tags:
+  - 观后感
+abbrlink: 1297457879
+date: 2017-10-27 00:00:00
+password: teanb
+abstract: 这里有东西被加密了，需要输入密码查看哦。
+message: 您好，这里需要密码。
+wrong_pass_message: 抱歉，这个密码看着不太对，请再试试。
+wrong_hash_message: 抱歉，这个文章不能被纠正，不过您还是能看看解密后的内容。
+---
+
+
+没错 一切在我自己  剧中的小琳在说完这句话后 就去自首自己的作弊行为
+这让我想到在 熔炉中 印象特别深刻的一句话 我们一路奋战 不是为了改变世界 而是为了不让世界改变我们
+
+天再黑 也要说话啊

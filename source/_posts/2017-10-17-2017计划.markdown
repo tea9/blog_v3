@@ -1,0 +1,36 @@
+---
+layout: post
+title: 2017计划
+author: shaomiao
+header-img: img/tag-bg.jpg
+tags:
+  - 计划
+  - 备忘录
+categories:
+  - - 人生初见
+    - 计划
+abbrlink: 129697414
+date: 2017-10-21 00:00:00
+description: 2017计划
+password: teanb
+abstract: 这里有东西被加密了，需要输入密码查看哦。
+message: 您好，这里需要密码。
+wrong_pass_message: 抱歉，这个密码看着不太对，请再试试。
+wrong_hash_message: 抱歉，这个文章不能被纠正，不过您还是能看看解密后的内容。
+---
+2017-9-6记录
+一个像样的开源
+在读6本书
+新实相
+设计模式 享元模式
+英语 发音
+算法学习
+二进制学习
+
+
+
+比如说你自己这个主题更换的demo
+:
+这个mvp架构的demo
+:
+写个蓝牙的demo

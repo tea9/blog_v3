@@ -1,0 +1,37 @@
+---
+layout: post
+title: 2017学习计划
+author: shaomiao
+header-img: img/home-bg-art.jpg
+categories:
+  - - 人生初见
+    - 计划
+tags:
+  - 日记本
+password: teanb
+abstract: 这里有东西被加密了，需要输入密码查看哦。
+message: 您好，这里需要密码。
+wrong_pass_message: 抱歉，这个密码看着不太对，请再试试。
+wrong_hash_message: 抱歉，这个文章不能被纠正，不过您还是能看看解密后的内容。
+abbrlink: 1065600909
+date: 2017-10-21 00:00:00
+description: 2017学习计划
+---
+spring boot   设计目的是用来简化新Spring应用的初始搭建以及开发过程
+spring cloud 分布式系统
+docker  Docker是一个开源的引擎，可以轻松的为任何应用创建一个轻量级的、可移植的、自给自足的容器。开发者在笔记本上编译测试通过的容器可以批量地在生产环境中部署，包括VMs（虚拟机）、bare metal、OpenStack 集群和其他的基础应用平台。
+zookeeper  开放源码的分布式应用程序协调服务
+dubbo 分布式系统 
+
+JAVA8新特性
+lambda表达式
+stream API
+接口默认实现
+
+spring boot 学习网址
+www.roncoo.com 龙果
+
+
+
+
+![微服务技术栈.jpg](http://upload-images.jianshu.io/upload_images/2590671-7f98b7081b2a4186.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)

@@ -9,7 +9,7 @@ tags:
   - jekyll
 abbrlink: 2293620199
 date: 2018-05-28 00:00:00
-description: more
+description: jekyll添加文章流程
 ---
 
 ## 前提

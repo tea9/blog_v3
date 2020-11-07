@@ -1,0 +1,17 @@
+---
+layout: post
+description: more
+title: android-官方架构
+author: shaomiao
+header-img: img/post-bg-android.jpg
+tags:
+  - android开发
+  - android笔记
+categories:
+  - - 开发
+    - 移动开发
+    - android开发
+abbrlink: 2387431630
+date: 2017-10-21 00:00:00
+---
+https://juejin.im/entry/5922637b128fe1005c2ce6be

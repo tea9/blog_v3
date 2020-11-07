@@ -3,11 +3,15 @@ layout: post
 title: '-java转-class---class转dex文件'
 author: tea9
 header-img: img/post-bg-android.jpg
+categories:
+  - - 安全
+    - 移动安全
+    - android安全
 tags:
-  - android
+  - android安全
 abbrlink: 93571810
 date: 2017-10-21 00:00:00
-description: more
+description: -java转-class---class转dex文件
 ---
 
 ## 命令
@@ -25,3 +29,4 @@ dexdump.exe -d Hello.dex
 
 如果使用JDK1.7编译Hello.java     生成的Hello.class默认的版本会比较低 使用dx生成dex文件会提示class文件无效  
 `javac -source 1.6 -target 1.6 Hello.java`  
+

@@ -8,7 +8,7 @@ tags:
   - blog
 abbrlink: 54451516
 date: 2018-05-28 00:00:00
-description: more
+description: 使用jekyll搭建个人博客
 ---
 
 # 一、GitHub Pages的配置

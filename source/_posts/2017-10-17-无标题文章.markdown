@@ -1,0 +1,29 @@
+---
+layout: post
+description: more
+title: 无标题文章
+author: shaomiao
+header-img: img/tag-bg.jpg
+tags:
+  - 日记本
+categories:
+  - - 人生初见
+    - 日记
+password: teanb
+abstract: 这里有东西被加密了，需要输入密码查看哦。
+message: 您好，这里需要密码。
+wrong_pass_message: 抱歉，这个密码看着不太对，请再试试。
+wrong_hash_message: 抱歉，这个文章不能被纠正，不过您还是能看看解密后的内容。
+abbrlink: 1124282497
+date: 2017-10-21 00:00:00
+---
+####个人页
+######1.个人页卡正卡背切换
+######2.设置页修改登录和支付密码需要拆分多页
+####地址页
+######1.拆分成地址页和编辑页
+######2.地区选择器最好修改下样式（由于当前数据原因会导致大量运算 安卓hold不住）
+####结算页
+######1.修改商品数量操作取消
+####搜索页
+######1.需要单独页面
