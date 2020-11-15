@@ -1,10 +1,8 @@
 ---
 layout: post
 title: android反编译工具和命令
-categories:
-  - - 安全
-    - 移动安全
-    - android安全
+category: 
+  - android逆向
 tags: 
   - android安全 
   - android反编译
@@ -16,7 +14,8 @@ description: android反编译工具和命令，jadx，apktool，jd-tool
 
 ## TOOLS
 
-[apktool](https://bitbucket.org/iBotPeaches/apktool/downloads/)  
+[apktool](https:/
+/bitbucket.org/iBotPeaches/apktool/downloads/)  
 
 [apktool文档](https://ibotpeaches.github.io/Apktool/documentation/)  
 

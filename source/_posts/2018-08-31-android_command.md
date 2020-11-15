@@ -1,21 +1,14 @@
 ---
 layout: post
 title: Android的命令
-categories:
-  - - 安全
-    - 移动安全
-    - android安全
+category: 
+  - android逆向
 tags: 
-  - android安全
+  - android
   - android逆向
 abbrlink: 2226304841
 date: 2018-08-31 00:00:00
-description: android的命令
-password: teanb
-abstract: 这里有东西被加密了，需要输入密码查看哦。
-message: 您好，这里需要密码。
-wrong_pass_message: 抱歉，这个密码看着不太对，请再试试。
-wrong_hash_message: 抱歉，这个文章不能被纠正，不过您还是能看看解密后的内容。
+description: more
 ---
 
 ## Tips
@@ -35,7 +28,7 @@ wrong_hash_message: 抱歉，这个文章不能被纠正，不过您还是能看
 
 	更新Android SDK
 
-	$ adnroid update sdk --no-ui
+	$ android update sdk --no-ui
 
 **ADB**  
 adb位于platform-tools文件夹，早期版本在tools文件夹内。  
