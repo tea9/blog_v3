@@ -9,7 +9,7 @@ categories:
   - - 安全
     - web安全
     - 安全工具
-description: xray
+description: xray_text
 password: teanb
 abstract: 这里有东西被加密了，需要输入密码查看哦。
 message: 您好，这里需要密码。
