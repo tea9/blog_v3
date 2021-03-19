@@ -17,6 +17,7 @@ abstract: 这里有东西被加密了，需要输入密码查看哦。
 message: 您好，这里需要密码。
 wrong_pass_message: 抱歉，这个密码看着不太对，请再试试。
 wrong_hash_message: 抱歉，这个文章不能被纠正，不过您还是能看看解密后的内容。
+abbrlink: 2081828674
 date: 2021-03-02 15:22:05
 ---
 
@@ -144,7 +145,7 @@ adb push charles-ssl-proxying-certificate.pem /sdcard/Download/charles.pem
 访问爱奇艺app会提示
 Connection established
 说明证书不被信任
-![](https://raw.githubusercontent.com/tea9/image/master/blog_img/42/16.png)
+![](https://raw.githubusercontent.com/tea9/image/master/blog_img/42/17.png)
 拷贝证书到系统证书目录
 ```
 adb shell
@@ -246,9 +247,10 @@ Proxy-SSL Proxying Settings-Client Certificates
 尝试抓包
 ![](https://raw.githubusercontent.com/tea9/image/master/blog_img/42/27.png)
 
-- soul
+**sxxl**
 抓包提示网络错误
 脚本
+
 ```
 //打印自签名证书
 function hook_KeyStore_load2(){
@@ -339,6 +341,7 @@ function main(){
 }
 setImmediate(main)
 ```
+
 ```
 查找包名
 pm -l |grep -i soul 
@@ -346,12 +349,13 @@ package:cn.soulapp.android
 执行脚本
 frida -U -f  cn.soulapp.android --no-pause -l xx.js 
 ```
+
 ![](https://raw.githubusercontent.com/tea9/image/master/blog_img/42/28.png)
 已经获取成功了，把证书导入charles抓包
 ![](https://raw.githubusercontent.com/tea9/image/master/blog_img/42/29.png)
 已经可以抓到包了
 
-- 统一社会信用代码查询
+**统一xx查询**
 https://ss.cods.org.cn/mobile/download
 双向证书校验
 使用脚本获取证书和密码
@@ -405,6 +409,17 @@ HttpCanary
 https://httpcanary.com/zh-hans/install.html
 安卓应用层抓包通杀脚本
 https://github.com/r0ysue/r0capture
+
+## tcpdump
+Tcpdump+wireshark
+tcpdump是linux下的抓包工具，在android中没有，需要下载对应的工具。
+下载地址：https://www.androidtcpdump.com/android-tcpdump/downloads
+然后通过adb放到对应的目录：
+adb push tcpdump /data/local/
+tcpdump -i any -p -vv -s 0 -w capture.pcap
+抓到的包到wireshark中查看
+
+
 
 ## LINKS
 [实用FRIDA进阶：内存漫游、hook anywhere、抓包](https://www.anquanke.com/post/id/197657#h2-9)   

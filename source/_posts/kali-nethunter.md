@@ -90,3 +90,4 @@ nethunter-hammerhead-marshmallow-kalifs-full-2019.3.zip
 [hammerhead-nethunter](https://7142857.com/2021/02/18/hammerhead-nethunter/#more)  
 [为安卓手机刷上手机kali系统Nethunter](http://www.360doc.com/content/19/1023/23/56395733_868688367.shtml)
 [Index of /nethunteros/CM14_1/hammerhead/](https://build.nethunter.com/nethunteros/CM14_1/hammerhead/)  
+[为安卓手机刷上手机kali系统Nethunter](https://www.cnblogs.com/hackhyl/p/9532253.html)  
