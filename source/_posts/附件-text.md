@@ -1,5 +1,5 @@
 ---
-title: 附件_text
+title: 附件 text文件 获取key分析
 abbrlink: 2014265030
 date: 2019-08-14 18:40:40
 tags:
@@ -17,7 +17,7 @@ description: 起因是我想要学习下burp的相关知识，然后下bp的插�
 起因是我想要学习下burp的相关知识，然后下bp的插件，然后偶然间看到了下面的文章
 [Burp Suite渗透实战操作指南-上篇](https://www.cnblogs.com/pshell/p/7979649.html)然后又看到有个附件下载，就下了
 [附件下载](https://pan.baidu.com/s/1_7jfZzU3bRcSFYuoELShzA)
-然后打开看是一个面码的图片。我想啊这应该是到题目。就向图片隐写的方向尝试。
+然后打开看是一个面码的图片。我想啊这应该是道题目。就向图片隐写的方向尝试。
 
 ![](https://raw.githubusercontent.com/tea9/image/master/blog_img/33/1.png)
 

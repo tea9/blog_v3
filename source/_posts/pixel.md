@@ -8,6 +8,7 @@ tags:
 categories:
   - - 安全
     - 移动安全
+description: pixel刷机、magisk、frida、exposed配置
 ---
 
 ## 下载

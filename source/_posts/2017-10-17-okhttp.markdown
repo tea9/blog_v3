@@ -78,7 +78,7 @@ https://github.com/square/okhttp
 					response = client.newCall(request).execute();
 					if (response.isSuccessful()) {
 						System.out.println("zzz" + response.body().string());
-						Log.i("WY", "打印GET响应的数据：" + response.body().string());
+						Log.i("xx", "打印GET响应的数据：" + response.body().string());
 					} else {
 						throw new IOException("Unexpected code " + response);
 					}

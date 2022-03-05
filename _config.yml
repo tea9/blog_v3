@@ -7,7 +7,7 @@ title: tea9的博客
 subtitle: 加油
 description: 心中有光の孩子
 # description: 只要接受自己菜的事实，就感觉没那么难受了
-keywords: tea9,tea9的博客,开发,android,安全,android安全,android逆向,移动安全,frida,xposed,ollvm
+keywords: tea9,tea9的博客,开发,android,安全,android安全,android逆向,移动安全,frida,xposed,ollvm,查查查,茶茶茶,茶茶,茶姐姐,茶姐姐博客,茶茶茶博客,茶茶blog
 author: tea9
 language: zh-CN
 timezone:
@@ -65,7 +65,7 @@ highlight:
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
   path: ''
-  per_page: 5
+  per_page: 50
   order_by: -date
 
 archive_generator:
@@ -120,13 +120,13 @@ keyword: "tea9"
 
 # SNS settings
 # 一些社交平台地址，支持以下几种：
-weibo_username:    tea9999 
+#weibo_username:    tea9999 
 zhihu_username:    https://www.zhihu.com/people/tea999
 github_username:    tea9
-#twitter_username:   shaomiaosun
+twitter_username:   tr1tea
 #facebook_username:  
 #linkedin_username:  
-#jianshu_username: tea9
+jianshu_username: tea9
 
 # Build settings
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`

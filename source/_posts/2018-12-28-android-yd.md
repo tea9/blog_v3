@@ -1,6 +1,6 @@
 ---
 layout: post
-title: android yd
+title: android yd 有道xx课已付费课程分析
 categories:
   - - 开发
     - 移动开发
@@ -9,9 +9,9 @@ tags:
   - android开发
 abbrlink: 871619508
 date: 2018-12-28 00:00:00
-description: youdao付费视频导出
+description: youdao付费视频导出，有道xx课已付费课程分析
 ---
-	
+前提是需要已经购买课程，把购买下载过得加密视频进行导出，还需要使用原有播放器播放。  
 
 	 /sdcard/Android/data/com.youdao.course/.Courses/
 

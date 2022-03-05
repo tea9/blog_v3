@@ -13,7 +13,7 @@ categories:
 ---
 
 ```
->apksigner verify -v  WYUnifiedLogin.apk 
+>apksigner verify -v  xxUnifiedLogin.apk 
 
 Verifies
 Verified using v1 scheme (JAR signing): true

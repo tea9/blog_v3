@@ -12,7 +12,7 @@ categories:
     - android开发
 abbrlink: 2122882361
 date: 2017-10-21 00:00:00
-password: teanb
+password: ttt
 abstract: 这里有东西被加密了，需要输入密码查看哦。
 message: 您好，这里需要密码。
 wrong_pass_message: 抱歉，这个密码看着不太对，请再试试。

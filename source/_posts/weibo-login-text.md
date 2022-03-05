@@ -1,5 +1,5 @@
 ---
-title: 微博sdk组件导出测试
+title: 微博sdk组件导出测试本地拒绝服务测试
 tags:
   - android
   - 组件漏洞
@@ -11,11 +11,6 @@ categories:
   - - 安全
     - 移动安全
     - android安全
-password: teanb
-abstract: 这里有东西被加密了，需要输入密码查看哦。
-message: 您好，这里需要密码。
-wrong_pass_message: 抱歉，这个密码看着不太对，请再试试。
-wrong_hash_message: 抱歉，这个文章不能被纠正，不过您还是能看看解密后的内容。
 ---
 
 ## 前言
@@ -87,8 +82,10 @@ public class LoginActivity extends AppCompatActivity {
 }
 ```
 
-微博sdk本地拒绝服务影响版本`compile 'com.sina.weibo.sdk:core:4.1.0:openDefaultRelease@aar'`   
-现升级到`compile 'com.sina.weibo.sdk:core:4.4.1:openDefaultRelease@aar'`  没有这个问题  
+微博sdk本地拒绝服务影响版本
+`compile 'com.sina.weibo.sdk:core:4.1.0:openDefaultRelease@aar'`   
+现升级到
+`compile 'com.sina.weibo.sdk:core:4.4.1:openDefaultRelease@aar'`  没有这个问题  
 
 漏洞证明：  
 
@@ -116,9 +113,6 @@ adb shell am start com.demo.sinaweibosdk_test/com.sina.weibo.sdk.share.WbShareRe
 [微博开放平台-应用信息](https://open.weibo.com/apps/1349715877/info/basic?action=review)  
 [微博开放平台-控制台](https://open.weibo.com/apps/1349715877/info/basic?action=review#req)  
 添加包名-签名信息。  
-
 [weibo_android_sdk](https://github.com/sinaweibosdk/weibo_android_sdk)  
-
-
 [android使用新浪微博最新SDK4.1进行第三方授权登录](https://blog.csdn.net/weixin_37577039/article/details/78632075)  
 
